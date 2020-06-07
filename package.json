@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "fetch-forms": "node dist/processing/fetchForms.js",
+    "clean-fetch-forms": "rm -rf data && npm run build && npm run fetch-forms data",
     "build": "node_modules/.bin/tsc --project tsconfig.json",
     "lint": "npx eslint . --ext .js,.jsx,.ts,.tsx"
   },
