@@ -3,6 +3,7 @@ import fetch from 'node-fetch';
 import sanitize from 'sanitize-filename';
 import { join } from 'path';
 import { mkdirSync, writeFile } from 'fs';
+import { PREFIX_DELIM } from '../util/util';
 
 const INSTRUCTIONS_URL = 'https://www.irs.gov/instructions';
 const SEARCH_TERM = 'Instructions for ';
@@ -31,7 +32,9 @@ const extractFormNames = (text): string[] => {
     // Forms 8804, 8805, and 8813 (2019)
     // Forms 1094-B and 1095-B (2019)
     names.pop();
-    return names.filter(n => n && n !== 'and').map(n => `Form ${n.replace(',', '')}`);
+    return names
+      .filter(n => n && n.trim() !== 'and')
+      .map(n => `Form ${n.trim().replace(',', '')}`);
   } else if (type === 'Form') {
     // e.g:
     // Form 8582-CR (12/2019)
@@ -40,8 +43,8 @@ const extractFormNames = (text): string[] => {
   } else if (type === 'Schedule') {
     return [`Schedule ${names.join('_')}`];
   }
-  return trimmed;
 
+  return trimmed;
 };
 
 const formUrlsFromHtml = (html): IFormsAndUrl[] => {
@@ -81,7 +84,7 @@ const writeForm = async (formName, data, dir) => {
     replacement: (char) => char === '/' ? '-' : '_'
   });
 
-  const content = `${formName}\n\n${data}`;
+  const content = `${formName}\n${PREFIX_DELIM}\n${data}`;
 
   return new Promise((resolve, reject) => {
     writeFile(join(dir, filename), content, function (err) {
