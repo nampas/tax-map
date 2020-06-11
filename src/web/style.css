@@ -1,0 +1,13 @@
+.header {
+  text-align: left;
+  padding: 1.5rem;
+}
+
+.map {
+  padding: 1.5rem;
+}
+
+body, .content {
+  width: 100vw;
+  height: 100vh;
+}

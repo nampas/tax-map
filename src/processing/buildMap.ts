@@ -38,7 +38,7 @@ const processForm = (path, graph) => {
 };
 
 const saveGraph = async (data, dir) => {
-  const path = join(dir, MAP_FILE);
+  const path = MAP_FILE;
 
   return new Promise((resolve, reject) => {
     writeFile(path, JSON.stringify(data), function (err) {
