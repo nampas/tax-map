@@ -1,4 +1,4 @@
-{
+window.__map_data = {
   "Form 1023": {
     "raw": [
       "Form 1023",
