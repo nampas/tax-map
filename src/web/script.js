@@ -1,4 +1,4 @@
-/* global window, console, cytoscape, document */
+/* global window, cytoscape, document */
 (function() {
   const data = {};
 
@@ -31,10 +31,21 @@
 
   const onNodeClick = (event) => {
     const form = event.target.data().lbl;
-    console.log(window.__map_data[form]);
+    const { cleaned, metadata } = window.__map_data[form];
+
+    document.getElementById('details-title').innerText = form;
+    document.getElementById('details-tooltip').classList.add('hidden');
+    document.getElementById('details-info').classList.remove('hidden');
+    document.getElementById('card-refers-to').innerHTML = cleaned.length ? cleaned.join('<br>') : 'Nothing!';
+    document.getElementById('card-metadata').innerHTML = Object
+      .keys(metadata)
+      .map(key => `${key}: ${metadata[key]}`)
+      .join('<br>');
   }
 
-  window.onload = () => { 
+  window.onload = () => {
+
+
     var cy = cytoscape({
       container: document.getElementById('map-content'),
       elements: buildMapData(),
@@ -66,7 +77,11 @@
       }
     });
     cy.nodes().on('click', onNodeClick);
-    data.cy = cy;
+    cy.ready(() => {
+      const details = document.getElementById('details');
+      details.classList.remove('hidden');
+    })
+    data.cy = cytoscape;
   };
 
 })();

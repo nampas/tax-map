@@ -26,6 +26,28 @@ h5 {
   bottom: 0;
 }
 
+.hidden { 
+  display: none;
+}
+
+.details {
+  z-index: 999;
+  position: absolute;
+  width: 15rem;
+  left: 1rem;
+  top: 6rem;
+  height: 70%;
+  overflow: scroll;
+}
+
+#details-info.accordion > .card .card-header {
+  padding: 0;
+}
+
+#details-title, #details-tooltip {
+  padding: 1rem;
+}
+
 body, .content {
   width: 100vw;
   height: 100vh;
