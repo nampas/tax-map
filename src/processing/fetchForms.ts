@@ -2,11 +2,12 @@ import * as Cheerio from 'cheerio';
 import fetch from 'node-fetch';
 import sanitize from 'sanitize-filename';
 import { join } from 'path';
-import { mkdirSync, writeFile } from 'fs';
+import { sync as rimrafSync } from 'rimraf';
+import { existsSync, mkdirSync, writeFile } from 'fs';
 import { PREFIX_DELIM, FORM_MATCH } from '../util/util';
 
 const INSTRUCTIONS_URL = 'https://www.irs.gov/instructions';
-const SEARCH_TERM = /(2019\s)?Instructions\sfor\s/i;
+const SEARCH_TERM = /(2019 )?Instructions for /i;
 
 interface IFormsAndUrl {
   names: string[];
@@ -49,12 +50,14 @@ const extractFormNames = (text, regexMatch): string[] => {
     return [`Schedule ${names[0].trim()} ${form}`];
   }
 
-  return trimmed;
+  // We don't know how to handle this
+  console.log(`Ignoring '${text}'. Unknown shape`);
+  return null;
 };
 
 const formUrlsFromHtml = (html): IFormsAndUrl[] => {
   const $ = Cheerio.load(html);
-  const matches = $('a', '.pup-main-container');
+  const matches = $('a', 'tbody');
 
   const result = []
   matches.each((i, elem) => {
@@ -62,7 +65,7 @@ const formUrlsFromHtml = (html): IFormsAndUrl[] => {
     const match = text.match(SEARCH_TERM);
     if (match) {
       const names = extractFormNames(text, match);
-      result.push({
+      names && result.push({
         names,
         url: elem.attribs.href
       });
@@ -100,31 +103,43 @@ const writeForm = async (formName, data, dir, url) => {
   const now = new Date().toISOString();
   const content = [formName, url, now, PREFIX_DELIM, data].join('\n');
 
+  const path = join(dir, filename);
+  console.log(`Writing file to ${path}`);
   return new Promise((resolve, reject) => {
-    writeFile(join(dir, filename), content, function (err) {
+    writeFile(path, content, (err) => {
       if (err) reject(err);
-      else resolve();
+      else resolve(path);
     });
   });
 };
 
 const execute = async () => {
   const dir = process.argv[2];
+  const clean = process.argv[3] === 'clean';
+  const forms = await fetchFormUrls();
+
+  if (clean && existsSync(dir)) {
+    console.log(`Cleaning ${dir}`);
+    rimrafSync(dir);
+  }
+
   mkdirSync(dir, { recursive: true });
 
-  const forms = await fetchFormUrls();
   const failures = [];
-  forms.forEach(async ({ names, url }) => {
+  for (const { names, url } of forms) {
     try {
       const text = await extractTextFromUrl(url);
-      await names.forEach(async n => await writeForm(n, text, dir, url));
+      for (const n of names) {
+        await writeForm(n, text, dir, url)
+      }
     } catch (error) {
+      console.log(error.message);
       failures.push(error.message);
     }
-  });
+  }
 
   console.log(`${failures.length} / ${forms.length} forms failed`);
-  console.log(failures);
+  failures.length && console.log(failures);
 }
 
 execute();

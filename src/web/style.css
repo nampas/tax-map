@@ -1,6 +1,6 @@
 .header {
   text-align: left;
-  padding: 1.5rem;
+  padding: 1rem;
 }
 
 .header > * {
@@ -8,7 +8,7 @@
   padding-right: 1rem;
 }
 
-h4 {
+h5 {
   font-style: italic;
 }
 
@@ -18,6 +18,12 @@ h4 {
 
 #map-content {
   height: 100%;
+}
+
+#info-wrapper {
+  position: fixed;
+  right: 0;
+  bottom: 0;
 }
 
 body, .content {

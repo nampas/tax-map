@@ -5,12 +5,12 @@
   "main": "index.js",
   "scripts": {
     "fetch-forms": "node dist/processing/fetchForms.js",
-    "clean-fetch-forms": "rm -rf data && npm run build && npm run fetch-forms data",
+    "clean-fetch-forms": "npm run build && npm run fetch-forms data clean",
     "clean-build-map": "npm run build && node dist/processing/buildMap.js",
     "build": "node_modules/.bin/tsc --project tsconfig.json",
     "lint": "npx eslint . --ext .js,.jsx,.ts,.tsx"
   },
-  "author": "",
+  "author": "Nathan Pastor",
   "license": "ISC",
   "devDependencies": {
     "@types/cheerio": "^0.22.18",
@@ -24,6 +24,7 @@
   "dependencies": {
     "cheerio": "^1.0.0-rc.3",
     "node-fetch": "^2.6.0",
+    "rimraf": "^3.0.2",
     "sanitize-filename": "^1.6.3"
   }
 }
