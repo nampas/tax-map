@@ -5,9 +5,17 @@ import { PREFIX_DELIM, FORM_MATCH } from '../util/util';
 const MAP_FILE = 'gen_map.js';
 
 const cleanFormName = (form) => {
-  // Get rid of the plurals
-  const res = form.replace('(s)', '')
+  const res = form
+    // Get rid of the plurals
+    .replace('(s)', '')
+    // No parenthesis
+    .replace(/\(|\)/g, '')
+    // Remove multiple consecutive spaces
+    .replace(/ +(?= )/g,'')
+    .trim();
+
   // Represent 1040 schedules as a 1040 variant
+  // Schedule A Form 1040 --> Form 1040-SA
   const match = res.match(/^Schedule\s(.*)\sForm\s1040/);
   return match 
     ? `Form 1040-S${match[1].toUpperCase()}`
@@ -39,14 +47,15 @@ const processForm = (path, graph) => {
     = `Schedule(\\(s\\))?\\s([0-9]|[A-Z]|-)+(\\s\\(${FORM_MATCH}\\))?`;
   const referencedSchedules = doc.match(new RegExp(scheduleMatch, 'g'));
 
-  const referenced = Array.from(
-    new Set(referencedForms.concat(referencedSchedules)));
+  const targets = Array.from(
+    new Set(referencedForms.concat(referencedSchedules))).filter(r => !!r);
   
-  graph[cleanFormName(thisForm)] = {
-    raw: referenced,
-    cleaned: referenced
-      .filter(r => r && r !== thisForm)
-      .map(cleanFormName),
+  const thisFormCleaned = cleanFormName(thisForm);
+  graph[thisFormCleaned] = {
+    raw: targets,
+    cleaned: targets
+      .map(cleanFormName)
+      .filter(r => r !== thisFormCleaned),
     metadata: { url, dateFetched, form: thisForm }
   };
 };
