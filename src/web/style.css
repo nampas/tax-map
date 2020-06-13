@@ -13,7 +13,7 @@ h5 {
 }
 
 .map {
-  height: 600px;
+  height: 100%;
 }
 
 #map-content {
@@ -37,7 +37,7 @@ h5 {
   left: 1rem;
   top: 6rem;
   height: 70%;
-  overflow: scroll;
+  overflow-y: scroll;
 }
 
 #details-info.accordion > .card .card-header {
