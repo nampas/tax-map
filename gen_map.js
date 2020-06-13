@@ -1,12 +1,38 @@
+/* global window */
 window.__map_data = {
+  "Form 1023-EZ": {
+    "raw": [
+      "Form 1023-EZ",
+      "Form 1023",
+      "Form 990-N",
+      "Form 990",
+      "Form 990-EZ",
+      "Form 8940",
+      "Form 2848",
+      "Form 5768",
+      "Form 990-T",
+      "Schedule A"
+    ],
+    "cleaned": [
+      "Form 1023",
+      "Form 990-N",
+      "Form 990",
+      "Form 990-EZ",
+      "Form 8940",
+      "Form 2848",
+      "Form 5768",
+      "Form 990-T",
+      "Schedule A"
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i1023ez",
+      "dateFetched": "2020-06-13T01:09:05.825Z",
+      "form": "Form 1023-EZ"
+    }
+  },
   "Form 1023": {
     "raw": [
       "Form 1023",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
       "Form 2848",
       "Form 8821",
       "Form 1023-EZ",
@@ -30,11 +56,6 @@ window.__map_data = {
       "Schedule H"
     ],
     "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
       "Form 2848",
       "Form 8821",
       "Form 1023-EZ",
@@ -56,20 +77,20 @@ window.__map_data = {
       "Schedule F",
       "Schedule G",
       "Schedule H"
-    ]
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i1023",
+      "dateFetched": "2020-06-13T01:09:07.717Z",
+      "form": "Form 1023"
+    }
   },
   "Form 1024-A": {
     "raw": [
       "Form 1024-A",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 8718",
       "Form 8976",
       "Form 1120-H",
+      "Form 2848",
       "Form 990",
       "Form 990-EZ",
       "Form 990-N",
@@ -78,34 +99,29 @@ window.__map_data = {
       null
     ],
     "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 8718",
       "Form 8976",
       "Form 1120-H",
+      "Form 2848",
       "Form 990",
       "Form 990-EZ",
       "Form 990-N",
       "Form 990-T",
       "Form 4506-A"
-    ]
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i1024a",
+      "dateFetched": "2020-06-13T01:09:06.928Z",
+      "form": "Form 1024-A"
+    }
   },
   "Form 1024": {
     "raw": [
       "Form 1024",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 1024-A",
       "Form 8718",
       "Form 1120-H",
+      "Form 2848",
       "Form 990",
       "Form 990-EZ",
       "Form 990-N",
@@ -115,36 +131,53 @@ window.__map_data = {
       null
     ],
     "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 1024-A",
       "Form 8718",
       "Form 1120-H",
+      "Form 2848",
       "Form 990",
       "Form 990-EZ",
       "Form 990-N",
       "Form 990-T",
       "Form 4506-A",
       "Form 1023"
-    ]
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i1024",
+      "dateFetched": "2020-06-13T01:09:06.936Z",
+      "form": "Form 1024"
+    }
+  },
+  "Form 1028": {
+    "raw": [
+      "Form 1028",
+      "Form 8718",
+      "Form 2848",
+      "Form 8821",
+      "Form 1120-C",
+      null
+    ],
+    "cleaned": [
+      "Form 8718",
+      "Form 2848",
+      "Form 8821",
+      "Form 1120-C"
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i1028",
+      "dateFetched": "2020-06-13T01:09:05.930Z",
+      "form": "Form 1028"
+    }
   },
   "Form 1040-C": {
     "raw": [
       "Form 1040-C",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 2063",
       "Form 1040-NR",
+      "Form 1040-X",
       "Form 8854",
       "Form 843",
+      "Form 1040",
       "Form 8843",
       "Form 8840",
       "Form 8833",
@@ -177,16 +210,12 @@ window.__map_data = {
       "Schedule Y"
     ],
     "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 2063",
       "Form 1040-NR",
+      "Form 1040-X",
       "Form 8854",
       "Form 843",
+      "Form 1040",
       "Form 8843",
       "Form 8840",
       "Form 8833",
@@ -217,23 +246,23 @@ window.__map_data = {
       "Schedule X",
       "Schedule Z",
       "Schedule Y"
-    ]
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i1040c",
+      "dateFetched": "2020-06-13T01:09:06.657Z",
+      "form": "Form 1040-C"
+    }
   },
   "Form 1040-NR-EZ": {
     "raw": [
       "Form 1040-NR-EZ",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 1040-NR",
       "Form 4137",
       "Form 8919",
       "Form 1040-C",
       "Form 8888",
       "Form 1042-S",
+      "Form 1040",
       "Form 8833",
       "Form 8840",
       "Form 8843",
@@ -247,26 +276,25 @@ window.__map_data = {
       "Form 1099-MISC",
       "Form 1099-G",
       "Form 4684",
+      "Form 1040-X",
+      "Form 9465",
       "Form 1127",
       "Form 2210",
+      "Form 2848",
       "Form 56",
+      "Form 4506-T",
       "Form 4506",
       "Form 1310",
       "Schedule OI"
     ],
     "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 1040-NR",
       "Form 4137",
       "Form 8919",
       "Form 1040-C",
       "Form 8888",
       "Form 1042-S",
+      "Form 1040",
       "Form 8833",
       "Form 8840",
       "Form 8843",
@@ -280,26 +308,30 @@ window.__map_data = {
       "Form 1099-MISC",
       "Form 1099-G",
       "Form 4684",
+      "Form 1040-X",
+      "Form 9465",
       "Form 1127",
       "Form 2210",
+      "Form 2848",
       "Form 56",
+      "Form 4506-T",
       "Form 4506",
       "Form 1310",
       "Schedule OI"
-    ]
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i1040nre",
+      "dateFetched": "2020-06-13T01:09:07.902Z",
+      "form": "Form 1040-NR-EZ"
+    }
   },
   "Form 1040-NR": {
     "raw": [
       "Form 1040-NR",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 1040-SR",
       "Form 1040-NR-EZ",
       "Form 8615",
+      "Form 1040",
       "Form 8862",
       "Form 4137",
       "Form 8919",
@@ -309,6 +341,7 @@ window.__map_data = {
       "Form 8995",
       "Form 8995-A",
       "Form 8997",
+      "Form 1040-X",
       "Form 8962",
       "Form 1095-A",
       "Form 1095-C",
@@ -387,12 +420,15 @@ window.__map_data = {
       "Form 8805",
       "Form 8288-A",
       "Form 1040-V",
+      "Form 9465",
       "Form 1127",
       "Form 2210",
       "Form 2210-F",
       "Form 8283",
       "Form 1098-C",
+      "Form 2848",
       "Form 56",
+      "Form 4506-T",
       "Form 4506",
       "Form 1310",
       "Schedule NEC",
@@ -417,15 +453,10 @@ window.__map_data = {
       "Schedule Z"
     ],
     "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 1040-SR",
       "Form 1040-NR-EZ",
       "Form 8615",
+      "Form 1040",
       "Form 8862",
       "Form 4137",
       "Form 8919",
@@ -435,6 +466,7 @@ window.__map_data = {
       "Form 8995",
       "Form 8995-A",
       "Form 8997",
+      "Form 1040-X",
       "Form 8962",
       "Form 1095-A",
       "Form 1095-C",
@@ -513,12 +545,15 @@ window.__map_data = {
       "Form 8805",
       "Form 8288-A",
       "Form 1040-V",
+      "Form 9465",
       "Form 1127",
       "Form 2210",
       "Form 2210-F",
       "Form 8283",
       "Form 1098-C",
+      "Form 2848",
       "Form 56",
+      "Form 4506-T",
       "Form 4506",
       "Form 1310",
       "Schedule NEC",
@@ -541,20 +576,20 @@ window.__map_data = {
       "Schedule X",
       "Schedule Y",
       "Schedule Z"
-    ]
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i1040nr",
+      "dateFetched": "2020-06-13T01:09:08.047Z",
+      "form": "Form 1040-NR"
+    }
   },
   "Form 1040-SS": {
     "raw": [
       "Form 1040-SS",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 8888",
       "Form 1040-ES",
       "Form 1040-PR",
+      "Form 1040",
       "Form 4361",
       "Form 2031",
       "Form 4029",
@@ -578,15 +613,10 @@ window.__map_data = {
       "Schedule F (Form 1040)"
     ],
     "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 8888",
       "Form 1040-ES",
       "Form 1040-PR",
+      "Form 1040",
       "Form 4361",
       "Form 2031",
       "Form 4029",
@@ -608,17 +638,18 @@ window.__map_data = {
       "Schedule E (Form 1040)",
       "Schedule H (Form 1040)",
       "Schedule F (Form 1040)"
-    ]
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i1040ss",
+      "dateFetched": "2020-06-13T01:09:07.430Z",
+      "form": "Form 1040-SS"
+    }
   },
   "Form 1040-X": {
     "raw": [
       "Form 1040-X",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 2848",
       "Form 1040-SR",
+      "Form 1040",
       "Form 2555-EZ",
       "Form 8965",
       "Form 8995",
@@ -652,6 +683,7 @@ window.__map_data = {
       "Form 6251",
       "Form 8962",
       "Form 1310",
+      "Form 2848",
       "Form 8886",
       "Form 8857",
       "Form 1095-A",
@@ -665,6 +697,7 @@ window.__map_data = {
       "Form 4868",
       "Form 2350",
       "Form 8689",
+      "Form 9465",
       "Form 2439",
       "Form 1099-R",
       "Form 1042-S",
@@ -695,12 +728,8 @@ window.__map_data = {
       "Schedule 8812 (Form 1040)"
     ],
     "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 2848",
       "Form 1040-SR",
+      "Form 1040",
       "Form 2555-EZ",
       "Form 8965",
       "Form 8995",
@@ -734,6 +763,7 @@ window.__map_data = {
       "Form 6251",
       "Form 8962",
       "Form 1310",
+      "Form 2848",
       "Form 8886",
       "Form 8857",
       "Form 1095-A",
@@ -747,6 +777,7 @@ window.__map_data = {
       "Form 4868",
       "Form 2350",
       "Form 8689",
+      "Form 9465",
       "Form 2439",
       "Form 1099-R",
       "Form 1042-S",
@@ -775,19 +806,377 @@ window.__map_data = {
       "Schedule EIC",
       "Schedule EIC (Form 1040)",
       "Schedule 8812 (Form 1040)"
-    ]
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i1040x",
+      "dateFetched": "2020-06-13T01:09:07.558Z",
+      "form": "Form 1040-X"
+    }
+  },
+  "Form 1040": {
+    "raw": [
+      "Form 1040-SR",
+      "Form 8615",
+      "Form 8862",
+      "Form 4797",
+      "Form 8888",
+      "Form 8453",
+      "Form 6251",
+      "Form 4137",
+      "Form 8919",
+      "Form 1040",
+      "Form 8962",
+      "Form 1095-A",
+      "Form 1040-NR",
+      "Form 1095-C",
+      "Form 8965",
+      "Form 8995",
+      "Form 8995-A",
+      "Form 8997",
+      "Form 1040-X",
+      "Form 1099-B",
+      "Form 8814",
+      "Form 1040-NR-EZ",
+      "Form 4868",
+      "Form 8949",
+      "Form 5329",
+      "Form 8822",
+      "Form 8332",
+      "Form 2441",
+      "Form 2555",
+      "Form 8938",
+      "Form 8958",
+      "Form 8839",
+      "Form 1099-R",
+      "Form 1099-INT",
+      "Form 1099-OID",
+      "Form 1099-DIV",
+      "Form 8606",
+      "Form 8889",
+      "Form 4972",
+      "Form 2439",
+      "Form 4684",
+      "Form 8863",
+      "Form 8621",
+      "Form 8885",
+      "Form 8978",
+      "Form 4952",
+      "Form 5695",
+      "Form 8910",
+      "Form 8936",
+      "Form 1099",
+      "Form 8959",
+      "Form 1042-S",
+      "Form 8805",
+      "Form 8288-A",
+      "Form 4029",
+      "Form 4361",
+      "Form 1065",
+      "Form 1065-B",
+      "Form 8812",
+      "Form 8379",
+      "Form 1040-V",
+      "Form 9465",
+      "Form 1127",
+      "Form 2210",
+      "Form 2848",
+      "Form 56",
+      "Form 8857",
+      "Form 1040-ES",
+      "Form 4506-T",
+      "Form 4506",
+      "Form 1310",
+      "Form 1099-G",
+      "Form 1099-MISC",
+      "Form 8853",
+      "Form 1099-C",
+      "Form 461",
+      "Form 965",
+      "Form 965-A",
+      "Form 8992",
+      "Form 5471",
+      "Form 3520",
+      "Form 8815",
+      "Form 2106",
+      "Form 3903",
+      "Form 8917",
+      "Form 3800",
+      "Form 5405",
+      "Form 8960",
+      "Form 4255",
+      "Form 8611",
+      "Form 8845",
+      "Form 8874",
+      "Form 8882",
+      "Form 8911",
+      "Form 8828",
+      "Form 4970",
+      "Form 8697",
+      "Form 1116",
+      "Form 4563",
+      "Form 8880",
+      "Form 8801",
+      "Form 8396",
+      "Form 8859",
+      "Form 8834",
+      "Form 8912",
+      "Form 2350",
+      "Form 843",
+      "Form 4136",
+      "Form 1099-A",
+      "Form 941",
+      "Form 944",
+      "Form 940",
+      "Form 943",
+      "Schedule D",
+      "Schedule J",
+      "Schedule 8812",
+      "Schedule 1",
+      "Schedule 2",
+      "Schedule 3",
+      "Schedule 1 (Form 1040)",
+      "Schedule A",
+      "Schedule C",
+      "Schedule F",
+      "Schedule H",
+      "Schedule B",
+      "Schedule R",
+      "Schedule K-1",
+      "Schedule EIC",
+      "Schedule E",
+      "Schedule SE",
+      "Schedule K-1 (Form 1065)",
+      "Schedule K-1 (Form 1065-B)",
+      "Schedule 4",
+      "Schedule 5",
+      "Schedule X",
+      "Schedule Y-1",
+      "Schedule Y-2",
+      "Schedule Z"
+    ],
+    "cleaned": [
+      "Form 1040-SR",
+      "Form 8615",
+      "Form 8862",
+      "Form 4797",
+      "Form 8888",
+      "Form 8453",
+      "Form 6251",
+      "Form 4137",
+      "Form 8919",
+      "Form 8962",
+      "Form 1095-A",
+      "Form 1040-NR",
+      "Form 1095-C",
+      "Form 8965",
+      "Form 8995",
+      "Form 8995-A",
+      "Form 8997",
+      "Form 1040-X",
+      "Form 1099-B",
+      "Form 8814",
+      "Form 1040-NR-EZ",
+      "Form 4868",
+      "Form 8949",
+      "Form 5329",
+      "Form 8822",
+      "Form 8332",
+      "Form 2441",
+      "Form 2555",
+      "Form 8938",
+      "Form 8958",
+      "Form 8839",
+      "Form 1099-R",
+      "Form 1099-INT",
+      "Form 1099-OID",
+      "Form 1099-DIV",
+      "Form 8606",
+      "Form 8889",
+      "Form 4972",
+      "Form 2439",
+      "Form 4684",
+      "Form 8863",
+      "Form 8621",
+      "Form 8885",
+      "Form 8978",
+      "Form 4952",
+      "Form 5695",
+      "Form 8910",
+      "Form 8936",
+      "Form 1099",
+      "Form 8959",
+      "Form 1042-S",
+      "Form 8805",
+      "Form 8288-A",
+      "Form 4029",
+      "Form 4361",
+      "Form 1065",
+      "Form 1065-B",
+      "Form 8812",
+      "Form 8379",
+      "Form 1040-V",
+      "Form 9465",
+      "Form 1127",
+      "Form 2210",
+      "Form 2848",
+      "Form 56",
+      "Form 8857",
+      "Form 1040-ES",
+      "Form 4506-T",
+      "Form 4506",
+      "Form 1310",
+      "Form 1099-G",
+      "Form 1099-MISC",
+      "Form 8853",
+      "Form 1099-C",
+      "Form 461",
+      "Form 965",
+      "Form 965-A",
+      "Form 8992",
+      "Form 5471",
+      "Form 3520",
+      "Form 8815",
+      "Form 2106",
+      "Form 3903",
+      "Form 8917",
+      "Form 3800",
+      "Form 5405",
+      "Form 8960",
+      "Form 4255",
+      "Form 8611",
+      "Form 8845",
+      "Form 8874",
+      "Form 8882",
+      "Form 8911",
+      "Form 8828",
+      "Form 4970",
+      "Form 8697",
+      "Form 1116",
+      "Form 4563",
+      "Form 8880",
+      "Form 8801",
+      "Form 8396",
+      "Form 8859",
+      "Form 8834",
+      "Form 8912",
+      "Form 2350",
+      "Form 843",
+      "Form 4136",
+      "Form 1099-A",
+      "Form 941",
+      "Form 944",
+      "Form 940",
+      "Form 943",
+      "Schedule D",
+      "Schedule J",
+      "Schedule 8812",
+      "Schedule 1",
+      "Schedule 2",
+      "Schedule 3",
+      "Schedule 1 (Form 1040)",
+      "Schedule A",
+      "Schedule C",
+      "Schedule F",
+      "Schedule H",
+      "Schedule B",
+      "Schedule R",
+      "Schedule K-1",
+      "Schedule EIC",
+      "Schedule E",
+      "Schedule SE",
+      "Schedule K-1 (Form 1065)",
+      "Schedule K-1 (Form 1065-B)",
+      "Schedule 4",
+      "Schedule 5",
+      "Schedule X",
+      "Schedule Y-1",
+      "Schedule Y-2",
+      "Schedule Z"
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i1040gi",
+      "dateFetched": "2020-06-13T01:09:08.099Z",
+      "form": "Form 1040"
+    }
+  },
+  "Form 1041-N": {
+    "raw": [
+      "Form 1041-N",
+      "Form 7004",
+      "Form 3115",
+      "Form 1041-ES",
+      "Form 1041",
+      "Form 2210",
+      "Form 56",
+      "Form 8822-B",
+      "Form 1099-DIV",
+      "Form 8992",
+      "Form 965",
+      "Form 965-A",
+      "Form 461",
+      "Form 8995",
+      "Form 8995-A",
+      "Form 2439",
+      "Form 3520",
+      "Form 3520-A",
+      "Form 114",
+      "Form 8938",
+      "Form 4797",
+      "Form 4684",
+      "Form 6781",
+      "Form 8824",
+      "Form 1099-B",
+      "Form 6252",
+      "Schedule D",
+      "Schedule K",
+      "Schedule D (Form 1041-N)",
+      "Schedule D (Form 1041)",
+      "Schedule K-1"
+    ],
+    "cleaned": [
+      "Form 7004",
+      "Form 3115",
+      "Form 1041-ES",
+      "Form 1041",
+      "Form 2210",
+      "Form 56",
+      "Form 8822-B",
+      "Form 1099-DIV",
+      "Form 8992",
+      "Form 965",
+      "Form 965-A",
+      "Form 461",
+      "Form 8995",
+      "Form 8995-A",
+      "Form 2439",
+      "Form 3520",
+      "Form 3520-A",
+      "Form 114",
+      "Form 8938",
+      "Form 4797",
+      "Form 4684",
+      "Form 6781",
+      "Form 8824",
+      "Form 1099-B",
+      "Form 6252",
+      "Schedule D",
+      "Schedule K",
+      "Schedule D (Form 1041-N)",
+      "Schedule D (Form 1041)",
+      "Schedule K-1"
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i1041n",
+      "dateFetched": "2020-06-13T01:09:07.202Z",
+      "form": "Form 1041-N"
+    }
   },
   "Form 1041": {
     "raw": [
       "Form 1041",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 8975",
       "Form 8971",
+      "Form 1040",
       "Form 4970",
       "Form 8697",
       "Form 8866",
@@ -828,6 +1217,7 @@ window.__map_data = {
       "Form 709",
       "Form 926",
       "Form 940",
+      "Form 941",
       "Form 944",
       "Form 943",
       "Form 945",
@@ -913,14 +1303,9 @@ window.__map_data = {
       "Schedule I"
     ],
     "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 8975",
       "Form 8971",
+      "Form 1040",
       "Form 4970",
       "Form 8697",
       "Form 8866",
@@ -961,6 +1346,7 @@ window.__map_data = {
       "Form 709",
       "Form 926",
       "Form 940",
+      "Form 941",
       "Form 944",
       "Form 943",
       "Form 945",
@@ -1044,17 +1430,162 @@ window.__map_data = {
       "Schedule K-1 (Form 1120-S)",
       "Schedule R",
       "Schedule I"
-    ]
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i1041",
+      "dateFetched": "2020-06-13T01:09:07.951Z",
+      "form": "Form 1041"
+    }
+  },
+  "Form 1042-S": {
+    "raw": [
+      "Form 1042-S",
+      "Form 1042",
+      "Form 1099",
+      "Form 8288-A",
+      "Form 8805",
+      "Form 8966",
+      "Form 1042-T",
+      "Form 8809",
+      "Form 8508",
+      "Form 8655",
+      "Form 1065",
+      "Form 8288",
+      "Form 8804",
+      "Form 1099-DIV",
+      "Form 1099-INT",
+      "Form 8233",
+      "Form 13930",
+      "Schedule K-1 (Form 1065)"
+    ],
+    "cleaned": [
+      "Form 1042",
+      "Form 1099",
+      "Form 8288-A",
+      "Form 8805",
+      "Form 8966",
+      "Form 1042-T",
+      "Form 8809",
+      "Form 8508",
+      "Form 8655",
+      "Form 1065",
+      "Form 8288",
+      "Form 8804",
+      "Form 1099-DIV",
+      "Form 1099-INT",
+      "Form 8233",
+      "Form 13930",
+      "Schedule K-1 (Form 1065)"
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i1042s",
+      "dateFetched": "2020-06-13T01:09:07.736Z",
+      "form": "Form 1042-S"
+    }
+  },
+  "Form 1042": {
+    "raw": [
+      "Form 1042",
+      "Form 1042-S",
+      "Form 1099",
+      "Form 7004",
+      "Form 941",
+      "Form 1040",
+      "Form 945",
+      "Form 1065",
+      "Form 8804",
+      "Form 1120-F",
+      "Schedule Q (Form 1042)",
+      "Schedule H (Form 1040)",
+      "Schedule K-1 (Form 1065)"
+    ],
+    "cleaned": [
+      "Form 1042-S",
+      "Form 1099",
+      "Form 7004",
+      "Form 941",
+      "Form 1040",
+      "Form 945",
+      "Form 1065",
+      "Form 8804",
+      "Form 1120-F",
+      "Schedule Q (Form 1042)",
+      "Schedule H (Form 1040)",
+      "Schedule K-1 (Form 1065)"
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i1042",
+      "dateFetched": "2020-06-13T01:09:07.312Z",
+      "form": "Form 1042"
+    }
+  },
+  "Form 1045": {
+    "raw": [
+      "Form 1045",
+      "Form 1040-X",
+      "Form 461",
+      "Form 1040",
+      "Form 4952",
+      "Form 6251",
+      "Form 3800",
+      "Form 6478",
+      "Form 6781",
+      "Form 3468",
+      "Form 2848",
+      "Form 1041",
+      "Form 4970",
+      "Form 4972",
+      "Form 8962",
+      "Form 8960",
+      "Form 8965",
+      "Form 1040-NR",
+      "Form 4684",
+      "Schedule A",
+      "Schedule B",
+      "Schedule F",
+      "Schedule C",
+      "Schedule D",
+      "Schedule D (Form 1040)",
+      "Schedule I (Form 1041)",
+      "Schedule D (Form 1041)"
+    ],
+    "cleaned": [
+      "Form 1040-X",
+      "Form 461",
+      "Form 1040",
+      "Form 4952",
+      "Form 6251",
+      "Form 3800",
+      "Form 6478",
+      "Form 6781",
+      "Form 3468",
+      "Form 2848",
+      "Form 1041",
+      "Form 4970",
+      "Form 4972",
+      "Form 8962",
+      "Form 8960",
+      "Form 8965",
+      "Form 1040-NR",
+      "Form 4684",
+      "Schedule A",
+      "Schedule B",
+      "Schedule F",
+      "Schedule C",
+      "Schedule D",
+      "Schedule D (Form 1040)",
+      "Schedule I (Form 1041)",
+      "Schedule D (Form 1041)"
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i1045",
+      "dateFetched": "2020-06-13T01:09:07.100Z",
+      "form": "Form 1045"
+    }
   },
   "Form 1065-B": {
     "raw": [
       "Form 1065-B",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 1065",
       "Form 8865",
       "Form 4797",
@@ -1068,6 +1599,7 @@ window.__map_data = {
       "Form 8879-B",
       "Form 7004",
       "Form 720",
+      "Form 941",
       "Form 943",
       "Form 944",
       "Form 945",
@@ -1083,6 +1615,7 @@ window.__map_data = {
       "Form 8813",
       "Form 8886",
       "Form 8918",
+      "Form 1040",
       "Form 8825",
       "Form 8941",
       "Form 8308",
@@ -1169,12 +1702,6 @@ window.__map_data = {
       "Schedule P"
     ],
     "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 1065",
       "Form 8865",
       "Form 4797",
@@ -1188,6 +1715,7 @@ window.__map_data = {
       "Form 8879-B",
       "Form 7004",
       "Form 720",
+      "Form 941",
       "Form 943",
       "Form 944",
       "Form 945",
@@ -1203,6 +1731,7 @@ window.__map_data = {
       "Form 8813",
       "Form 8886",
       "Form 8918",
+      "Form 1040",
       "Form 8825",
       "Form 8941",
       "Form 8308",
@@ -1287,18 +1816,18 @@ window.__map_data = {
       "Schedule SE (Form 1040)",
       "Schedule P (Form 1120-F)",
       "Schedule P"
-    ]
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i1065b",
+      "dateFetched": "2020-06-13T01:09:07.938Z",
+      "form": "Form 1065-B"
+    }
   },
   "Form 1065": {
     "raw": [
       "Form 1065",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 4797",
+      "Form 1040",
       "Form 8865",
       "Form 8832",
       "Form 8996",
@@ -1308,6 +1837,7 @@ window.__map_data = {
       "Form 8879-PE",
       "Form 7004",
       "Form 720",
+      "Form 941",
       "Form 943",
       "Form 944",
       "Form 945",
@@ -1436,13 +1966,8 @@ window.__map_data = {
       "Schedule M-3 (Form 1065)"
     ],
     "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 4797",
+      "Form 1040",
       "Form 8865",
       "Form 8832",
       "Form 8996",
@@ -1452,6 +1977,7 @@ window.__map_data = {
       "Form 8879-PE",
       "Form 7004",
       "Form 720",
+      "Form 941",
       "Form 943",
       "Form 944",
       "Form 945",
@@ -1578,17 +2104,16 @@ window.__map_data = {
       "Schedule P",
       "Schedule G (Form 8865)",
       "Schedule M-3 (Form 1065)"
-    ]
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i1065",
+      "dateFetched": "2020-06-13T01:09:07.921Z",
+      "form": "Form 1065"
+    }
   },
   "Form 1065X": {
     "raw": [
       "Form 1065",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 1065-B",
       "Form 1066",
       "Form 8082",
@@ -1603,12 +2128,6 @@ window.__map_data = {
     ],
     "cleaned": [
       "Form 1065",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 1065-B",
       "Form 1066",
       "Form 8082",
@@ -1620,161 +2139,202 @@ window.__map_data = {
       "Form 7004",
       "Form 8980",
       "Schedule K"
-    ]
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i1065x",
+      "dateFetched": "2020-06-13T01:09:07.141Z",
+      "form": "Form 1065X"
+    }
   },
-  "Form 1094-B": {
+  "Form 1066": {
     "raw": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
-      "Form 1095-B",
-      "Form 1094-B",
-      "Form 1095-C",
+      "Form 1066",
+      "Form 1096",
+      "Form 1098",
+      "Form 8275",
+      "Form 8275-R",
+      "Form 8300",
+      "Form 8811",
+      "Form 8822-B",
+      "Form 7004",
+      "Form 1065",
+      "Form 1042",
+      "Form 4797",
+      "Form 4562",
+      "Form 114",
+      "Form 3520",
+      "Form 3520-A",
+      "Form 926",
+      "Form 8865",
+      "Schedule J",
+      "Schedule L",
+      "Schedule M",
+      "Schedule Q",
+      "Schedule Q (Form 1066)",
+      "Schedule D",
+      "Schedule B-2 (Form 1065)",
+      "Schedule B-2"
+    ],
+    "cleaned": [
+      "Form 1096",
+      "Form 1098",
+      "Form 8275",
+      "Form 8275-R",
+      "Form 8300",
+      "Form 8811",
+      "Form 8822-B",
+      "Form 7004",
+      "Form 1065",
+      "Form 1042",
+      "Form 4797",
+      "Form 4562",
+      "Form 114",
+      "Form 3520",
+      "Form 3520-A",
+      "Form 926",
+      "Form 8865",
+      "Schedule J",
+      "Schedule L",
+      "Schedule M",
+      "Schedule Q",
+      "Schedule Q (Form 1066)",
+      "Schedule D",
+      "Schedule B-2 (Form 1065)",
+      "Schedule B-2"
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i1066",
+      "dateFetched": "2020-06-13T01:09:06.945Z",
+      "form": "Form 1066"
+    }
+  },
+  "Form 1095-A": {
+    "raw": [
       "Form 1095-A",
-      "Form 8809",
-      "Form 8508",
+      null
+    ],
+    "cleaned": [],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i1095a",
+      "dateFetched": "2020-06-13T01:09:06.058Z",
+      "form": "Form 1095-A"
+    }
+  },
+  "Form 1097-BTC": {
+    "raw": [
+      "Form 1097-BTC",
+      "Form 1096",
+      "Form 1099-INT",
+      "Form 1099-OID",
       null
     ],
     "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
-      "Form 1095-B",
-      "Form 1095-C",
-      "Form 1095-A",
-      "Form 8809",
-      "Form 8508"
-    ]
+      "Form 1096",
+      "Form 1099-INT",
+      "Form 1099-OID"
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i1097btc",
+      "dateFetched": "2020-06-13T01:09:06.220Z",
+      "form": "Form 1097-BTC"
+    }
   },
   "Form 1098-C": {
     "raw": [
       "Form 1098-C",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 1096",
       null
     ],
     "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 1096"
-    ]
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i1098c",
+      "dateFetched": "2020-06-13T01:09:06.029Z",
+      "form": "Form 1098-C"
+    }
   },
   "Form 1098-E": {
     "raw": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 1098-E",
       "Form 1098-T",
       "Form 1096",
       null
     ],
     "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 1098-T",
       "Form 1096"
-    ]
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i1098et",
+      "dateFetched": "2020-06-13T01:09:05.776Z",
+      "form": "Form 1098-E"
+    }
+  },
+  "Form 1098-F": {
+    "raw": [
+      "Form 1098-F",
+      "Form 1096",
+      null
+    ],
+    "cleaned": [
+      "Form 1096"
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i1098f",
+      "dateFetched": "2020-06-13T01:09:06.323Z",
+      "form": "Form 1098-F"
+    }
   },
   "Form 1098-Q": {
     "raw": [
       "Form 1098-Q",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       null
     ],
-    "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848"
-    ]
+    "cleaned": [],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i1098q",
+      "dateFetched": "2020-06-13T01:09:06.107Z",
+      "form": "Form 1098-Q"
+    }
   },
   "Form 1098": {
     "raw": [
       "Form 1098",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 1098-MA",
       "Form 1099-INT",
       "Form 1096",
       null
     ],
     "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 1098-MA",
       "Form 1099-INT",
       "Form 1096"
-    ]
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i1098",
+      "dateFetched": "2020-06-13T01:09:06.377Z",
+      "form": "Form 1098"
+    }
   },
   "Form 1099-A": {
     "raw": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 1099-A",
       "Form 1099-C",
       null
     ],
     "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 1099-C"
-    ]
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i1099ac",
+      "dateFetched": "2020-06-13T01:09:06.109Z",
+      "form": "Form 1099-A"
+    }
   },
   "Form 1099-B": {
     "raw": [
       "Form 1099-B",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 8949",
       "Form 8806",
       "Form 1099-DIV",
@@ -1785,16 +2345,11 @@ window.__map_data = {
       "Form 1099-INT",
       "Form 1099-S",
       "Form 8937",
+      "Form 1040",
       "Form 2439",
       "Schedule D"
     ],
     "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 8949",
       "Form 8806",
       "Form 1099-DIV",
@@ -1805,19 +2360,19 @@ window.__map_data = {
       "Form 1099-INT",
       "Form 1099-S",
       "Form 8937",
+      "Form 1040",
       "Form 2439",
       "Schedule D"
-    ]
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i1099b",
+      "dateFetched": "2020-06-13T01:09:05.630Z",
+      "form": "Form 1099-B"
+    }
   },
   "Form 1099-CAP": {
     "raw": [
       "Form 1099-CAP",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 1096",
       "Form 1099-B",
       "Form 8806",
@@ -1826,28 +2381,21 @@ window.__map_data = {
       null
     ],
     "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 1096",
       "Form 1099-B",
       "Form 8806",
       "Form 966",
       "Form 1099-DIV"
-    ]
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i1099cap",
+      "dateFetched": "2020-06-13T01:09:06.027Z",
+      "form": "Form 1099-CAP"
+    }
   },
   "Form 1099-DIV": {
     "raw": [
       "Form 1099-DIV",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 1099-R",
       "Form 1099-INT",
       "Form 945",
@@ -1856,49 +2404,52 @@ window.__map_data = {
       null
     ],
     "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 1099-R",
       "Form 1099-INT",
       "Form 945",
       "Form 1097-BTC",
       "Form 5452"
-    ]
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i1099div",
+      "dateFetched": "2020-06-13T01:09:05.445Z",
+      "form": "Form 1099-DIV"
+    }
+  },
+  "Form 1099-G": {
+    "raw": [
+      "Form 1099-G",
+      "Form 1099-MISC",
+      "Form 1099-INT",
+      null
+    ],
+    "cleaned": [
+      "Form 1099-MISC",
+      "Form 1099-INT"
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i1099g",
+      "dateFetched": "2020-06-13T01:09:06.568Z",
+      "form": "Form 1099-G"
+    }
   },
   "Form 1099-H": {
     "raw": [
       "Form 1099-H",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 1096",
       null
     ],
     "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 1096"
-    ]
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i1099h",
+      "dateFetched": "2020-06-13T01:09:06.379Z",
+      "form": "Form 1099-H"
+    }
   },
   "Form 1099-INT": {
     "raw": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 1099-OID",
       "Form 1099-INT",
       "Form 8811",
@@ -1911,12 +2462,6 @@ window.__map_data = {
       "Schedule Q (Form 1066)"
     ],
     "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 1099-OID",
       "Form 8811",
       "Form 1042-S",
@@ -1926,58 +2471,54 @@ window.__map_data = {
       "Form 1066",
       "Form 8281",
       "Schedule Q (Form 1066)"
-    ]
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i1099int",
+      "dateFetched": "2020-06-13T01:09:07.136Z",
+      "form": "Form 1099-INT"
+    }
+  },
+  "Form 1099-K": {
+    "raw": [
+      "Form 1099-K",
+      null
+    ],
+    "cleaned": [],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i1099k",
+      "dateFetched": "2020-06-13T01:09:05.569Z",
+      "form": "Form 1099-K"
+    }
   },
   "Form 1099-LS": {
     "raw": [
       "Form 1099-LS",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       null
     ],
-    "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848"
-    ]
+    "cleaned": [],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i1099ls",
+      "dateFetched": "2020-06-13T01:09:05.835Z",
+      "form": "Form 1099-LS"
+    }
   },
   "Form 1099-LTC": {
     "raw": [
       "Form 1099-LTC",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 1096",
       null
     ],
     "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 1096"
-    ]
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i1099ltc",
+      "dateFetched": "2020-06-13T01:09:06.287Z",
+      "form": "Form 1099-LTC"
+    }
   },
   "Form 1099-MISC": {
     "raw": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 1099-MISC",
       "Form 1099-K",
       "Form 1099-NEC",
@@ -1999,12 +2540,6 @@ window.__map_data = {
       "Schedule K-1 (Form 1065)"
     ],
     "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 1099-K",
       "Form 1099-NEC",
       "Form 1099",
@@ -2023,17 +2558,16 @@ window.__map_data = {
       "Form 1042-S",
       "Form 1099-INT",
       "Schedule K-1 (Form 1065)"
-    ]
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i1099msc",
+      "dateFetched": "2020-06-13T01:09:06.444Z",
+      "form": "Form 1099-MISC"
+    }
   },
   "Form 1099-PATR": {
     "raw": [
       "Form 1099-PATR",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 3491",
       "Form 1099-DIV",
       "Form 8995-A",
@@ -2048,12 +2582,6 @@ window.__map_data = {
       null
     ],
     "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 3491",
       "Form 1099-DIV",
       "Form 8995-A",
@@ -2065,107 +2593,131 @@ window.__map_data = {
       "Form 6478",
       "Form 8835",
       "Form 8845"
-    ]
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i1099ptr",
+      "dateFetched": "2020-06-13T01:09:06.384Z",
+      "form": "Form 1099-PATR"
+    }
   },
   "Form 1099-Q": {
     "raw": [
       "Form 1099-Q",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 1096",
       null
     ],
     "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 1096"
-    ]
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i1099q",
+      "dateFetched": "2020-06-13T01:09:06.213Z",
+      "form": "Form 1099-Q"
+    }
   },
   "Form 1099-QA": {
     "raw": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 1099-QA",
       "Form 5498-QA",
       null
     ],
     "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 5498-QA"
-    ]
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i1099qa",
+      "dateFetched": "2020-06-13T01:09:06.436Z",
+      "form": "Form 1099-QA"
+    }
+  },
+  "Form 1099-R": {
+    "raw": [
+      "Form 1099-R",
+      "Form 5498",
+      "Form 1099-NEC",
+      "Form 1099-MISC",
+      "Form 1099-DIV",
+      "Form 1096",
+      "Form 945",
+      "Form 1042",
+      "Form 1042-S",
+      "Form 1099-LTC",
+      "Form 4972",
+      "Form 8508",
+      null
+    ],
+    "cleaned": [
+      "Form 5498",
+      "Form 1099-NEC",
+      "Form 1099-MISC",
+      "Form 1099-DIV",
+      "Form 1096",
+      "Form 945",
+      "Form 1042",
+      "Form 1042-S",
+      "Form 1099-LTC",
+      "Form 4972",
+      "Form 8508"
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i1099r",
+      "dateFetched": "2020-06-13T01:09:07.657Z",
+      "form": "Form 1099-R"
+    }
+  },
+  "Form 1099-S": {
+    "raw": [
+      "Form 1099-S",
+      "Form 1096",
+      "Form 8288",
+      null
+    ],
+    "cleaned": [
+      "Form 1096",
+      "Form 8288"
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i1099s",
+      "dateFetched": "2020-06-13T01:09:06.380Z",
+      "form": "Form 1099-S"
+    }
   },
   "Form 1099-SA": {
     "raw": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 1099-SA",
       "Form 5498-SA",
       "Form 1096",
       null
     ],
     "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 5498-SA",
       "Form 1096"
-    ]
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i1099sa",
+      "dateFetched": "2020-06-13T01:09:05.613Z",
+      "form": "Form 1099-SA"
+    }
   },
   "Form 1099-SB": {
     "raw": [
       "Form 1099-SB",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 1099-LS",
       null
     ],
     "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 1099-LS"
-    ]
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i1099sb",
+      "dateFetched": "2020-06-13T01:09:05.922Z",
+      "form": "Form 1099-SB"
+    }
   },
   "Form 1116": {
     "raw": [
       "Form 1116",
       "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 1040-NR",
       "Form 1041",
       "Form 1099-DIV",
@@ -2174,6 +2726,7 @@ window.__map_data = {
       "Form 1120-S",
       "Form 8689",
       "Form 8873",
+      "Form 1040-X",
       "Form 965",
       "Form 8833",
       "Form 4972",
@@ -2201,11 +2754,6 @@ window.__map_data = {
     ],
     "cleaned": [
       "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 1040-NR",
       "Form 1041",
       "Form 1099-DIV",
@@ -2214,6 +2762,7 @@ window.__map_data = {
       "Form 1120-S",
       "Form 8689",
       "Form 8873",
+      "Form 1040-X",
       "Form 965",
       "Form 8833",
       "Form 4972",
@@ -2238,17 +2787,16 @@ window.__map_data = {
       "Schedule 1",
       "Schedule A (Form 5713)",
       "Schedule G"
-    ]
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i1116",
+      "dateFetched": "2020-06-13T01:09:07.495Z",
+      "form": "Form 1116"
+    }
   },
   "Form 1118": {
     "raw": [
       "Form 1118",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 965",
       "Form 8873",
       "Form 8833",
@@ -2280,12 +2828,6 @@ window.__map_data = {
       "Schedule F (Form 965)"
     ],
     "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 965",
       "Form 8873",
       "Form 8833",
@@ -2315,17 +2857,16 @@ window.__map_data = {
       "Schedule I (Form 1118)",
       "Schedule C (Form 5713)",
       "Schedule F (Form 965)"
-    ]
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i1118",
+      "dateFetched": "2020-06-13T01:09:07.489Z",
+      "form": "Form 1118"
+    }
   },
   "Form 1120-C": {
     "raw": [
       "Form 1120-C",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 1120",
       "Form 5500",
       "Form 5500-SF",
@@ -2345,6 +2886,7 @@ window.__map_data = {
       "Form 4466",
       "Form 2220",
       "Form 720",
+      "Form 941",
       "Form 943",
       "Form 944",
       "Form 945",
@@ -2423,12 +2965,6 @@ window.__map_data = {
       "Schedule O"
     ],
     "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 1120",
       "Form 5500",
       "Form 5500-SF",
@@ -2448,6 +2984,7 @@ window.__map_data = {
       "Form 4466",
       "Form 2220",
       "Form 720",
+      "Form 941",
       "Form 943",
       "Form 944",
       "Form 945",
@@ -2524,17 +3061,264 @@ window.__map_data = {
       "Schedule D (Form 1120)",
       "Schedule O (Form 1120)",
       "Schedule O"
-    ]
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i1120c",
+      "dateFetched": "2020-06-13T01:09:07.811Z",
+      "form": "Form 1120-C"
+    }
+  },
+  "Form 1120-F": {
+    "raw": [
+      "Form 1120-F",
+      "Form 1094-C",
+      "Form 5472",
+      "Form 8275",
+      "Form 8300",
+      "Form 8302",
+      "Form 8832",
+      "Form 8833",
+      "Form 8848",
+      "Form 8886",
+      "Form 4466",
+      "Form 8827",
+      "Form 5500",
+      "Form 5500-SF",
+      "Form 5500-EZ",
+      "Form 8912",
+      "Form 5884-A",
+      "Form 8996",
+      "Form 8977",
+      "Form 8997",
+      "Form 1120-L",
+      "Form 1120-PC",
+      "Form 1120-FSC",
+      "Form 7004",
+      "Form 1099",
+      "Form 1042-S",
+      "Form 2439",
+      "Form 1095-C",
+      "Form 8275-R",
+      "Form 1065",
+      "Form 8918",
+      "Form 8805",
+      "Form 1120",
+      "Form 8949",
+      "Form 4136",
+      "Form 8978",
+      "Form 8941",
+      "Form 3800",
+      "Form 1125-A",
+      "Form 3115",
+      "Form 1128",
+      "Form 8453-I",
+      "Form 1120-W",
+      "Form 2220",
+      "Form 720",
+      "Form 941",
+      "Form 943",
+      "Form 944",
+      "Form 945",
+      "Form 8822-B",
+      "Form 8288-A",
+      "Form 8716",
+      "Form 1139",
+      "Form 1042",
+      "Form 8991",
+      "Form 8990",
+      "Form 8986",
+      "Form 8902",
+      "Form 6478",
+      "Form 8864",
+      "Form 8925",
+      "Form 4562",
+      "Form 8810",
+      "Form 5884",
+      "Form 6765",
+      "Form 8820",
+      "Form 8826",
+      "Form 8844",
+      "Form 8845",
+      "Form 8846",
+      "Form 8881",
+      "Form 8882",
+      "Form 8896",
+      "Form 8923",
+      "Form 8932",
+      "Form 8994",
+      "Form 1125-E",
+      "Form 8283",
+      "Form 8903",
+      "Form 1099-MISC",
+      "Form 6198",
+      "Form 1118",
+      "Form 8834",
+      "Form 4255",
+      "Form 8611",
+      "Form 8697",
+      "Form 8866",
+      "Form 8874",
+      "Form 8874-B",
+      "Form 1120-RIC",
+      "Schedule Q (Form 1120-F)",
+      "Schedule H",
+      "Schedule I",
+      "Schedule P",
+      "Schedule S",
+      "Schedule V",
+      "Schedule M-3",
+      "Schedule C",
+      "Schedule J",
+      "Schedule L",
+      "Schedule W",
+      "Schedule S (Form 1120-F)",
+      "Schedule I (Form 1120-F)",
+      "Schedule P (Form 1120-F)",
+      "Schedule K-1",
+      "Schedule V (Form 1120-F)",
+      "Schedule D (Form 1120)",
+      "Schedule M-3 (Form 1120-F)",
+      "Schedule M-1",
+      "Schedule M-1 (Form 1120-F)",
+      "Schedule H (Form 1120)",
+      "Schedule O (Form 1120)",
+      "Schedule UTP (Form 1120)",
+      "Schedule UTP",
+      "Schedule K-1 (Form 1065)",
+      "Schedule H (Form 1120-F)",
+      "Schedule O",
+      "Schedule M-2",
+      "Schedule II"
+    ],
+    "cleaned": [
+      "Form 1094-C",
+      "Form 5472",
+      "Form 8275",
+      "Form 8300",
+      "Form 8302",
+      "Form 8832",
+      "Form 8833",
+      "Form 8848",
+      "Form 8886",
+      "Form 4466",
+      "Form 8827",
+      "Form 5500",
+      "Form 5500-SF",
+      "Form 5500-EZ",
+      "Form 8912",
+      "Form 5884-A",
+      "Form 8996",
+      "Form 8977",
+      "Form 8997",
+      "Form 1120-L",
+      "Form 1120-PC",
+      "Form 1120-FSC",
+      "Form 7004",
+      "Form 1099",
+      "Form 1042-S",
+      "Form 2439",
+      "Form 1095-C",
+      "Form 8275-R",
+      "Form 1065",
+      "Form 8918",
+      "Form 8805",
+      "Form 1120",
+      "Form 8949",
+      "Form 4136",
+      "Form 8978",
+      "Form 8941",
+      "Form 3800",
+      "Form 1125-A",
+      "Form 3115",
+      "Form 1128",
+      "Form 8453-I",
+      "Form 1120-W",
+      "Form 2220",
+      "Form 720",
+      "Form 941",
+      "Form 943",
+      "Form 944",
+      "Form 945",
+      "Form 8822-B",
+      "Form 8288-A",
+      "Form 8716",
+      "Form 1139",
+      "Form 1042",
+      "Form 8991",
+      "Form 8990",
+      "Form 8986",
+      "Form 8902",
+      "Form 6478",
+      "Form 8864",
+      "Form 8925",
+      "Form 4562",
+      "Form 8810",
+      "Form 5884",
+      "Form 6765",
+      "Form 8820",
+      "Form 8826",
+      "Form 8844",
+      "Form 8845",
+      "Form 8846",
+      "Form 8881",
+      "Form 8882",
+      "Form 8896",
+      "Form 8923",
+      "Form 8932",
+      "Form 8994",
+      "Form 1125-E",
+      "Form 8283",
+      "Form 8903",
+      "Form 1099-MISC",
+      "Form 6198",
+      "Form 1118",
+      "Form 8834",
+      "Form 4255",
+      "Form 8611",
+      "Form 8697",
+      "Form 8866",
+      "Form 8874",
+      "Form 8874-B",
+      "Form 1120-RIC",
+      "Schedule Q (Form 1120-F)",
+      "Schedule H",
+      "Schedule I",
+      "Schedule P",
+      "Schedule S",
+      "Schedule V",
+      "Schedule M-3",
+      "Schedule C",
+      "Schedule J",
+      "Schedule L",
+      "Schedule W",
+      "Schedule S (Form 1120-F)",
+      "Schedule I (Form 1120-F)",
+      "Schedule P (Form 1120-F)",
+      "Schedule K-1",
+      "Schedule V (Form 1120-F)",
+      "Schedule D (Form 1120)",
+      "Schedule M-3 (Form 1120-F)",
+      "Schedule M-1",
+      "Schedule M-1 (Form 1120-F)",
+      "Schedule H (Form 1120)",
+      "Schedule O (Form 1120)",
+      "Schedule UTP (Form 1120)",
+      "Schedule UTP",
+      "Schedule K-1 (Form 1065)",
+      "Schedule H (Form 1120-F)",
+      "Schedule O",
+      "Schedule M-2",
+      "Schedule II"
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i1120f",
+      "dateFetched": "2020-06-13T01:09:07.842Z",
+      "form": "Form 1120-F"
+    }
   },
   "Form 1120-FSC": {
     "raw": [
       "Form 1120-FSC",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 8991",
       "Form 8990",
       "Form 8873",
@@ -2551,6 +3335,7 @@ window.__map_data = {
       "Form 3115",
       "Form 1120-W",
       "Form 4466",
+      "Form 941",
       "Form 945",
       "Form 8822-B",
       "Form 2220",
@@ -2574,12 +3359,6 @@ window.__map_data = {
       "Schedule O"
     ],
     "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 8991",
       "Form 8990",
       "Form 8873",
@@ -2596,6 +3375,7 @@ window.__map_data = {
       "Form 3115",
       "Form 1120-W",
       "Form 4466",
+      "Form 941",
       "Form 945",
       "Form 8822-B",
       "Form 2220",
@@ -2617,17 +3397,16 @@ window.__map_data = {
       "Schedule D (Form 1120)",
       "Schedule O (Form 1120)",
       "Schedule O"
-    ]
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i1120fsc",
+      "dateFetched": "2020-06-13T01:09:07.371Z",
+      "form": "Form 1120-FSC"
+    }
   },
   "Form 1120-H": {
     "raw": [
       "Form 1120-H",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 1120",
       "Form 7004",
       "Form 8949",
@@ -2647,12 +3426,6 @@ window.__map_data = {
       "Schedule D (Form 1120)"
     ],
     "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 1120",
       "Form 7004",
       "Form 8949",
@@ -2670,17 +3443,16 @@ window.__map_data = {
       "Form 8874",
       "Form 8874-B",
       "Schedule D (Form 1120)"
-    ]
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i1120h",
+      "dateFetched": "2020-06-13T01:09:07.197Z",
+      "form": "Form 1120-H"
+    }
   },
   "Form 1120-IC-DISC": {
     "raw": [
       "Form 1120-IC-DISC",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 8992",
       "Form 8993",
       "Form 8990",
@@ -2690,6 +3462,7 @@ window.__map_data = {
       "Form 4136",
       "Form 3115",
       "Form 720",
+      "Form 941",
       "Form 944",
       "Form 945",
       "Form 8822-B",
@@ -2721,12 +3494,6 @@ window.__map_data = {
       "Schedule I"
     ],
     "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 8992",
       "Form 8993",
       "Form 8990",
@@ -2736,6 +3503,7 @@ window.__map_data = {
       "Form 4136",
       "Form 3115",
       "Form 720",
+      "Form 941",
       "Form 944",
       "Form 945",
       "Form 8822-B",
@@ -2765,17 +3533,16 @@ window.__map_data = {
       "Schedule Q (Form 1120-IC-DISC)",
       "Schedule K",
       "Schedule I"
-    ]
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i1120icd",
+      "dateFetched": "2020-06-13T01:09:07.460Z",
+      "form": "Form 1120-IC-DISC"
+    }
   },
   "Form 1120-L": {
     "raw": [
       "Form 1120-L",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 8997",
       "Form 8975",
       "Form 5500",
@@ -2798,6 +3565,7 @@ window.__map_data = {
       "Form 4466",
       "Form 2220",
       "Form 720",
+      "Form 941",
       "Form 944",
       "Form 945",
       "Form 3115",
@@ -2866,12 +3634,6 @@ window.__map_data = {
       "Schedule UTP"
     ],
     "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 8997",
       "Form 8975",
       "Form 5500",
@@ -2894,6 +3656,7 @@ window.__map_data = {
       "Form 4466",
       "Form 2220",
       "Form 720",
+      "Form 941",
       "Form 944",
       "Form 945",
       "Form 3115",
@@ -2960,17 +3723,230 @@ window.__map_data = {
       "Schedule O",
       "Schedule UTP (Form 1120)",
       "Schedule UTP"
-    ]
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i1120l",
+      "dateFetched": "2020-06-13T01:09:07.669Z",
+      "form": "Form 1120-L"
+    }
+  },
+  "Form 1120-ND": {
+    "raw": [
+      "Form 1120-ND",
+      "Form 1120",
+      "Form 7004",
+      "Form 1120-W",
+      "Form 4466",
+      "Form 8822-B",
+      "Form 8949",
+      "Form 2220",
+      "Schedule L",
+      "Schedule M",
+      "Schedule D (Form 1120)"
+    ],
+    "cleaned": [
+      "Form 1120",
+      "Form 7004",
+      "Form 1120-W",
+      "Form 4466",
+      "Form 8822-B",
+      "Form 8949",
+      "Form 2220",
+      "Schedule L",
+      "Schedule M",
+      "Schedule D (Form 1120)"
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i1120nd",
+      "dateFetched": "2020-06-13T01:09:06.530Z",
+      "form": "Form 1120-ND"
+    }
+  },
+  "Form 1120-PC": {
+    "raw": [
+      "Form 1120-PC",
+      "Form 8992",
+      "Form 8993",
+      "Form 8834",
+      "Form 8912",
+      "Form 8827",
+      "Form 4797",
+      "Form 5472",
+      "Form 5884-A",
+      "Form 990",
+      "Form 1120",
+      "Form 1120-L",
+      "Form 7004",
+      "Form 8991",
+      "Form 8302",
+      "Form 4136",
+      "Form 8941",
+      "Form 851",
+      "Form 1120-W",
+      "Form 4466",
+      "Form 2220",
+      "Form 720",
+      "Form 941",
+      "Form 944",
+      "Form 945",
+      "Form 3115",
+      "Form 8886",
+      "Form 8918",
+      "Form 1122",
+      "Form 8822-B",
+      "Form 8621",
+      "Form 1118",
+      "Form 3800",
+      "Form 4255",
+      "Form 8611",
+      "Form 8845",
+      "Form 8874",
+      "Form 8874-B",
+      "Form 8882",
+      "Form 8902",
+      "Form 965-B",
+      "Form 6478",
+      "Form 8864",
+      "Form 1065",
+      "Form 8925",
+      "Form 4562",
+      "Form 6765",
+      "Form 8820",
+      "Form 8826",
+      "Form 8846",
+      "Form 8881",
+      "Form 5884",
+      "Form 8844",
+      "Form 8932",
+      "Form 8994",
+      "Form 8990",
+      "Form 5500",
+      "Form 5500-SF",
+      "Form 5500-EZ",
+      "Form 8903",
+      "Form 8873",
+      "Form 1099",
+      "Form 1139",
+      "Form 1066",
+      "Form 5471",
+      "Form 965",
+      "Schedule M-3 (Form 1120-PC)",
+      "Schedule A",
+      "Schedule B",
+      "Schedule C",
+      "Schedule E",
+      "Schedule F",
+      "Schedule G",
+      "Schedule H",
+      "Schedule I",
+      "Schedule L",
+      "Schedule M-1",
+      "Schedule N (Form 1120)",
+      "Schedule D (Form 1120)",
+      "Schedule O (Form 1120)",
+      "Schedule M-3",
+      "Schedule O",
+      "Schedule PH (Form 1120)",
+      "Schedule K-1 (Form 1065)",
+      "Schedule UTP (Form 1120)",
+      "Schedule UTP"
+    ],
+    "cleaned": [
+      "Form 8992",
+      "Form 8993",
+      "Form 8834",
+      "Form 8912",
+      "Form 8827",
+      "Form 4797",
+      "Form 5472",
+      "Form 5884-A",
+      "Form 990",
+      "Form 1120",
+      "Form 1120-L",
+      "Form 7004",
+      "Form 8991",
+      "Form 8302",
+      "Form 4136",
+      "Form 8941",
+      "Form 851",
+      "Form 1120-W",
+      "Form 4466",
+      "Form 2220",
+      "Form 720",
+      "Form 941",
+      "Form 944",
+      "Form 945",
+      "Form 3115",
+      "Form 8886",
+      "Form 8918",
+      "Form 1122",
+      "Form 8822-B",
+      "Form 8621",
+      "Form 1118",
+      "Form 3800",
+      "Form 4255",
+      "Form 8611",
+      "Form 8845",
+      "Form 8874",
+      "Form 8874-B",
+      "Form 8882",
+      "Form 8902",
+      "Form 965-B",
+      "Form 6478",
+      "Form 8864",
+      "Form 1065",
+      "Form 8925",
+      "Form 4562",
+      "Form 6765",
+      "Form 8820",
+      "Form 8826",
+      "Form 8846",
+      "Form 8881",
+      "Form 5884",
+      "Form 8844",
+      "Form 8932",
+      "Form 8994",
+      "Form 8990",
+      "Form 5500",
+      "Form 5500-SF",
+      "Form 5500-EZ",
+      "Form 8903",
+      "Form 8873",
+      "Form 1099",
+      "Form 1139",
+      "Form 1066",
+      "Form 5471",
+      "Form 965",
+      "Schedule M-3 (Form 1120-PC)",
+      "Schedule A",
+      "Schedule B",
+      "Schedule C",
+      "Schedule E",
+      "Schedule F",
+      "Schedule G",
+      "Schedule H",
+      "Schedule I",
+      "Schedule L",
+      "Schedule M-1",
+      "Schedule N (Form 1120)",
+      "Schedule D (Form 1120)",
+      "Schedule O (Form 1120)",
+      "Schedule M-3",
+      "Schedule O",
+      "Schedule PH (Form 1120)",
+      "Schedule K-1 (Form 1065)",
+      "Schedule UTP (Form 1120)",
+      "Schedule UTP"
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i1120pc",
+      "dateFetched": "2020-06-13T01:09:07.695Z",
+      "form": "Form 1120-PC"
+    }
   },
   "Form 1120-REIT": {
     "raw": [
       "Form 1120-REIT",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 926",
       "Form 965",
       "Form 965-B",
@@ -3014,6 +3990,7 @@ window.__map_data = {
       "Form 1120-W",
       "Form 4466",
       "Form 720",
+      "Form 941",
       "Form 943",
       "Form 944",
       "Form 945",
@@ -3063,12 +4040,6 @@ window.__map_data = {
       "Schedule O (Form 1120)"
     ],
     "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 926",
       "Form 965",
       "Form 965-B",
@@ -3112,6 +4083,7 @@ window.__map_data = {
       "Form 1120-W",
       "Form 4466",
       "Form 720",
+      "Form 941",
       "Form 943",
       "Form 944",
       "Form 945",
@@ -3159,17 +4131,16 @@ window.__map_data = {
       "Schedule K-1 (Form 1065)",
       "Schedule K-1",
       "Schedule O (Form 1120)"
-    ]
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i1120rei",
+      "dateFetched": "2020-06-13T01:09:07.664Z",
+      "form": "Form 1120-REIT"
+    }
   },
   "Form 1120-RIC": {
     "raw": [
       "Form 1120-RIC",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 965",
       "Form 965-B",
       "Form 976",
@@ -3203,6 +4174,7 @@ window.__map_data = {
       "Form 1120-W",
       "Form 4466",
       "Form 720",
+      "Form 941",
       "Form 944",
       "Form 945",
       "Form 3115",
@@ -3245,12 +4217,6 @@ window.__map_data = {
       "Schedule PH (Form 1120)"
     ],
     "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 965",
       "Form 965-B",
       "Form 976",
@@ -3284,6 +4250,7 @@ window.__map_data = {
       "Form 1120-W",
       "Form 4466",
       "Form 720",
+      "Form 941",
       "Form 944",
       "Form 945",
       "Form 3115",
@@ -3324,17 +4291,16 @@ window.__map_data = {
       "Schedule K-1 (Form 1065)",
       "Schedule O (Form 1120)",
       "Schedule PH (Form 1120)"
-    ]
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i1120ric",
+      "dateFetched": "2020-06-13T01:09:07.599Z",
+      "form": "Form 1120-RIC"
+    }
   },
   "Form 1120-S": {
     "raw": [
       "Form 1120-S",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 8975",
       "Form 4797",
       "Form 8990",
@@ -3354,6 +4320,7 @@ window.__map_data = {
       "Form 6252",
       "Form 2220",
       "Form 720",
+      "Form 941",
       "Form 943",
       "Form 944",
       "Form 945",
@@ -3388,6 +4355,7 @@ window.__map_data = {
       "Form 8932",
       "Form 8994",
       "Form 1125-E",
+      "Form 1040",
       "Form 4952",
       "Form 5500",
       "Form 5500-SF",
@@ -3451,12 +4419,6 @@ window.__map_data = {
       "Schedule I (Form 1041)"
     ],
     "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 8975",
       "Form 4797",
       "Form 8990",
@@ -3476,6 +4438,7 @@ window.__map_data = {
       "Form 6252",
       "Form 2220",
       "Form 720",
+      "Form 941",
       "Form 943",
       "Form 944",
       "Form 945",
@@ -3510,6 +4473,7 @@ window.__map_data = {
       "Form 8932",
       "Form 8994",
       "Form 1125-E",
+      "Form 1040",
       "Form 4952",
       "Form 5500",
       "Form 5500-SF",
@@ -3571,17 +4535,16 @@ window.__map_data = {
       "Schedule Q (Form 1066)",
       "Schedule Q",
       "Schedule I (Form 1041)"
-    ]
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i1120s",
+      "dateFetched": "2020-06-13T01:09:07.977Z",
+      "form": "Form 1120-S"
+    }
   },
   "Form 1120-SF": {
     "raw": [
       "Form 1120-SF",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 1120",
       "Form 7004",
       "Form 1120-W",
@@ -3593,12 +4556,6 @@ window.__map_data = {
       "Schedule D (Form 1120)"
     ],
     "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 1120",
       "Form 7004",
       "Form 1120-W",
@@ -3608,17 +4565,16 @@ window.__map_data = {
       "Form 8949",
       "Form 2220",
       "Schedule D (Form 1120)"
-    ]
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i1120sf",
+      "dateFetched": "2020-06-13T01:09:06.117Z",
+      "form": "Form 1120-SF"
+    }
   },
   "Form 1120-W": {
     "raw": [
       "Form 1120-W",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 1120-S",
       "Form 2220",
       "Form 4466",
@@ -3630,12 +4586,6 @@ window.__map_data = {
       "Schedule J"
     ],
     "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 1120-S",
       "Form 2220",
       "Form 4466",
@@ -3645,17 +4595,16 @@ window.__map_data = {
       "Form 8842",
       "Schedule A",
       "Schedule J"
-    ]
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i1120w",
+      "dateFetched": "2020-06-13T01:09:05.806Z",
+      "form": "Form 1120-W"
+    }
   },
   "Form 1120": {
     "raw": [
       "Form 1120",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 8975",
       "Form 5500",
       "Form 5500-SF",
@@ -3688,6 +4637,7 @@ window.__map_data = {
       "Form 4466",
       "Form 2220",
       "Form 720",
+      "Form 941",
       "Form 943",
       "Form 944",
       "Form 945",
@@ -3770,12 +4720,6 @@ window.__map_data = {
       "Schedule UTP"
     ],
     "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 8975",
       "Form 5500",
       "Form 5500-SF",
@@ -3808,6 +4752,7 @@ window.__map_data = {
       "Form 4466",
       "Form 2220",
       "Form 720",
+      "Form 941",
       "Form 943",
       "Form 944",
       "Form 945",
@@ -3888,51 +4833,74 @@ window.__map_data = {
       "Schedule G (Form 1120)",
       "Schedule UTP (Form 1120)",
       "Schedule UTP"
-    ]
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i1120",
+      "dateFetched": "2020-06-13T01:09:07.798Z",
+      "form": "Form 1120"
+    }
+  },
+  "Form 1125-E": {
+    "raw": [
+      "Form 1125-E",
+      "Form 1120",
+      "Form 1120-C",
+      "Form 1120-F",
+      "Form 1120-RIC",
+      "Form 2438",
+      "Form 1120-REIT",
+      "Form 8825",
+      "Schedule K"
+    ],
+    "cleaned": [
+      "Form 1120",
+      "Form 1120-C",
+      "Form 1120-F",
+      "Form 1120-RIC",
+      "Form 2438",
+      "Form 1120-REIT",
+      "Form 8825",
+      "Schedule K"
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i1125e",
+      "dateFetched": "2020-06-13T01:09:05.949Z",
+      "form": "Form 1125-E"
+    }
   },
   "Form 1128": {
     "raw": [
       "Form 1128",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 8716",
       "Form 2553",
       "Form 5308",
+      "Form 2848",
       "Form 5471",
       "Form 990-T",
       null
     ],
     "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 8716",
       "Form 2553",
       "Form 5308",
+      "Form 2848",
       "Form 5471",
       "Form 990-T"
-    ]
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i1128",
+      "dateFetched": "2020-06-13T01:09:06.827Z",
+      "form": "Form 1128"
+    }
   },
   "Form 1139": {
     "raw": [
       "Form 1139",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 1138",
       "Form 1120",
       "Form 3800",
       "Form 8302",
+      "Form 2848",
       "Form 1120-PC",
       "Form 4626",
       "Form 8991",
@@ -3941,33 +4909,28 @@ window.__map_data = {
       "Schedule J"
     ],
     "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 1138",
       "Form 1120",
       "Form 3800",
       "Form 8302",
+      "Form 2848",
       "Form 1120-PC",
       "Form 4626",
       "Form 8991",
       "Schedule K",
       "Schedule D (Form 1120)",
       "Schedule J"
-    ]
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i1139",
+      "dateFetched": "2020-06-13T01:09:05.773Z",
+      "form": "Form 1139"
+    }
   },
   "Form 2106": {
     "raw": [
       "Form 2106",
       "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 4562",
       "Form 1040-NR",
       "Form 8863",
@@ -3982,11 +4945,6 @@ window.__map_data = {
     ],
     "cleaned": [
       "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 4562",
       "Form 1040-NR",
       "Form 8863",
@@ -3998,22 +4956,22 @@ window.__map_data = {
       "Schedule C",
       "Schedule E",
       "Schedule F"
-    ]
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i2106",
+      "dateFetched": "2020-06-13T01:09:05.926Z",
+      "form": "Form 2106"
+    }
   },
   "Form 2210-F": {
     "raw": [
       "Form 2210-F",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 8689",
       "Form 8959",
       "Form 8960",
       "Form 8962",
       "Form 8885",
+      "Form 1040",
       "Form 1040-NR",
       "Form 1041",
       "Form 8621",
@@ -4025,17 +4983,12 @@ window.__map_data = {
       "Schedule 3"
     ],
     "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 8689",
       "Form 8959",
       "Form 8960",
       "Form 8962",
       "Form 8885",
+      "Form 1040",
       "Form 1040-NR",
       "Form 1041",
       "Form 8621",
@@ -4045,17 +4998,16 @@ window.__map_data = {
       "Schedule 1",
       "Schedule 2",
       "Schedule 3"
-    ]
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i2210f",
+      "dateFetched": "2020-06-13T01:09:05.416Z",
+      "form": "Form 2210-F"
+    }
   },
   "Form 2210": {
     "raw": [
       "Form 2210",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 8689",
       "Form 1040-NR",
       "Form 8995-A",
@@ -4063,6 +5015,7 @@ window.__map_data = {
       "Form 8959",
       "Form 8960",
       "Form 8962",
+      "Form 1040",
       "Form 2210-F",
       "Form 1040-NR-EZ",
       "Form 1041",
@@ -4090,12 +5043,6 @@ window.__map_data = {
       "Schedule SE"
     ],
     "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 8689",
       "Form 1040-NR",
       "Form 8995-A",
@@ -4103,6 +5050,7 @@ window.__map_data = {
       "Form 8959",
       "Form 8960",
       "Form 8962",
+      "Form 1040",
       "Form 2210-F",
       "Form 1040-NR-EZ",
       "Form 1041",
@@ -4128,17 +5076,16 @@ window.__map_data = {
       "Schedule D (Form 1040)",
       "Schedule I (Form 1041)",
       "Schedule SE"
-    ]
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i2210",
+      "dateFetched": "2020-06-13T01:09:07.150Z",
+      "form": "Form 2210"
+    }
   },
   "Form 2220": {
     "raw": [
       "Form 2220",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 1120",
       "Form 1120-C",
       "Form 990-PF",
@@ -4151,12 +5098,6 @@ window.__map_data = {
       "Schedule A (Form 2220)"
     ],
     "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 1120",
       "Form 1120-C",
       "Form 990-PF",
@@ -4167,18 +5108,48 @@ window.__map_data = {
       "Schedule J",
       "Schedule I (Form 1041)",
       "Schedule A (Form 2220)"
-    ]
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i2220",
+      "dateFetched": "2020-06-13T01:09:05.620Z",
+      "form": "Form 2220"
+    }
+  },
+  "Form 2290": {
+    "raw": [
+      "Form 2290",
+      "Form 2290-V",
+      "Form 8849",
+      "Form 4506-T",
+      "Form 4506",
+      "Form 1040",
+      "Schedule 1 (Form 2290)",
+      "Schedule 1",
+      "Schedule 6 (Form 8849)",
+      "Schedule A (Form 1040)"
+    ],
+    "cleaned": [
+      "Form 2290-V",
+      "Form 8849",
+      "Form 4506-T",
+      "Form 4506",
+      "Form 1040",
+      "Schedule 1 (Form 2290)",
+      "Schedule 1",
+      "Schedule 6 (Form 8849)",
+      "Schedule A (Form 1040)"
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i2290",
+      "dateFetched": "2020-06-13T01:09:07.438Z",
+      "form": "Form 2290"
+    }
   },
   "Form 2441": {
     "raw": [
       "Form 2441",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 1065",
+      "Form 1040",
       "Form 1040-NR",
       "Form 2555",
       "Schedule K-1 (Form 1065)",
@@ -4191,13 +5162,8 @@ window.__map_data = {
       "Schedule F"
     ],
     "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 1065",
+      "Form 1040",
       "Form 1040-NR",
       "Form 2555",
       "Schedule K-1 (Form 1065)",
@@ -4208,17 +5174,16 @@ window.__map_data = {
       "Schedule 3",
       "Schedule E",
       "Schedule F"
-    ]
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i2441",
+      "dateFetched": "2020-06-13T01:09:04.571Z",
+      "form": "Form 2441"
+    }
   },
   "Form 2553": {
     "raw": [
       "Form 2553",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 8832",
       "Form 1120",
       "Form 8869",
@@ -4227,56 +5192,93 @@ window.__map_data = {
       null
     ],
     "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 8832",
       "Form 1120",
       "Form 8869",
       "Form 1128",
       "Form 8716"
-    ]
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i2553",
+      "dateFetched": "2020-06-13T01:09:05.205Z",
+      "form": "Form 2553"
+    }
   },
   "Form 2555": {
     "raw": [
       "Form 2555",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 2555-EZ",
+      "Form 1040",
       "Form 2350",
+      "Form 1040-X",
       "Form 6251",
       "Schedule 1",
       "Schedule C"
     ],
     "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 2555-EZ",
+      "Form 1040",
       "Form 2350",
+      "Form 1040-X",
       "Form 6251",
       "Schedule 1",
       "Schedule C"
-    ]
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i2555",
+      "dateFetched": "2020-06-13T01:09:05.996Z",
+      "form": "Form 2555"
+    }
+  },
+  "Form 2848": {
+    "raw": [
+      "Form 2848",
+      "Form 8821",
+      "Form 56",
+      "Form 2555",
+      "Form 8822",
+      "Form 8822-B",
+      "Form 1040",
+      "Form 1120",
+      "Form 720",
+      "Form 940",
+      "Form 941",
+      "Form 8952",
+      "Form 1065",
+      "Form 8857",
+      "Form 843",
+      "Form 4361",
+      "Form 8453",
+      "Schedule C"
+    ],
+    "cleaned": [
+      "Form 8821",
+      "Form 56",
+      "Form 2555",
+      "Form 8822",
+      "Form 8822-B",
+      "Form 1040",
+      "Form 1120",
+      "Form 720",
+      "Form 940",
+      "Form 941",
+      "Form 8952",
+      "Form 1065",
+      "Form 8857",
+      "Form 843",
+      "Form 4361",
+      "Form 8453",
+      "Schedule C"
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i2848",
+      "dateFetched": "2020-06-13T01:09:07.035Z",
+      "form": "Form 2848"
+    }
   },
   "Form 3115": {
     "raw": [
       "Form 3115",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
       "Form 2848",
       "Form 970",
       "Schedule AC",
@@ -4292,11 +5294,6 @@ window.__map_data = {
       "Schedule M-3"
     ],
     "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
       "Form 2848",
       "Form 970",
       "Schedule AC",
@@ -4310,17 +5307,16 @@ window.__map_data = {
       "Schedule C",
       "Schedule E",
       "Schedule M-3"
-    ]
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i3115",
+      "dateFetched": "2020-06-13T01:09:07.707Z",
+      "form": "Form 3115"
+    }
   },
   "Form 3468": {
     "raw": [
       "Form 3468",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 8453",
       "Form 4255",
       "Form 3800",
@@ -4328,27 +5324,20 @@ window.__map_data = {
       null
     ],
     "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 8453",
       "Form 4255",
       "Form 3800",
       "Form 10"
-    ]
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i3468",
+      "dateFetched": "2020-06-13T01:09:07.182Z",
+      "form": "Form 3468"
+    }
   },
   "Form 3520-A": {
     "raw": [
       "Form 3520-A",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 3520",
       "Form 7004",
       "Form 8938",
@@ -4359,12 +5348,6 @@ window.__map_data = {
       "Schedule D"
     ],
     "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 3520",
       "Form 7004",
       "Form 8938",
@@ -4373,21 +5356,21 @@ window.__map_data = {
       "Form 4972",
       "Schedule K-1",
       "Schedule D"
-    ]
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i3520a",
+      "dateFetched": "2020-06-13T01:09:07.157Z",
+      "form": "Form 3520-A"
+    }
   },
   "Form 3520": {
     "raw": [
       "Form 3520",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 3520-A",
       "Form 114",
       "Form 8938",
       "Form 8082",
+      "Form 1040",
       "Form 1040-SR",
       "Form 706",
       "Form 4868",
@@ -4402,16 +5385,11 @@ window.__map_data = {
       "Schedule 2"
     ],
     "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 3520-A",
       "Form 114",
       "Form 8938",
       "Form 8082",
+      "Form 1040",
       "Form 1040-SR",
       "Form 706",
       "Form 4868",
@@ -4424,23 +5402,23 @@ window.__map_data = {
       "Schedule E",
       "Schedule D",
       "Schedule 2"
-    ]
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i3520",
+      "dateFetched": "2020-06-13T01:09:07.425Z",
+      "form": "Form 3520"
+    }
   },
   "Form 3800": {
     "raw": [
       "Form 3800",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 6478",
       "Form 3468",
       "Form 8865",
       "Form 1041",
       "Form 1120-C",
       "Form 4255",
+      "Form 1040",
       "Form 1120",
       "Form 1045",
       "Form 1139",
@@ -4490,18 +5468,13 @@ window.__map_data = {
       "Schedule G"
     ],
     "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 6478",
       "Form 3468",
       "Form 8865",
       "Form 1041",
       "Form 1120-C",
       "Form 4255",
+      "Form 1040",
       "Form 1120",
       "Form 1045",
       "Form 1139",
@@ -4549,45 +5522,55 @@ window.__map_data = {
       "Schedule J",
       "Schedule 3",
       "Schedule G"
-    ]
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i3800",
+      "dateFetched": "2020-06-13T01:09:04.774Z",
+      "form": "Form 3800"
+    }
   },
   "Form 3903": {
     "raw": [
       "Form 3903",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 2555",
+      "Form 1040",
       "Form 1040-NR",
       "Schedule 1"
     ],
     "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 2555",
+      "Form 1040",
       "Form 1040-NR",
       "Schedule 1"
-    ]
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i3903",
+      "dateFetched": "2020-06-13T01:09:05.444Z",
+      "form": "Form 3903"
+    }
+  },
+  "Form 3921": {
+    "raw": [
+      "Form 3921",
+      "Form 3922",
+      null
+    ],
+    "cleaned": [
+      "Form 3922"
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i3921",
+      "dateFetched": "2020-06-13T01:09:04.498Z",
+      "form": "Form 3921"
+    }
   },
   "Form 4136": {
     "raw": [
       "Form 4136",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 8849",
       "Form 720",
       "Form 1065",
+      "Form 1040",
       "Form 637",
       "Schedule 3 (Form 8849)",
       "Schedule C",
@@ -4595,31 +5578,55 @@ window.__map_data = {
       "Schedule 3"
     ],
     "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 8849",
       "Form 720",
       "Form 1065",
+      "Form 1040",
       "Form 637",
       "Schedule 3 (Form 8849)",
       "Schedule C",
       "Schedule K-1 (Form 1065)",
       "Schedule 3"
-    ]
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i4136",
+      "dateFetched": "2020-06-13T01:09:06.346Z",
+      "form": "Form 4136"
+    }
+  },
+  "Form 4255": {
+    "raw": [
+      "Form 4255",
+      "Form 3468",
+      "Form 3800",
+      "Form 1120",
+      "Form 1065",
+      "Form 1041",
+      "Schedule K-1",
+      "Schedule J",
+      "Schedule K",
+      "Schedule G"
+    ],
+    "cleaned": [
+      "Form 3468",
+      "Form 3800",
+      "Form 1120",
+      "Form 1065",
+      "Form 1041",
+      "Schedule K-1",
+      "Schedule J",
+      "Schedule K",
+      "Schedule G"
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i4255",
+      "dateFetched": "2020-06-13T01:09:06.434Z",
+      "form": "Form 4255"
+    }
   },
   "Form 4506-A": {
     "raw": [
       "Form 4506-A",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 8871",
       "Form 8872",
       "Form 990-N",
@@ -4630,12 +5637,6 @@ window.__map_data = {
       null
     ],
     "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 8871",
       "Form 8872",
       "Form 990-N",
@@ -4643,18 +5644,18 @@ window.__map_data = {
       "Form 4506",
       "Form 1023",
       "Form 1024"
-    ]
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i4506a",
+      "dateFetched": "2020-06-13T01:09:05.070Z",
+      "form": "Form 4506-A"
+    }
   },
   "Form 4562": {
     "raw": [
       "Form 4562",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 3115",
+      "Form 1040",
       "Form 1120-S",
       "Form 2106",
       "Form 6251",
@@ -4671,13 +5672,8 @@ window.__map_data = {
       "Schedule K"
     ],
     "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 3115",
+      "Form 1040",
       "Form 1120-S",
       "Form 2106",
       "Form 6251",
@@ -4692,20 +5688,73 @@ window.__map_data = {
       "Schedule K-1 (Form 1120-S)",
       "Schedule A",
       "Schedule K"
-    ]
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i4562",
+      "dateFetched": "2020-06-13T01:09:04.924Z",
+      "form": "Form 4562"
+    }
+  },
+  "Form 4626": {
+    "raw": [
+      "Form 4626",
+      "Form 8827",
+      "Form 1120",
+      "Form 8810",
+      "Form 4684",
+      "Form 4797",
+      "Form 1041",
+      "Form 1065-B",
+      "Form 1066",
+      "Form 1118",
+      "Form 4970",
+      "Form 4255",
+      "Form 8611",
+      "Form 4562",
+      "Schedule D (Form 1120)",
+      "Schedule K-1 (Form 1041)",
+      "Schedule K-1 (Form 1065-B)",
+      "Schedule(s) Q (Form 1066)",
+      "Schedule A",
+      "Schedule B",
+      "Schedule J"
+    ],
+    "cleaned": [
+      "Form 8827",
+      "Form 1120",
+      "Form 8810",
+      "Form 4684",
+      "Form 4797",
+      "Form 1041",
+      "Form 1065-B",
+      "Form 1066",
+      "Form 1118",
+      "Form 4970",
+      "Form 4255",
+      "Form 8611",
+      "Form 4562",
+      "Schedule D (Form 1120)",
+      "Schedule K-1 (Form 1041)",
+      "Schedule K-1 (Form 1065-B)",
+      "Schedule Q (Form 1066)",
+      "Schedule A",
+      "Schedule B",
+      "Schedule J"
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i4626",
+      "dateFetched": "2020-06-13T01:09:07.393Z",
+      "form": "Form 4626"
+    }
   },
   "Form 4684": {
     "raw": [
       "Form 4684",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 6251",
+      "Form 1040",
       "Form 1040-NR",
       "Form 1120",
+      "Form 1040-X",
       "Form 8949",
       "Form 8997",
       "Form 8939",
@@ -4724,15 +5773,11 @@ window.__map_data = {
       "Schedule K"
     ],
     "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 6251",
+      "Form 1040",
       "Form 1040-NR",
       "Form 1120",
+      "Form 1040-X",
       "Form 8949",
       "Form 8997",
       "Form 8939",
@@ -4749,17 +5794,92 @@ window.__map_data = {
       "Schedule K-1",
       "Schedule 1",
       "Schedule K"
-    ]
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i4684",
+      "dateFetched": "2020-06-13T01:09:06.602Z",
+      "form": "Form 4684"
+    }
+  },
+  "Form 4720": {
+    "raw": [
+      "Form 4720",
+      "Form 990-PF",
+      "Form 5227",
+      "Form 990",
+      "Form 8886-T",
+      "Form 5330",
+      "Form 990-EZ",
+      "Form 8868",
+      "Form 843",
+      "Form 8870",
+      "Form 990-T",
+      "Form 1041",
+      "Form 990-W",
+      "Form 1065",
+      "Form 940",
+      "Schedule A",
+      "Schedule B",
+      "Schedule C",
+      "Schedule D",
+      "Schedule E",
+      "Schedule F",
+      "Schedule G",
+      "Schedule H",
+      "Schedule I",
+      "Schedule J",
+      "Schedule K",
+      "Schedule L",
+      "Schedule M",
+      "Schedule N",
+      "Schedule O",
+      "Schedule D (Form 1041)",
+      "Schedule H (Form 990)",
+      "Schedule K-1"
+    ],
+    "cleaned": [
+      "Form 990-PF",
+      "Form 5227",
+      "Form 990",
+      "Form 8886-T",
+      "Form 5330",
+      "Form 990-EZ",
+      "Form 8868",
+      "Form 843",
+      "Form 8870",
+      "Form 990-T",
+      "Form 1041",
+      "Form 990-W",
+      "Form 1065",
+      "Form 940",
+      "Schedule A",
+      "Schedule B",
+      "Schedule C",
+      "Schedule D",
+      "Schedule E",
+      "Schedule F",
+      "Schedule G",
+      "Schedule H",
+      "Schedule I",
+      "Schedule J",
+      "Schedule K",
+      "Schedule L",
+      "Schedule M",
+      "Schedule N",
+      "Schedule O",
+      "Schedule D (Form 1041)",
+      "Schedule H (Form 990)",
+      "Schedule K-1"
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i4720",
+      "dateFetched": "2020-06-13T01:09:07.615Z",
+      "form": "Form 4720"
+    }
   },
   "Form 4768": {
     "raw": [
       "Form 4768",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 706",
       "Form 4768-A",
       "Form 706-A",
@@ -4767,16 +5887,11 @@ window.__map_data = {
       "Form 706-NA",
       "Form 706-GS",
       "Form 7004",
+      "Form 2848",
       "Form 8821",
       null
     ],
     "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 706",
       "Form 4768-A",
       "Form 706-A",
@@ -4784,17 +5899,144 @@ window.__map_data = {
       "Form 706-NA",
       "Form 706-GS",
       "Form 7004",
+      "Form 2848",
       "Form 8821"
-    ]
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i4768",
+      "dateFetched": "2020-06-13T01:09:05.602Z",
+      "form": "Form 4768"
+    }
+  },
+  "Form 4797": {
+    "raw": [
+      "Form 4797",
+      "Form 4684",
+      "Form 6252",
+      "Form 8824",
+      "Form 4255",
+      "Form 8949",
+      "Form 6198",
+      "Form 8997",
+      "Form 1040",
+      "Form 8594",
+      "Form 8582",
+      "Form 8810",
+      "Form 8582-CR",
+      "Form 8939",
+      "Form 1065",
+      "Form 1120-S",
+      "Form 4562",
+      "Schedule D",
+      "Schedule K-1",
+      "Schedule K-1 (Form 1120-S)",
+      "Schedule K-1 (Form 1065)",
+      "Schedule A",
+      "Schedule C"
+    ],
+    "cleaned": [
+      "Form 4684",
+      "Form 6252",
+      "Form 8824",
+      "Form 4255",
+      "Form 8949",
+      "Form 6198",
+      "Form 8997",
+      "Form 1040",
+      "Form 8594",
+      "Form 8582",
+      "Form 8810",
+      "Form 8582-CR",
+      "Form 8939",
+      "Form 1065",
+      "Form 1120-S",
+      "Form 4562",
+      "Schedule D",
+      "Schedule K-1",
+      "Schedule K-1 (Form 1120-S)",
+      "Schedule K-1 (Form 1065)",
+      "Schedule A",
+      "Schedule C"
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i4797",
+      "dateFetched": "2020-06-13T01:09:07.415Z",
+      "form": "Form 4797"
+    }
+  },
+  "Form 5227": {
+    "raw": [
+      "Form 5227",
+      "Form 926",
+      "Form 8582",
+      "Form 8621",
+      "Form 1041-B",
+      "Form 1041-A",
+      "Form 56",
+      "Form 1041",
+      "Form 1041-ES",
+      "Form 4720",
+      "Form 8275",
+      "Form 8275-R",
+      "Form 8822-B",
+      "Form 8868",
+      "Form 8870",
+      "Form 8886",
+      "Form 3115",
+      "Form 1040",
+      "Form 4835",
+      "Form 4797",
+      "Form 8949",
+      "Form 114",
+      "Form 8960",
+      "Schedule A",
+      "Schedule K-1",
+      "Schedule E",
+      "Schedule C",
+      "Schedule K-1 (Form 1041)",
+      "Schedule F",
+      "Schedule D (Form 1041)"
+    ],
+    "cleaned": [
+      "Form 926",
+      "Form 8582",
+      "Form 8621",
+      "Form 1041-B",
+      "Form 1041-A",
+      "Form 56",
+      "Form 1041",
+      "Form 1041-ES",
+      "Form 4720",
+      "Form 8275",
+      "Form 8275-R",
+      "Form 8822-B",
+      "Form 8868",
+      "Form 8870",
+      "Form 8886",
+      "Form 3115",
+      "Form 1040",
+      "Form 4835",
+      "Form 4797",
+      "Form 8949",
+      "Form 114",
+      "Form 8960",
+      "Schedule A",
+      "Schedule K-1",
+      "Schedule E",
+      "Schedule C",
+      "Schedule K-1 (Form 1041)",
+      "Schedule F",
+      "Schedule D (Form 1041)"
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i5227",
+      "dateFetched": "2020-06-13T01:09:07.051Z",
+      "form": "Form 5227"
+    }
   },
   "Form 5300": {
     "raw": [
       "Form 5300",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
       "Form 2848",
       "Form 8821",
       "Form 5310",
@@ -4807,11 +6049,6 @@ window.__map_data = {
       null
     ],
     "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
       "Form 2848",
       "Form 8821",
       "Form 5310",
@@ -4821,16 +6058,16 @@ window.__map_data = {
       "Form 5309",
       "Form 5500",
       "Form 5310-A"
-    ]
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i5300",
+      "dateFetched": "2020-06-13T01:09:06.876Z",
+      "form": "Form 5300"
+    }
   },
   "Form 5307": {
     "raw": [
       "Form 5307",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
       "Form 2848",
       "Form 8821",
       "Form 5300",
@@ -4844,11 +6081,6 @@ window.__map_data = {
       null
     ],
     "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
       "Form 2848",
       "Form 8821",
       "Form 5300",
@@ -4859,16 +6091,37 @@ window.__map_data = {
       "Form 1120",
       "Form 990",
       "Form 5310-A"
-    ]
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i5307",
+      "dateFetched": "2020-06-13T01:09:06.874Z",
+      "form": "Form 5307"
+    }
+  },
+  "Form 5310-A": {
+    "raw": [
+      "Form 5310-A",
+      "Form 2848",
+      "Form 5300",
+      "Form 5500",
+      "Form 8821",
+      null
+    ],
+    "cleaned": [
+      "Form 2848",
+      "Form 5300",
+      "Form 5500",
+      "Form 8821"
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i5310a",
+      "dateFetched": "2020-06-13T01:09:06.282Z",
+      "form": "Form 5310-A"
+    }
   },
   "Form 5310": {
     "raw": [
       "Form 5310",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
       "Form 2848",
       "Form 8821",
       "Form 5300",
@@ -4882,11 +6135,6 @@ window.__map_data = {
       null
     ],
     "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
       "Form 2848",
       "Form 8821",
       "Form 5300",
@@ -4897,22 +6145,23 @@ window.__map_data = {
       "Form 1120",
       "Form 990",
       "Form 5310-A"
-    ]
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i5310",
+      "dateFetched": "2020-06-13T01:09:06.624Z",
+      "form": "Form 5310"
+    }
   },
   "Form 5329": {
     "raw": [
       "Form 5329",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 8915-C",
       "Form 8915-D",
       "Form 8606",
       "Form 1099-R",
+      "Form 1040",
       "Form 1040-NR",
+      "Form 1040-X",
       "Form 8853",
       "Form 8889",
       "Form 1041",
@@ -4921,34 +6170,29 @@ window.__map_data = {
       "Schedule G"
     ],
     "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 8915-C",
       "Form 8915-D",
       "Form 8606",
       "Form 1099-R",
+      "Form 1040",
       "Form 1040-NR",
+      "Form 1040-X",
       "Form 8853",
       "Form 8889",
       "Form 1041",
       "Schedule 2",
       "Schedule 1",
       "Schedule G"
-    ]
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i5329",
+      "dateFetched": "2020-06-13T01:09:06.941Z",
+      "form": "Form 5329"
+    }
   },
   "Form 5330": {
     "raw": [
       "Form 5330",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 5500",
       "Form 5558",
       "Schedule A",
@@ -4964,12 +6208,6 @@ window.__map_data = {
       "Schedule K"
     ],
     "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 5500",
       "Form 5558",
       "Schedule A",
@@ -4983,42 +6221,36 @@ window.__map_data = {
       "Schedule I",
       "Schedule J",
       "Schedule K"
-    ]
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i5330",
+      "dateFetched": "2020-06-13T01:09:07.366Z",
+      "form": "Form 5330"
+    }
   },
   "Form 5405": {
     "raw": [
       "Form 5405",
       "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 1040-NR",
       "Schedule 2",
       "Schedule 2 (Form 1040)"
     ],
     "cleaned": [
       "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 1040-NR",
       "Schedule 2",
       "Schedule 2 (Form 1040)"
-    ]
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i5405",
+      "dateFetched": "2020-06-13T01:09:05.989Z",
+      "form": "Form 5405"
+    }
   },
   "Form 5471": {
     "raw": [
       "Form 5471",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 8858",
       "Form 965",
       "Form 1120-FSC",
@@ -5028,6 +6260,7 @@ window.__map_data = {
       "Form 8938",
       "Form 8833",
       "Form 1120-F",
+      "Form 1040",
       "Form 8832",
       "Form 1042",
       "Form 8993",
@@ -5067,12 +6300,6 @@ window.__map_data = {
       "Schedule D"
     ],
     "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 8858",
       "Form 965",
       "Form 1120-FSC",
@@ -5082,6 +6309,7 @@ window.__map_data = {
       "Form 8938",
       "Form 8833",
       "Form 1120-F",
+      "Form 1040",
       "Form 8832",
       "Form 1042",
       "Form 8993",
@@ -5119,17 +6347,16 @@ window.__map_data = {
       "Schedule B (Form 5713)",
       "Schedule E-1 (Form 5471)",
       "Schedule D"
-    ]
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i5471",
+      "dateFetched": "2020-06-13T01:09:07.744Z",
+      "form": "Form 5471"
+    }
   },
   "Form 5472": {
     "raw": [
       "Form 5472",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 8832",
       "Form 5471",
       "Form 1120-FSC",
@@ -5143,12 +6370,6 @@ window.__map_data = {
       "Schedule L"
     ],
     "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 8832",
       "Form 5471",
       "Form 1120-FSC",
@@ -5160,41 +6381,33 @@ window.__map_data = {
       "Form 8993",
       "Schedule M (Form 5471)",
       "Schedule L"
-    ]
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i5472",
+      "dateFetched": "2020-06-13T01:09:06.339Z",
+      "form": "Form 5472"
+    }
   },
   "Form 5498-ESA": {
     "raw": [
       "Form 5498-ESA",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 1096",
       "Form 1099-Q",
       null
     ],
     "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 1096",
       "Form 1099-Q"
-    ]
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i5498e",
+      "dateFetched": "2020-06-13T01:09:06.208Z",
+      "form": "Form 5498-ESA"
+    }
   },
   "Form 5500-EZ": {
     "raw": [
       "Form 5500-EZ",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 5500-SF",
       "Form 5500",
       "Form 5558",
@@ -5207,12 +6420,6 @@ window.__map_data = {
       "Schedule SB"
     ],
     "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 5500-SF",
       "Form 5500",
       "Form 5558",
@@ -5223,74 +6430,43 @@ window.__map_data = {
       "Schedule SB (Form 5500)",
       "Schedule MB",
       "Schedule SB"
-    ]
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i5500ez",
+      "dateFetched": "2020-06-13T01:09:07.339Z",
+      "form": "Form 5500-EZ"
+    }
   },
-  "Form 5500-SF": {
+  "Form 56": {
     "raw": [
-      "Form 5500-SF",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
+      "Form 56",
+      "Form 8822",
+      "Form 8822-B",
       "Form 2848",
-      "Form 5558",
-      "Form 5500",
-      "Form 5500-EZ",
-      "Form 5330",
-      "Form 5310-A",
-      "Form 1099-R",
-      "Form 10",
-      "Form 10-A",
-      "Form 1120-RIC",
-      "Schedule MB (Form 5500)",
-      "Schedule SB (Form 5500)",
-      "Schedule SSA (Form 5500)",
-      "Schedule MB",
-      "Schedule SB",
-      "Schedule I (Form 5500)",
-      "Schedule H (Form 5500)",
-      "Schedule H",
-      "Schedule I"
+      "Form 1040",
+      "Form 706",
+      null
     ],
     "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
+      "Form 8822",
+      "Form 8822-B",
       "Form 2848",
-      "Form 5558",
-      "Form 5500",
-      "Form 5500-EZ",
-      "Form 5330",
-      "Form 5310-A",
-      "Form 1099-R",
-      "Form 10",
-      "Form 10-A",
-      "Form 1120-RIC",
-      "Schedule MB (Form 5500)",
-      "Schedule SB (Form 5500)",
-      "Schedule SSA (Form 5500)",
-      "Schedule MB",
-      "Schedule SB",
-      "Schedule I (Form 5500)",
-      "Schedule H (Form 5500)",
-      "Schedule H",
-      "Schedule I"
-    ]
+      "Form 1040",
+      "Form 706"
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i56",
+      "dateFetched": "2020-06-13T01:09:04.273Z",
+      "form": "Form 56"
+    }
   },
   "Form 5695": {
     "raw": [
       "Form 5695",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
       "Form 1040-X",
-      "Form 2848",
       "Form 2555",
       "Form 2555-EZ",
+      "Form 1040",
       "Form 8396",
       "Form 8839",
       "Form 8859",
@@ -5300,14 +6476,10 @@ window.__map_data = {
       "Schedule R"
     ],
     "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
       "Form 1040-X",
-      "Form 2848",
       "Form 2555",
       "Form 2555-EZ",
+      "Form 1040",
       "Form 8396",
       "Form 8839",
       "Form 8859",
@@ -5315,74 +6487,16 @@ window.__map_data = {
       "Form 8936",
       "Schedule 3 (Form 1040)",
       "Schedule R"
-    ]
-  },
-  "Form 5713": {
-    "raw": [
-      "Form 5713",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
-      "Form 1116",
-      "Form 1118",
-      "Form 5471",
-      "Form 1120-IC-DISC",
-      "Form 1120-FSC",
-      "Form 8873",
-      "Form 1120",
-      "Form 1120-F",
-      "Form 1120-L",
-      "Form 1120-PC",
-      "Form 1065",
-      "Form 1065-B",
-      "Form 1120-RIC",
-      "Schedule A",
-      "Schedule B",
-      "Schedule C",
-      "Schedule N",
-      "Schedule L",
-      "Schedule J"
     ],
-    "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
-      "Form 1116",
-      "Form 1118",
-      "Form 5471",
-      "Form 1120-IC-DISC",
-      "Form 1120-FSC",
-      "Form 8873",
-      "Form 1120",
-      "Form 1120-F",
-      "Form 1120-L",
-      "Form 1120-PC",
-      "Form 1065",
-      "Form 1065-B",
-      "Form 1120-RIC",
-      "Schedule A",
-      "Schedule B",
-      "Schedule C",
-      "Schedule N",
-      "Schedule L",
-      "Schedule J"
-    ]
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i5695",
+      "dateFetched": "2020-06-13T01:09:06.938Z",
+      "form": "Form 5695"
+    }
   },
   "Form 5735": {
     "raw": [
       "Form 5735",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 4626",
       "Form 4562",
       "Form 1120",
@@ -5396,12 +6510,6 @@ window.__map_data = {
       "Schedule J"
     ],
     "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 4626",
       "Form 4562",
       "Form 1120",
@@ -5413,17 +6521,16 @@ window.__map_data = {
       "Form 8911",
       "Form 8912",
       "Schedule J"
-    ]
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i5735",
+      "dateFetched": "2020-06-13T01:09:05.130Z",
+      "form": "Form 5735"
+    }
   },
   "Form 5884-A": {
     "raw": [
       "Form 5884-A",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 3800",
       "Form 1065",
       "Form 1120-S",
@@ -5436,12 +6543,6 @@ window.__map_data = {
       "Schedule K-1 (Form 1041)"
     ],
     "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 3800",
       "Form 1065",
       "Form 1120-S",
@@ -5452,17 +6553,16 @@ window.__map_data = {
       "Schedule K-1 (Form 1065)",
       "Schedule K-1 (Form 1120-S)",
       "Schedule K-1 (Form 1041)"
-    ]
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i5884a",
+      "dateFetched": "2020-06-13T01:09:05.036Z",
+      "form": "Form 5884-A"
+    }
   },
   "Form 5884": {
     "raw": [
       "Form 5884",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 3800",
       "Form 5884-C",
       "Form 8850",
@@ -5477,12 +6577,6 @@ window.__map_data = {
       "Schedule K-1 (Form 1041)"
     ],
     "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 3800",
       "Form 5884-C",
       "Form 8850",
@@ -5495,17 +6589,17 @@ window.__map_data = {
       "Schedule K-1 (Form 1065)",
       "Schedule K-1",
       "Schedule K-1 (Form 1041)"
-    ]
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i5884",
+      "dateFetched": "2020-06-13T01:09:05.977Z",
+      "form": "Form 5884"
+    }
   },
   "Form 6198": {
     "raw": [
       "Form 6198",
       "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 1065",
       "Form 1120-S",
       "Form 4684",
@@ -5520,11 +6614,6 @@ window.__map_data = {
     ],
     "cleaned": [
       "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 1065",
       "Form 1120-S",
       "Form 4684",
@@ -5536,27 +6625,28 @@ window.__map_data = {
       "Schedule C",
       "Schedule A",
       "Schedule D"
-    ]
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i6198",
+      "dateFetched": "2020-06-13T01:09:07.267Z",
+      "form": "Form 6198"
+    }
   },
   "Form 6251": {
     "raw": [
       "Form 6251",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 1040-NR",
       "Form 3921",
       "Form 2555",
       "Form 8911",
+      "Form 1040-X",
       "Form 6478",
       "Form 8864",
       "Form 3800",
       "Form 8834",
       "Form 8801",
       "Form 1116",
+      "Form 1040",
       "Form 1040-SR",
       "Form 4952",
       "Form 461",
@@ -5588,22 +6678,18 @@ window.__map_data = {
       "Schedule K-1 (Form 1041)"
     ],
     "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 1040-NR",
       "Form 3921",
       "Form 2555",
       "Form 8911",
+      "Form 1040-X",
       "Form 6478",
       "Form 8864",
       "Form 3800",
       "Form 8834",
       "Form 8801",
       "Form 1116",
+      "Form 1040",
       "Form 1040-SR",
       "Form 4952",
       "Form 461",
@@ -5633,64 +6719,16 @@ window.__map_data = {
       "Schedule 3",
       "Schedule J",
       "Schedule K-1 (Form 1041)"
-    ]
-  },
-  "Form 6478": {
-    "raw": [
-      "Form 6478",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
-      "Form 3800",
-      "Form 637",
-      "Form 720",
-      "Form 6251",
-      "Form 1041",
-      "Form 1065",
-      "Form 1120-S",
-      "Form 1099-PATR",
-      "Form 8810",
-      "Form 8582-CR",
-      "Schedule I (Form 1041)",
-      "Schedule K-1 (Form 1065)",
-      "Schedule K-1 (Form 1120-S)",
-      "Schedule K-1 (Form 1041)"
     ],
-    "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
-      "Form 3800",
-      "Form 637",
-      "Form 720",
-      "Form 6251",
-      "Form 1041",
-      "Form 1065",
-      "Form 1120-S",
-      "Form 1099-PATR",
-      "Form 8810",
-      "Form 8582-CR",
-      "Schedule I (Form 1041)",
-      "Schedule K-1 (Form 1065)",
-      "Schedule K-1 (Form 1120-S)",
-      "Schedule K-1 (Form 1041)"
-    ]
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i6251",
+      "dateFetched": "2020-06-13T01:09:04.736Z",
+      "form": "Form 6251"
+    }
   },
   "Form 6765": {
     "raw": [
       "Form 6765",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 3800",
       "Form 1041",
       "Form 8820",
@@ -5704,12 +6742,6 @@ window.__map_data = {
       "Schedule K-1 (Form 1041)"
     ],
     "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 3800",
       "Form 1041",
       "Form 8820",
@@ -5721,17 +6753,16 @@ window.__map_data = {
       "Schedule K-1",
       "Schedule K-1 (Form 1065)",
       "Schedule K-1 (Form 1041)"
-    ]
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i6765",
+      "dateFetched": "2020-06-13T01:09:06.251Z",
+      "form": "Form 6765"
+    }
   },
   "Form 7004": {
     "raw": [
       "Form 7004",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 1041-A",
       "Form 8868",
       "Form 1041",
@@ -5749,12 +6780,6 @@ window.__map_data = {
       null
     ],
     "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 1041-A",
       "Form 8868",
       "Form 1041",
@@ -5769,18 +6794,173 @@ window.__map_data = {
       "Form 1120-FSC",
       "Form 1066",
       "Form 1042"
-    ]
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i7004",
+      "dateFetched": "2020-06-13T01:09:06.226Z",
+      "form": "Form 7004"
+    }
+  },
+  "Form 706-A": {
+    "raw": [
+      "Form 706-A",
+      "Form 4768",
+      "Form 706",
+      "Form 2848",
+      "Schedule A",
+      "Schedule B",
+      "Schedule C",
+      "Schedule A-1"
+    ],
+    "cleaned": [
+      "Form 4768",
+      "Form 706",
+      "Form 2848",
+      "Schedule A",
+      "Schedule B",
+      "Schedule C",
+      "Schedule A-1"
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i706a",
+      "dateFetched": "2020-06-13T01:09:04.423Z",
+      "form": "Form 706-A"
+    }
+  },
+  "Form 706-D": {
+    "raw": [
+      "Form 706-D",
+      "Form 706",
+      "Form 4768",
+      "Form 8283",
+      "Form 2848",
+      "Schedule A",
+      "Schedule B",
+      "Schedule C",
+      "Schedule T"
+    ],
+    "cleaned": [
+      "Form 706",
+      "Form 4768",
+      "Form 8283",
+      "Form 2848",
+      "Schedule A",
+      "Schedule B",
+      "Schedule C",
+      "Schedule T"
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i706d",
+      "dateFetched": "2020-06-13T01:09:04.433Z",
+      "form": "Form 706-D"
+    }
+  },
+  "Form 706-GS(D)": {
+    "raw": [
+      "Form 706-GS",
+      "Form 7004",
+      "Form 706",
+      "Form 843",
+      null
+    ],
+    "cleaned": [
+      "Form 706-GS",
+      "Form 7004",
+      "Form 706",
+      "Form 843"
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i706gsd",
+      "dateFetched": "2020-06-13T01:09:05.567Z",
+      "form": "Form 706-GS(D)"
+    }
+  },
+  "Form 706-GS(D-1)": {
+    "raw": [
+      "Form 706-GS",
+      "Form 709",
+      "Form 706",
+      null
+    ],
+    "cleaned": [
+      "Form 706-GS",
+      "Form 709",
+      "Form 706"
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i706gsd1",
+      "dateFetched": "2020-06-13T01:09:05.606Z",
+      "form": "Form 706-GS(D-1)"
+    }
+  },
+  "Form 706-GS(T)": {
+    "raw": [
+      "Form 706-GS",
+      "Form 7004",
+      "Form 709",
+      "Form 706",
+      "Schedule A",
+      "Schedule B"
+    ],
+    "cleaned": [
+      "Form 706-GS",
+      "Form 7004",
+      "Form 709",
+      "Form 706",
+      "Schedule A",
+      "Schedule B"
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i706gst",
+      "dateFetched": "2020-06-13T01:09:07.058Z",
+      "form": "Form 706-GS(T)"
+    }
+  },
+  "Form 706-NA": {
+    "raw": [
+      "Form 706-NA",
+      "Form 706",
+      "Form 8971",
+      "Form 4506-T",
+      "Form 8854",
+      "Form 4768",
+      "Form 2848",
+      "Form 8821",
+      "Schedule A",
+      "Schedule B",
+      "Schedule E",
+      "Schedule U",
+      "Schedule O",
+      "Schedule M",
+      "Schedule R"
+    ],
+    "cleaned": [
+      "Form 706",
+      "Form 8971",
+      "Form 4506-T",
+      "Form 8854",
+      "Form 4768",
+      "Form 2848",
+      "Form 8821",
+      "Schedule A",
+      "Schedule B",
+      "Schedule E",
+      "Schedule U",
+      "Schedule O",
+      "Schedule M",
+      "Schedule R"
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i706na",
+      "dateFetched": "2020-06-13T01:09:05.164Z",
+      "form": "Form 706-NA"
+    }
   },
   "Form 706-QDT": {
     "raw": [
       "Form 706-QDT",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 4768",
+      "Form 2848",
       "Form 706",
       "Form 706-NA",
       "Schedule B",
@@ -5791,13 +6971,8 @@ window.__map_data = {
       "Schedule P"
     ],
     "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 4768",
+      "Form 2848",
       "Form 706",
       "Form 706-NA",
       "Schedule B",
@@ -5806,108 +6981,177 @@ window.__map_data = {
       "Schedule M",
       "Schedule O",
       "Schedule P"
-    ]
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i706qdt",
+      "dateFetched": "2020-06-13T01:09:04.335Z",
+      "form": "Form 706-QDT"
+    }
+  },
+  "Form 706": {
+    "raw": [
+      "Form 706",
+      "Form 706-NA",
+      "Form 4768",
+      "Form 712",
+      "Form 709",
+      "Form 706-CE",
+      "Form 8971",
+      "Form 2848",
+      "Form 4808",
+      "Form 8821",
+      "Form 8822",
+      "Form 4506-T",
+      "Form 1041",
+      "Form 843",
+      "Form 56",
+      "Schedule R-1",
+      "Schedule A",
+      "Schedule A-1",
+      "Schedule B",
+      "Schedule C",
+      "Schedule D",
+      "Schedule E",
+      "Schedule F",
+      "Schedule G",
+      "Schedule H",
+      "Schedule I",
+      "Schedule J",
+      "Schedule K",
+      "Schedule L",
+      "Schedule M",
+      "Schedule O",
+      "Schedule P",
+      "Schedule Q",
+      "Schedule R",
+      "Schedule U",
+      "Schedule PC",
+      "Schedule Q--C",
+      "Schedule(s) R-1",
+      "Schedule A-1 (Form 706)"
+    ],
+    "cleaned": [
+      "Form 706-NA",
+      "Form 4768",
+      "Form 712",
+      "Form 709",
+      "Form 706-CE",
+      "Form 8971",
+      "Form 2848",
+      "Form 4808",
+      "Form 8821",
+      "Form 8822",
+      "Form 4506-T",
+      "Form 1041",
+      "Form 843",
+      "Form 56",
+      "Schedule R-1",
+      "Schedule A",
+      "Schedule A-1",
+      "Schedule B",
+      "Schedule C",
+      "Schedule D",
+      "Schedule E",
+      "Schedule F",
+      "Schedule G",
+      "Schedule H",
+      "Schedule I",
+      "Schedule J",
+      "Schedule K",
+      "Schedule L",
+      "Schedule M",
+      "Schedule O",
+      "Schedule P",
+      "Schedule Q",
+      "Schedule R",
+      "Schedule U",
+      "Schedule PC",
+      "Schedule Q--C",
+      "Schedule R-1",
+      "Schedule A-1 (Form 706)"
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i706",
+      "dateFetched": "2020-06-13T01:09:07.862Z",
+      "form": "Form 706"
+    }
   },
   "Form 709": {
     "raw": [
       "Form 709",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 8892",
       "Form 706",
       "Form 4868",
       "Form 2350",
       "Form 8892-V",
       "Form 712",
+      "Form 1040",
       "Schedule A",
       "Schedule B",
       "Schedule C",
       "Schedule D"
     ],
     "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 8892",
       "Form 706",
       "Form 4868",
       "Form 2350",
       "Form 8892-V",
       "Form 712",
+      "Form 1040",
       "Schedule A",
       "Schedule B",
       "Schedule C",
       "Schedule D"
-    ]
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i709",
+      "dateFetched": "2020-06-13T01:09:06.304Z",
+      "form": "Form 709"
+    }
   },
   "Form 720-CS": {
     "raw": [
       "Form 720-CS",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 637",
       "Schedule A",
       "Schedule B"
     ],
     "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 637",
       "Schedule A",
       "Schedule B"
-    ]
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i720cs",
+      "dateFetched": "2020-06-13T01:09:06.034Z",
+      "form": "Form 720-CS"
+    }
   },
   "Form 720-TO": {
     "raw": [
       "Form 720-TO",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 637",
       "Schedule A",
       "Schedule B"
     ],
     "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 637",
       "Schedule A",
       "Schedule B"
-    ]
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i720to",
+      "dateFetched": "2020-06-13T01:09:07.260Z",
+      "form": "Form 720-TO"
+    }
   },
   "Form 720": {
     "raw": [
       "Form 720",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 720-X",
       "Form 4136",
+      "Form 1040",
       "Form 6627",
       "Form 8833",
       "Form 6197",
@@ -5926,14 +7170,9 @@ window.__map_data = {
       "Schedule C (Form 720)"
     ],
     "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 720-X",
       "Form 4136",
+      "Form 1040",
       "Form 6627",
       "Form 8833",
       "Form 6197",
@@ -5950,17 +7189,17 @@ window.__map_data = {
       "Schedule C",
       "Schedule 3 (Form 8849)",
       "Schedule C (Form 720)"
-    ]
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i720",
+      "dateFetched": "2020-06-13T01:09:07.640Z",
+      "form": "Form 720"
+    }
   },
   "Form 7200": {
     "raw": [
       "Form 7200",
-      "Form 1040",
-      "Form 4506-T",
       "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 941-PR",
       "Form 941-SS",
       "Form 943",
@@ -5970,12 +7209,7 @@ window.__map_data = {
       "Schedule R (Form 943)"
     ],
     "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
       "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 941-PR",
       "Form 941-SS",
       "Form 943",
@@ -5983,179 +7217,96 @@ window.__map_data = {
       "Form 944",
       "Schedule R (Form 941)",
       "Schedule R (Form 943)"
-    ]
-  },
-  "Form 8023": {
-    "raw": [
-      "Form 8023",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
-      "Form 8883",
-      "Form 5471",
-      null
     ],
-    "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
-      "Form 8883",
-      "Form 5471"
-    ]
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i7200",
+      "dateFetched": "2020-06-13T01:09:05.085Z",
+      "form": "Form 7200"
+    }
   },
   "Form 8027": {
     "raw": [
       "Form 8027",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 8846",
       "Form 8027-T",
       "Form 8809",
       "Form 8508",
+      "Form 941",
       null
     ],
     "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 8846",
       "Form 8027-T",
       "Form 8809",
-      "Form 8508"
-    ]
+      "Form 8508",
+      "Form 941"
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i8027",
+      "dateFetched": "2020-06-13T01:09:06.844Z",
+      "form": "Form 8027"
+    }
   },
   "Form 8038-B": {
     "raw": [
       "Form 8038-B",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 8038-G",
       "Form 8038-CP",
       "Form 8038-T",
       null
     ],
     "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 8038-G",
       "Form 8038-CP",
       "Form 8038-T"
-    ]
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i8038b",
+      "dateFetched": "2020-06-13T01:09:05.852Z",
+      "form": "Form 8038-B"
+    }
   },
   "Form 8038-CP": {
     "raw": [
       "Form 8038-CP",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 8038-T",
       "Form 8038-TC",
       "Form 8038-B",
       null
     ],
     "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 8038-T",
       "Form 8038-TC",
       "Form 8038-B"
-    ]
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i8038cp",
+      "dateFetched": "2020-06-13T01:09:06.001Z",
+      "form": "Form 8038-CP"
+    }
   },
   "Form 8038-G": {
     "raw": [
       "Form 8038-G",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 8038-GC",
       "Form 8038-T",
       "Form 8038",
       null
     ],
     "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 8038-GC",
       "Form 8038-T",
       "Form 8038"
-    ]
-  },
-  "Form 8038-T": {
-    "raw": [
-      "Form 8038-T",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
-      "Form 8038-R",
-      "Form 8038",
-      "Form 8038-B",
-      "Form 8038-G",
-      "Form 8038-GC",
-      "Form 8038-TC",
-      null
     ],
-    "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
-      "Form 8038-R",
-      "Form 8038",
-      "Form 8038-B",
-      "Form 8038-G",
-      "Form 8038-GC",
-      "Form 8038-TC"
-    ]
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i8038g",
+      "dateFetched": "2020-06-13T01:09:05.447Z",
+      "form": "Form 8038-G"
+    }
   },
   "Form 8038-TC": {
     "raw": [
       "Form 8038-TC",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 8038-CP",
       "Form 8038-B",
       "Form 8038-T",
@@ -6165,12 +7316,6 @@ window.__map_data = {
       "Schedule D"
     ],
     "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 8038-CP",
       "Form 8038-B",
       "Form 8038-T",
@@ -6178,17 +7323,16 @@ window.__map_data = {
       "Schedule B",
       "Schedule C",
       "Schedule D"
-    ]
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i8038tc",
+      "dateFetched": "2020-06-13T01:09:06.926Z",
+      "form": "Form 8038-TC"
+    }
   },
   "Form 8038": {
     "raw": [
       "Form 8038",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 8038-G",
       "Form 8038-GC",
       "Form 8038-T",
@@ -6196,27 +7340,20 @@ window.__map_data = {
       null
     ],
     "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 8038-G",
       "Form 8038-GC",
       "Form 8038-T",
       "Form 8328"
-    ]
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i8038",
+      "dateFetched": "2020-06-13T01:09:06.611Z",
+      "form": "Form 8038"
+    }
   },
   "Form 8082": {
     "raw": [
       "Form 8082",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 1065-B",
       "Form 1065",
       "Form 9248",
@@ -6228,12 +7365,6 @@ window.__map_data = {
       "Schedule K-1 (Form 1065-B)"
     ],
     "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 1065-B",
       "Form 1065",
       "Form 9248",
@@ -6243,39 +7374,16 @@ window.__map_data = {
       "Schedule K-1",
       "Schedule Q",
       "Schedule K-1 (Form 1065-B)"
-    ]
-  },
-  "Form 8233": {
-    "raw": [
-      "Form 8233",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
-      "Form 13930",
-      null
     ],
-    "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
-      "Form 13930"
-    ]
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i8082",
+      "dateFetched": "2020-06-13T01:09:06.463Z",
+      "form": "Form 8082"
+    }
   },
   "Form 8275-R": {
     "raw": [
       "Form 8275-R",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 8275",
       "Form 8886",
       "Form 5471",
@@ -6283,28 +7391,21 @@ window.__map_data = {
       "Schedule K-1"
     ],
     "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 8275",
       "Form 8886",
       "Form 5471",
       "Schedule UTP",
       "Schedule K-1"
-    ]
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i8275r",
+      "dateFetched": "2020-06-13T01:09:05.770Z",
+      "form": "Form 8275-R"
+    }
   },
   "Form 8283": {
     "raw": [
       "Form 8283",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 1065",
       "Form 8282",
       "Form 8283-V",
@@ -6313,65 +7414,55 @@ window.__map_data = {
       "Schedule K-1"
     ],
     "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 1065",
       "Form 8282",
       "Form 8283-V",
       "Form 8899",
       "Form 1098-C",
       "Schedule K-1"
-    ]
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i8283",
+      "dateFetched": "2020-06-13T01:09:06.752Z",
+      "form": "Form 8283"
+    }
   },
   "Form 8288": {
     "raw": [
       "Form 8288",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 1042",
       "Form 1042-S",
       "Form 8828",
       "Form 8288-A",
       "Form 8288-B",
+      "Form 1040",
       "Form 8804",
       "Form 8805",
       null
     ],
     "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 1042",
       "Form 1042-S",
       "Form 8828",
       "Form 8288-A",
       "Form 8288-B",
+      "Form 1040",
       "Form 8804",
       "Form 8805"
-    ]
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i8288",
+      "dateFetched": "2020-06-13T01:09:06.372Z",
+      "form": "Form 8288"
+    }
   },
   "Form 8379": {
     "raw": [
       "Form 8379",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 8995",
+      "Form 1040",
       "Form 8857",
+      "Form 1040-X",
       "Form 5405",
       "Form 8822",
       "Form 8960",
@@ -6385,14 +7476,10 @@ window.__map_data = {
       "Schedule 5 (Form 1040)"
     ],
     "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 8995",
+      "Form 1040",
       "Form 8857",
+      "Form 1040-X",
       "Form 5405",
       "Form 8822",
       "Form 8960",
@@ -6404,288 +7491,144 @@ window.__map_data = {
       "Schedule 4 (Form 1040)",
       "Schedule 2",
       "Schedule 5 (Form 1040)"
-    ]
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i8379",
+      "dateFetched": "2020-06-13T01:09:05.665Z",
+      "form": "Form 8379"
+    }
+  },
+  "Form 843": {
+    "raw": [
+      "Form 843",
+      "Form 1040-X",
+      "Form 1040",
+      "Form 8959",
+      "Form 8379",
+      "Form 1045",
+      "Form 1041",
+      "Form 940",
+      "Form 941",
+      "Form 941-SS",
+      "Form 941-X",
+      "Form 943",
+      "Form 943-X",
+      "Form 944",
+      "Form 944-SS",
+      "Form 944-X",
+      "Form 945",
+      "Form 945-X",
+      "Form 1120-X",
+      "Form 1120",
+      "Form 720-X",
+      "Form 720",
+      "Form 730",
+      "Form 8849",
+      "Form 4136",
+      "Form 1139",
+      "Form 2848",
+      "Form 1310",
+      "Form 8947",
+      "Form 1040-SR",
+      "Schedule H",
+      "Schedule C (Form 720)",
+      "Schedule 6 (Form 8849)"
+    ],
+    "cleaned": [
+      "Form 1040-X",
+      "Form 1040",
+      "Form 8959",
+      "Form 8379",
+      "Form 1045",
+      "Form 1041",
+      "Form 940",
+      "Form 941",
+      "Form 941-SS",
+      "Form 941-X",
+      "Form 943",
+      "Form 943-X",
+      "Form 944",
+      "Form 944-SS",
+      "Form 944-X",
+      "Form 945",
+      "Form 945-X",
+      "Form 1120-X",
+      "Form 1120",
+      "Form 720-X",
+      "Form 720",
+      "Form 730",
+      "Form 8849",
+      "Form 4136",
+      "Form 1139",
+      "Form 2848",
+      "Form 1310",
+      "Form 8947",
+      "Form 1040-SR",
+      "Schedule H",
+      "Schedule C (Form 720)",
+      "Schedule 6 (Form 8849)"
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i843",
+      "dateFetched": "2020-06-13T01:09:04.343Z",
+      "form": "Form 843"
+    }
   },
   "Form 8582-CR": {
     "raw": [
       "Form 8582-CR",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 3800",
       "Form 8834",
       "Form 8810",
       "Form 8582",
       "Form 1065",
       "Form 8586",
+      "Form 1040",
       "Form 1041",
       "Schedule K-1 (Form 1065)",
       "Schedule K-1",
       "Schedule D"
     ],
     "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 3800",
       "Form 8834",
       "Form 8810",
       "Form 8582",
       "Form 1065",
       "Form 8586",
+      "Form 1040",
       "Form 1041",
       "Schedule K-1 (Form 1065)",
       "Schedule K-1",
       "Schedule D"
-    ]
-  },
-  "Form 8582": {
-    "raw": [
-      "Form 8582",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
-      "Form 4797",
-      "Form 8949",
-      "Form 4835",
-      "Form 4684",
-      "Form 461",
-      "Form 8810",
-      "Form 6198",
-      "Form 8960",
-      "Form 1040-SR",
-      "Form 4952",
-      "Schedule E",
-      "Schedule K-1",
-      "Schedule C",
-      "Schedule F",
-      "Schedule D"
     ],
-    "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
-      "Form 4797",
-      "Form 8949",
-      "Form 4835",
-      "Form 4684",
-      "Form 461",
-      "Form 8810",
-      "Form 6198",
-      "Form 8960",
-      "Form 1040-SR",
-      "Form 4952",
-      "Schedule E",
-      "Schedule K-1",
-      "Schedule C",
-      "Schedule F",
-      "Schedule D"
-    ]
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i8582cr",
+      "dateFetched": "2020-06-13T01:09:06.837Z",
+      "form": "Form 8582-CR"
+    }
   },
   "Form 8594": {
     "raw": [
       "Form 8594",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 5471",
+      "Form 1040",
       null
     ],
     "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
-      "Form 5471"
-    ]
-  },
-  "Form 8606": {
-    "raw": [
-      "Form 8606",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
-      "Form 1040-SR",
-      "Form 8915-C",
-      "Form 8915-D",
-      "Form 1040-NR",
-      "Form 8815",
-      "Form 8839",
-      "Form 2555",
-      "Form 1099-MISC",
-      "Form 5329",
-      "Form 86064",
-      "Schedule 1",
-      "Schedule 2"
+      "Form 5471",
+      "Form 1040"
     ],
-    "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
-      "Form 1040-SR",
-      "Form 8915-C",
-      "Form 8915-D",
-      "Form 1040-NR",
-      "Form 8815",
-      "Form 8839",
-      "Form 2555",
-      "Form 1099-MISC",
-      "Form 5329",
-      "Form 86064",
-      "Schedule 1",
-      "Schedule 2"
-    ]
-  },
-  "Form 8609-A": {
-    "raw": [
-      "Form 8609-A",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
-      "Form 8693",
-      "Form 8586",
-      "Form 8609",
-      "Form 8611",
-      "Schedule K-1"
-    ],
-    "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
-      "Form 8693",
-      "Form 8586",
-      "Form 8609",
-      "Form 8611",
-      "Schedule K-1"
-    ]
-  },
-  "Form 8609": {
-    "raw": [
-      "Form 8609",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
-      "Form 8610",
-      "Form 8609-A",
-      "Form 8586",
-      null
-    ],
-    "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
-      "Form 8610",
-      "Form 8609-A",
-      "Form 8586"
-    ]
-  },
-  "Form 8615": {
-    "raw": [
-      "Form 8615",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
-      "Form 2555",
-      "Form 8814",
-      "Form 4868",
-      "Form 6251",
-      "Form 8960",
-      "Form 1040-NR",
-      "Form 4972",
-      "Schedule D",
-      "Schedule J",
-      "Schedule 1",
-      "Schedule A"
-    ],
-    "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
-      "Form 2555",
-      "Form 8814",
-      "Form 4868",
-      "Form 6251",
-      "Form 8960",
-      "Form 1040-NR",
-      "Form 4972",
-      "Schedule D",
-      "Schedule J",
-      "Schedule 1",
-      "Schedule A"
-    ]
-  },
-  "Form 8621-A": {
-    "raw": [
-      "Form 8621-A",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
-      "Form 8621",
-      null
-    ],
-    "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
-      "Form 8621"
-    ]
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i8594",
+      "dateFetched": "2020-06-13T01:09:05.535Z",
+      "form": "Form 8594"
+    }
   },
   "Form 8621": {
     "raw": [
       "Form 8621",
       "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 8886",
       "Form 1120",
       "Form 8938",
@@ -6703,11 +7646,6 @@ window.__map_data = {
     ],
     "cleaned": [
       "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 8886",
       "Form 1120",
       "Form 8938",
@@ -6722,176 +7660,15 @@ window.__map_data = {
       "Schedule C",
       "Schedule B",
       "Schedule 2"
-    ]
-  },
-  "Form 8697": {
-    "raw": [
-      "Form 8697",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
-      "Form 1120",
-      "Form 2210",
-      "Form 2220",
-      "Schedule K-1",
-      "Schedule J"
     ],
-    "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
-      "Form 1120",
-      "Form 2210",
-      "Form 2220",
-      "Schedule K-1",
-      "Schedule J"
-    ]
-  },
-  "Form 8802": {
-    "raw": [
-      "Form 8802",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
-      "Form 6166",
-      "Form 1116",
-      "Form 8821",
-      "Form 2555",
-      "Form 1120",
-      "Form 1120-F",
-      "Form 1120-FSC",
-      "Form 1099",
-      "Form 8832",
-      "Form 8822",
-      "Form 3520-A",
-      "Form 8606",
-      "Form 5498",
-      "Form 851",
-      "Form 5500",
-      "Form 8814",
-      "Form 8869",
-      "Form 1041",
-      "Form 1065",
-      "Form 8858",
-      "Schedule C (Form 1040)",
-      "Schedule N (Form 1120)",
-      "Schedule N"
-    ],
-    "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
-      "Form 6166",
-      "Form 1116",
-      "Form 8821",
-      "Form 2555",
-      "Form 1120",
-      "Form 1120-F",
-      "Form 1120-FSC",
-      "Form 1099",
-      "Form 8832",
-      "Form 8822",
-      "Form 3520-A",
-      "Form 8606",
-      "Form 5498",
-      "Form 851",
-      "Form 5500",
-      "Form 8814",
-      "Form 8869",
-      "Form 1041",
-      "Form 1065",
-      "Form 8858",
-      "Schedule C (Form 1040)",
-      "Schedule N (Form 1120)",
-      "Schedule N"
-    ]
-  },
-  "Form 8804-C": {
-    "raw": [
-      "Form 8804-C",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
-      "Form 8804",
-      "Form 8813",
-      "Form 8805",
-      "Form 1065",
-      "Form 8582",
-      "Form 6198",
-      "Schedule K-1"
-    ],
-    "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
-      "Form 8804",
-      "Form 8813",
-      "Form 8805",
-      "Form 1065",
-      "Form 8582",
-      "Form 6198",
-      "Schedule K-1"
-    ]
-  },
-  "Form 8804-W": {
-    "raw": [
-      "Form 8804-W",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
-      "Form 8804",
-      "Form 8813",
-      "Form 8804-C",
-      "Form 1065",
-      "Form 8842",
-      "Schedule A (Form 8804)",
-      "Schedule D"
-    ],
-    "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
-      "Form 8804",
-      "Form 8813",
-      "Form 8804-C",
-      "Form 1065",
-      "Form 8842",
-      "Schedule A (Form 8804)",
-      "Schedule D"
-    ]
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i8621",
+      "dateFetched": "2020-06-13T01:09:07.540Z",
+      "form": "Form 8621"
+    }
   },
   "Form 8804": {
     "raw": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 8805",
       "Form 8813",
       "Form 8804",
@@ -6913,12 +7690,6 @@ window.__map_data = {
       "Schedule(s) T"
     ],
     "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 8805",
       "Form 8813",
       "Form 1040-NR",
@@ -6937,16 +7708,15 @@ window.__map_data = {
       "Schedule A (Form 8804)",
       "Schedule P (Form 1120-F)",
       "Schedule T"
-    ]
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i8804",
+      "dateFetched": "2020-06-13T01:09:05.740Z",
+      "form": "Form 8804"
+    }
   },
   "Form 8805": {
     "raw": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 8805",
       "Form 8813",
       "Form 8804",
@@ -6968,12 +7738,6 @@ window.__map_data = {
       "Schedule(s) T"
     ],
     "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 8813",
       "Form 8804",
       "Form 1040-NR",
@@ -6992,82 +7756,25 @@ window.__map_data = {
       "Schedule A (Form 8804)",
       "Schedule P (Form 1120-F)",
       "Schedule T"
-    ]
-  },
-  "Form 8809-I": {
-    "raw": [
-      "Form 8809-I",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
-      "Form 8966",
-      null
     ],
-    "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
-      "Form 8966"
-    ]
-  },
-  "Form 8810": {
-    "raw": [
-      "Form 8810",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
-      "Form 3800",
-      "Form 8582",
-      "Form 6198",
-      "Form 8949",
-      "Form 4797",
-      "Form 1120",
-      "Schedule D",
-      "Schedule D (Form 1120)",
-      "Schedule J"
-    ],
-    "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
-      "Form 3800",
-      "Form 8582",
-      "Form 6198",
-      "Form 8949",
-      "Form 4797",
-      "Form 1120",
-      "Schedule D",
-      "Schedule D (Form 1120)",
-      "Schedule J"
-    ]
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i8804",
+      "dateFetched": "2020-06-13T01:09:05.740Z",
+      "form": "Form 8805"
+    }
   },
   "Form 8821": {
     "raw": [
       "Form 8821",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 56",
       "Form 2555",
+      "Form 2848",
+      "Form 4506-T",
       "Form 4506",
       "Form 8822",
       "Form 8822-B",
       "Form 1065",
+      "Form 1040",
       "Form 8802",
       "Form 843",
       "Form 966",
@@ -7080,18 +7787,15 @@ window.__map_data = {
       null
     ],
     "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 56",
       "Form 2555",
+      "Form 2848",
+      "Form 4506-T",
       "Form 4506",
       "Form 8822",
       "Form 8822-B",
       "Form 1065",
+      "Form 1040",
       "Form 8802",
       "Form 843",
       "Form 966",
@@ -7101,103 +7805,36 @@ window.__map_data = {
       "Form 1128",
       "Form 2553",
       "Form 4361"
-    ]
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i8821",
+      "dateFetched": "2020-06-13T01:09:05.908Z",
+      "form": "Form 8821"
+    }
   },
   "Form 8824": {
     "raw": [
       "Form 8824",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 8949",
       "Form 4797",
       "Form 6252",
       "Schedule D"
     ],
     "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 8949",
       "Form 4797",
       "Form 6252",
       "Schedule D"
-    ]
-  },
-  "Form 8828": {
-    "raw": [
-      "Form 8828",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
-      null
     ],
-    "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848"
-    ]
-  },
-  "Form 8829": {
-    "raw": [
-      "Form 8829",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
-      "Form 8949",
-      "Form 4797",
-      "Form 4684",
-      "Form 4562",
-      "Schedule A",
-      "Schedule C",
-      "Schedule F",
-      "Schedule(s) C",
-      "Schedule D",
-      "Schedule E"
-    ],
-    "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
-      "Form 8949",
-      "Form 4797",
-      "Form 4684",
-      "Form 4562",
-      "Schedule A",
-      "Schedule C",
-      "Schedule F",
-      "Schedule C",
-      "Schedule D",
-      "Schedule E"
-    ]
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i8824",
+      "dateFetched": "2020-06-13T01:09:06.415Z",
+      "form": "Form 8824"
+    }
   },
   "Form 8835": {
     "raw": [
       "Form 8835",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 3800",
       "Form 1041",
       "Form 1120-C",
@@ -7214,12 +7851,6 @@ window.__map_data = {
       "Schedule K-1 (Form 1041)"
     ],
     "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 3800",
       "Form 1041",
       "Form 1120-C",
@@ -7234,17 +7865,16 @@ window.__map_data = {
       "Schedule K-1 (Form 1065)",
       "Schedule K-1 (Form 1120-S)",
       "Schedule K-1 (Form 1041)"
-    ]
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i8835",
+      "dateFetched": "2020-06-13T01:09:06.309Z",
+      "form": "Form 8835"
+    }
   },
   "Form 8844": {
     "raw": [
       "Form 8844",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 3800",
       "Form 1041",
       "Form 1120-C",
@@ -7261,12 +7891,6 @@ window.__map_data = {
       "Schedule K-1 (Form 1041)"
     ],
     "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 3800",
       "Form 1041",
       "Form 1120-C",
@@ -7281,17 +7905,16 @@ window.__map_data = {
       "Schedule K-1 (Form 1065)",
       "Schedule K-1 (Form 1120-S)",
       "Schedule K-1 (Form 1041)"
-    ]
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i8844",
+      "dateFetched": "2020-06-13T01:09:05.987Z",
+      "form": "Form 8844"
+    }
   },
   "Form 8845": {
     "raw": [
       "Form 8845",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 3800",
       "Form 1041",
       "Form 1120-C",
@@ -7308,12 +7931,6 @@ window.__map_data = {
       "Schedule K-1 (Form 1041)"
     ],
     "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 3800",
       "Form 1041",
       "Form 1120-C",
@@ -7328,17 +7945,17 @@ window.__map_data = {
       "Schedule K-1 (Form 1065)",
       "Schedule K-1 (Form 1120-S)",
       "Schedule K-1 (Form 1041)"
-    ]
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i8845",
+      "dateFetched": "2020-06-13T01:09:05.439Z",
+      "form": "Form 8845"
+    }
   },
   "Form 8853": {
     "raw": [
       "Form 8853",
       "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 1040-NR",
       "Form 5329",
       "Form 1099-SA",
@@ -7348,30 +7965,25 @@ window.__map_data = {
     ],
     "cleaned": [
       "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 1040-NR",
       "Form 5329",
       "Form 1099-SA",
       "Form 1099-LTC",
       "Schedule A",
       "Schedule 1"
-    ]
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i8853",
+      "dateFetched": "2020-06-13T01:09:06.975Z",
+      "form": "Form 8853"
+    }
   },
   "Form 8854": {
     "raw": [
       "Form 8854",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 8884",
       "Form 8833",
+      "Form 1040",
       "Form 1040-NR",
       "Form 1040-SR",
       "Form 4797",
@@ -7379,58 +7991,48 @@ window.__map_data = {
       null
     ],
     "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 8884",
       "Form 8833",
+      "Form 1040",
       "Form 1040-NR",
       "Form 1040-SR",
       "Form 4797",
       "Form 8949"
-    ]
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i8854",
+      "dateFetched": "2020-06-13T01:09:06.467Z",
+      "form": "Form 8854"
+    }
   },
   "Form 8857": {
     "raw": [
       "Form 8857",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
       "Form 2848",
       "Form 8379",
       "Form 8822",
       null
     ],
     "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
       "Form 2848",
       "Form 8379",
       "Form 8822"
-    ]
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i8857",
+      "dateFetched": "2020-06-13T01:09:07.333Z",
+      "form": "Form 8857"
+    }
   },
   "Form 8858": {
     "raw": [
       "Form 8858",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 5471",
       "Form 8865",
       "Form 8832",
       "Form 1120",
       "Form 1065",
+      "Form 1040",
       "Form 1040-SR",
       "Form 1041",
       "Form 8453",
@@ -7449,17 +8051,12 @@ window.__map_data = {
       "Schedule E"
     ],
     "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 5471",
       "Form 8865",
       "Form 8832",
       "Form 1120",
       "Form 1065",
+      "Form 1040",
       "Form 1040-SR",
       "Form 1041",
       "Form 8453",
@@ -7476,42 +8073,19 @@ window.__map_data = {
       "Schedule J",
       "Schedule M",
       "Schedule E"
-    ]
-  },
-  "Form 8862": {
-    "raw": [
-      "Form 8862",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
-      "Form 8863",
-      "Schedule EIC"
     ],
-    "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
-      "Form 8863",
-      "Schedule EIC"
-    ]
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i8858",
+      "dateFetched": "2020-06-13T01:09:06.858Z",
+      "form": "Form 8858"
+    }
   },
   "Form 8863": {
     "raw": [
       "Form 8863",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 2555-EZ",
       "Form 1098-T",
+      "Form 1040",
       "Form 8862",
       "Form 2555",
       "Form 4563",
@@ -7520,78 +8094,25 @@ window.__map_data = {
       "Schedule R"
     ],
     "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 2555-EZ",
       "Form 1098-T",
+      "Form 1040",
       "Form 8862",
       "Form 2555",
       "Form 4563",
       "Schedule C",
       "Schedule 3",
       "Schedule R"
-    ]
-  },
-  "Form 8864": {
-    "raw": [
-      "Form 8864",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
-      "Form 3800",
-      "Form 8849",
-      "Form 720",
-      "Form 4136",
-      "Form 6478",
-      "Form 637",
-      "Form 6251",
-      "Form 1041",
-      "Form 8810",
-      "Form 1099-PATR",
-      "Form 8582-CR",
-      "Schedule 3 (Form 8849)",
-      "Schedule C",
-      "Schedule I"
     ],
-    "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
-      "Form 3800",
-      "Form 8849",
-      "Form 720",
-      "Form 4136",
-      "Form 6478",
-      "Form 637",
-      "Form 6251",
-      "Form 1041",
-      "Form 8810",
-      "Form 1099-PATR",
-      "Form 8582-CR",
-      "Schedule 3 (Form 8849)",
-      "Schedule C",
-      "Schedule I"
-    ]
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i8863",
+      "dateFetched": "2020-06-13T01:09:06.977Z",
+      "form": "Form 8863"
+    }
   },
   "Form 8865": {
     "raw": [
       "Form 8865",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 1065",
       "Form 8995-A",
       "Form 8990",
@@ -7640,12 +8161,6 @@ window.__map_data = {
       "Schedule P (Form 8865)"
     ],
     "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 1065",
       "Form 8995-A",
       "Form 8990",
@@ -7692,73 +8207,42 @@ window.__map_data = {
       "Schedule H (Form 8865)",
       "Schedule O (Form 8865)",
       "Schedule P (Form 8865)"
-    ]
-  },
-  "Form 8866": {
-    "raw": [
-      "Form 8866",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
-      "Form 1120",
-      "Schedule K-1",
-      "Schedule J"
     ],
-    "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
-      "Form 1120",
-      "Schedule K-1",
-      "Schedule J"
-    ]
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i8865",
+      "dateFetched": "2020-06-13T01:09:07.635Z",
+      "form": "Form 8865"
+    }
   },
   "Form 8867": {
     "raw": [
       "Form 8867",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 1098-T",
       "Form 1040-NR",
       "Form 8863",
       "Form 8862",
+      "Form 1040",
       "Form 8332",
       "Schedule C"
     ],
     "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 1098-T",
       "Form 1040-NR",
       "Form 8863",
       "Form 8862",
+      "Form 1040",
       "Form 8332",
       "Schedule C"
-    ]
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i8867",
+      "dateFetched": "2020-06-13T01:09:06.418Z",
+      "form": "Form 8867"
+    }
   },
   "Form 8871": {
     "raw": [
       "Form 8871",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 8453-X",
       "Form 8872",
       "Form 1120-POL",
@@ -7767,70 +8251,23 @@ window.__map_data = {
       null
     ],
     "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 8453-X",
       "Form 8872",
       "Form 1120-POL",
       "Form 990",
       "Form 990-EZ"
-    ]
-  },
-  "Form 8872": {
-    "raw": [
-      "Form 8872",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
-      "Form 8871",
-      "Form 8453-X",
-      "Form 990",
-      "Form 990-EZ",
-      "Form 1120-POL",
-      "Schedule AI",
-      "Schedule BI",
-      "Schedule(s) A",
-      "Schedule A",
-      "Schedule(s) B",
-      "Schedule B"
     ],
-    "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
-      "Form 8871",
-      "Form 8453-X",
-      "Form 990",
-      "Form 990-EZ",
-      "Form 1120-POL",
-      "Schedule AI",
-      "Schedule BI",
-      "Schedule A",
-      "Schedule A",
-      "Schedule B",
-      "Schedule B"
-    ]
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i8871",
+      "dateFetched": "2020-06-13T01:09:06.272Z",
+      "form": "Form 8871"
+    }
   },
   "Form 8873": {
     "raw": [
       "Form 8873",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 5713",
+      "Form 1040",
       "Form 1120",
       "Schedule A (Form 5713)",
       "Schedule C (Form 5713)",
@@ -7840,13 +8277,8 @@ window.__map_data = {
       "Schedule E"
     ],
     "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 5713",
+      "Form 1040",
       "Form 1120",
       "Schedule A (Form 5713)",
       "Schedule C (Form 5713)",
@@ -7854,46 +8286,39 @@ window.__map_data = {
       "Schedule C",
       "Schedule E (Form 1040)",
       "Schedule E"
-    ]
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i8873",
+      "dateFetched": "2020-06-13T01:09:06.042Z",
+      "form": "Form 8873"
+    }
   },
   "Form 8883": {
     "raw": [
       "Form 8883",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 8023",
       "Form 1120",
       "Form 5471",
       null
     ],
     "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 8023",
       "Form 1120",
       "Form 5471"
-    ]
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i8883",
+      "dateFetched": "2020-06-13T01:09:05.910Z",
+      "form": "Form 8883"
+    }
   },
   "Form 8885": {
     "raw": [
       "Form 8885",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 14095",
       "Form 1099-H",
       "Form 8962",
+      "Form 1040",
       "Form 1040-NR",
       "Form 1040-SS",
       "Form 1040-PR",
@@ -7902,103 +8327,61 @@ window.__map_data = {
       "Schedule 3"
     ],
     "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 14095",
       "Form 1099-H",
       "Form 8962",
+      "Form 1040",
       "Form 1040-NR",
       "Form 1040-SS",
       "Form 1040-PR",
       "Form 1099-R",
       "Form 8453",
       "Schedule 3"
-    ]
-  },
-  "Form 8886-T": {
-    "raw": [
-      "Form 8886-T",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
-      "Form 4720",
-      "Form 5330",
-      "Form 8886",
-      null
     ],
-    "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
-      "Form 4720",
-      "Form 5330",
-      "Form 8886"
-    ]
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i8885",
+      "dateFetched": "2020-06-13T01:09:04.765Z",
+      "form": "Form 8885"
+    }
   },
   "Form 8886": {
     "raw": [
       "Form 8886",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 8886-T",
       "Form 1045",
+      "Form 1040",
       "Schedule K-1"
     ],
     "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 8886-T",
       "Form 1045",
+      "Form 1040",
       "Schedule K-1"
-    ]
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i8886",
+      "dateFetched": "2020-06-13T01:09:07.248Z",
+      "form": "Form 8886"
+    }
   },
   "Form 8898": {
     "raw": [
       "Form 8898",
       "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       null
     ],
     "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848"
-    ]
+      "Form 1040"
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i8898",
+      "dateFetched": "2020-06-13T01:09:04.612Z",
+      "form": "Form 8898"
+    }
   },
   "Form 8900": {
     "raw": [
       "Form 8900",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 3800",
       "Form 1065",
       "Form 1120-S",
@@ -8006,91 +8389,38 @@ window.__map_data = {
       "Schedule K-1 (Form 1120-S)"
     ],
     "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 3800",
       "Form 1065",
       "Form 1120-S",
       "Schedule K-1 (Form 1065)",
       "Schedule K-1 (Form 1120-S)"
-    ]
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i8900",
+      "dateFetched": "2020-06-13T01:09:05.957Z",
+      "form": "Form 8900"
+    }
   },
   "Form 8902": {
     "raw": [
       "Form 8902",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 1120",
       "Form 1120-F",
       null
     ],
     "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 1120",
       "Form 1120-F"
-    ]
-  },
-  "Form 8903": {
-    "raw": [
-      "Form 8903",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
-      "Form 1099-PATR",
-      "Form 1120-C",
-      "Form 4626",
-      "Form 1041",
-      "Form 1120",
-      "Form 990-T",
-      "Schedule K-1",
-      "Schedule G",
-      "Schedule K-1 (Form 1041)",
-      "Schedule 1 (Form 1040)"
     ],
-    "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
-      "Form 1099-PATR",
-      "Form 1120-C",
-      "Form 4626",
-      "Form 1041",
-      "Form 1120",
-      "Form 990-T",
-      "Schedule K-1",
-      "Schedule G",
-      "Schedule K-1 (Form 1041)",
-      "Schedule 1 (Form 1040)"
-    ]
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i8902",
+      "dateFetched": "2020-06-13T01:09:04.652Z",
+      "form": "Form 8902"
+    }
   },
   "Form 8904": {
     "raw": [
       "Form 8904",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 3800",
       "Form 1065",
       "Form 1120",
@@ -8098,28 +8428,21 @@ window.__map_data = {
       "Schedule K-1"
     ],
     "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 3800",
       "Form 1065",
       "Form 1120",
       "Schedule K-1 (Form 1065)",
       "Schedule K-1"
-    ]
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i8904",
+      "dateFetched": "2020-06-13T01:09:06.256Z",
+      "form": "Form 8904"
+    }
   },
   "Form 8907": {
     "raw": [
       "Form 8907",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 3800",
       "Form 1065",
       "Form 1041",
@@ -8129,12 +8452,6 @@ window.__map_data = {
       "Schedule K-1 (Form 1041)"
     ],
     "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 3800",
       "Form 1065",
       "Form 1041",
@@ -8142,144 +8459,41 @@ window.__map_data = {
       "Schedule K-1 (Form 1065)",
       "Schedule K-1",
       "Schedule K-1 (Form 1041)"
-    ]
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i8907",
+      "dateFetched": "2020-06-13T01:09:05.785Z",
+      "form": "Form 8907"
+    }
   },
-  "Form 8909": {
+  "Form 8908": {
     "raw": [
-      "Form 8909",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
+      "Form 8908",
       "Form 3800",
       "Form 1065",
-      "Form 1120",
-      "Form 1041",
-      "Form 1099-PATR",
-      "Form 8810",
-      "Form 8582-CR",
+      "Form 1120-S",
       "Schedule K-1 (Form 1065)",
-      "Schedule K-1",
-      "Schedule K-1 (Form 1041)"
+      "Schedule K-1 (Form 1120-S)"
     ],
     "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 3800",
-      "Form 1065",
-      "Form 1120",
-      "Form 1041",
-      "Form 1099-PATR",
-      "Form 8810",
-      "Form 8582-CR",
-      "Schedule K-1 (Form 1065)",
-      "Schedule K-1",
-      "Schedule K-1 (Form 1041)"
-    ]
-  },
-  "Form 8910": {
-    "raw": [
-      "Form 8910",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
-      "Form 3800",
-      "Form 8936",
       "Form 1065",
       "Form 1120-S",
-      "Form 1040-NR",
-      "Form 5695",
       "Schedule K-1 (Form 1065)",
-      "Schedule K-1 (Form 1120-S)",
-      "Schedule 3",
-      "Schedule R"
+      "Schedule K-1 (Form 1120-S)"
     ],
-    "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
-      "Form 3800",
-      "Form 8936",
-      "Form 1065",
-      "Form 1120-S",
-      "Form 1040-NR",
-      "Form 5695",
-      "Schedule K-1 (Form 1065)",
-      "Schedule K-1 (Form 1120-S)",
-      "Schedule 3",
-      "Schedule R"
-    ]
-  },
-  "Form 8911": {
-    "raw": [
-      "Form 8911",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
-      "Form 1040-SR",
-      "Form 1040-NR",
-      "Form 1041",
-      "Form 3800",
-      "Form 4562",
-      "Form 1065",
-      "Form 1120-S",
-      "Form 8801",
-      "Form 8912",
-      "Schedule G",
-      "Schedule K-1 (Form 1065)",
-      "Schedule K-1 (Form 1120-S)",
-      "Schedule 3 (Form 1040)",
-      "Schedule 3"
-    ],
-    "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
-      "Form 1040-SR",
-      "Form 1040-NR",
-      "Form 1041",
-      "Form 3800",
-      "Form 4562",
-      "Form 1065",
-      "Form 1120-S",
-      "Form 8801",
-      "Form 8912",
-      "Schedule G",
-      "Schedule K-1 (Form 1065)",
-      "Schedule K-1 (Form 1120-S)",
-      "Schedule 3 (Form 1040)",
-      "Schedule 3"
-    ]
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i8908",
+      "dateFetched": "2020-06-13T01:09:06.290Z",
+      "form": "Form 8908"
+    }
   },
   "Form 8912": {
     "raw": [
       "Form 8912",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 1097-BTC",
       "Form 1065",
+      "Form 1040",
       "Form 1040-NR",
       "Form 3800",
       "Form 1041",
@@ -8290,14 +8504,9 @@ window.__map_data = {
       "Schedule J"
     ],
     "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 1097-BTC",
       "Form 1065",
+      "Form 1040",
       "Form 1040-NR",
       "Form 3800",
       "Form 1041",
@@ -8306,43 +8515,63 @@ window.__map_data = {
       "Schedule 3",
       "Schedule G",
       "Schedule J"
-    ]
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i8912",
+      "dateFetched": "2020-06-13T01:09:05.900Z",
+      "form": "Form 8912"
+    }
   },
   "Form 8915-A": {
     "raw": [
       "Form 8915-A",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 8915",
       "Form 8915-B",
+      "Form 1040",
+      "Form 1040-X",
       "Form 8606",
       null
     ],
     "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 8915",
       "Form 8915-B",
+      "Form 1040",
+      "Form 1040-X",
       "Form 8606"
-    ]
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i8915a",
+      "dateFetched": "2020-06-13T01:09:04.860Z",
+      "form": "Form 8915-A"
+    }
+  },
+  "Form 8915-B": {
+    "raw": [
+      "Form 8915-B",
+      "Form 8915",
+      "Form 8915-A",
+      "Form 1040",
+      "Form 1040-X",
+      "Form 8606",
+      null
+    ],
+    "cleaned": [
+      "Form 8915",
+      "Form 8915-A",
+      "Form 1040",
+      "Form 1040-X",
+      "Form 8606"
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i8915b",
+      "dateFetched": "2020-06-13T01:09:05.482Z",
+      "form": "Form 8915-B"
+    }
   },
   "Form 8915": {
     "raw": [
       "Form 8915",
       "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 1099-R",
       "Form 5329",
       "Form 4972",
@@ -8351,94 +8580,33 @@ window.__map_data = {
     ],
     "cleaned": [
       "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 1099-R",
       "Form 5329",
       "Form 4972",
       "Form 8606"
-    ]
-  },
-  "Form 8918": {
-    "raw": [
-      "Form 8918",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
-      "Form 8264",
-      "Form 8886",
-      null
     ],
-    "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
-      "Form 8264",
-      "Form 8886"
-    ]
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i8915",
+      "dateFetched": "2020-06-13T01:09:06.269Z",
+      "form": "Form 8915"
+    }
   },
   "Form 8921": {
     "raw": [
       "Form 8921",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       null
     ],
-    "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848"
-    ]
-  },
-  "Form 8928": {
-    "raw": [
-      "Form 8928",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
-      "Form 7004",
-      "Form 5500",
-      null
-    ],
-    "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
-      "Form 7004",
-      "Form 5500"
-    ]
+    "cleaned": [],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i8921",
+      "dateFetched": "2020-06-13T01:09:05.789Z",
+      "form": "Form 8921"
+    }
   },
   "Form 8930": {
     "raw": [
       "Form 8930",
       "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 1099-R",
       "Form 5329",
       "Form 4972",
@@ -8447,316 +8615,115 @@ window.__map_data = {
     ],
     "cleaned": [
       "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 1099-R",
       "Form 5329",
       "Form 4972",
       "Form 8606"
-    ]
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i8930",
+      "dateFetched": "2020-06-13T01:09:04.898Z",
+      "form": "Form 8930"
+    }
   },
-  "Form 8936": {
+  "Form 8937": {
     "raw": [
-      "Form 8936",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
-      "Form 3800",
-      "Form 8910",
-      "Form 4562",
-      "Form 1065",
-      "Form 1120-S",
-      "Form 1040-NR",
-      "Form 5695",
-      "Schedule K-1 (Form 1065)",
-      "Schedule K-1 (Form 1120-S)",
-      "Schedule 3",
-      "Schedule R"
+      "Form 8937",
+      "Form 1099-DIV",
+      "Form 1120",
+      "Form 2439",
+      "Schedule K-1"
     ],
     "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
-      "Form 3800",
-      "Form 8910",
-      "Form 4562",
-      "Form 1065",
-      "Form 1120-S",
-      "Form 1040-NR",
-      "Form 5695",
-      "Schedule K-1 (Form 1065)",
-      "Schedule K-1 (Form 1120-S)",
-      "Schedule 3",
-      "Schedule R"
-    ]
+      "Form 1099-DIV",
+      "Form 1120",
+      "Form 2439",
+      "Schedule K-1"
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i8937",
+      "dateFetched": "2020-06-13T01:09:06.405Z",
+      "form": "Form 8937"
+    }
   },
-  "Form 8941": {
+  "Form 8940": {
     "raw": [
-      "Form 8941",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
+      "Form 8940",
+      "Form 990",
+      "Form 1023-EZ",
+      "Form 1023",
       "Form 2848",
-      "Form 990-T",
-      "Form 3800",
-      "Form 1065",
-      "Form 1120-S",
-      "Form 1041",
-      "Form 1099-PATR",
-      "Form 8810",
-      "Form 8582-CR",
-      "Schedule C",
-      "Schedule K-1 (Form 1065)",
-      "Schedule K-1 (Form 1120-S)",
-      "Schedule K-1 (Form 1041)"
+      "Form 990-EZ",
+      "Form 990-N",
+      "Form 990-PF",
+      "Form 872",
+      "Form 872-B",
+      "Schedule H",
+      "Schedule A",
+      "Schedule B",
+      "Schedule C"
     ],
     "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
+      "Form 990",
+      "Form 1023-EZ",
+      "Form 1023",
       "Form 2848",
-      "Form 990-T",
-      "Form 3800",
-      "Form 1065",
-      "Form 1120-S",
-      "Form 1041",
-      "Form 1099-PATR",
-      "Form 8810",
-      "Form 8582-CR",
-      "Schedule C",
-      "Schedule K-1 (Form 1065)",
-      "Schedule K-1 (Form 1120-S)",
-      "Schedule K-1 (Form 1041)"
-    ]
+      "Form 990-EZ",
+      "Form 990-N",
+      "Form 990-PF",
+      "Form 872",
+      "Form 872-B",
+      "Schedule H",
+      "Schedule A",
+      "Schedule B",
+      "Schedule C"
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i8940",
+      "dateFetched": "2020-06-13T01:09:07.026Z",
+      "form": "Form 8940"
+    }
   },
   "Form 8942": {
     "raw": [
       "Form 8942",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 3468",
       "Form 1065",
+      "Form 2848",
       "Form 4255",
       null
     ],
     "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 3468",
       "Form 1065",
+      "Form 2848",
       "Form 4255"
-    ]
-  },
-  "Form 8949": {
-    "raw": [
-      "Form 8949",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
-      "Form 1099-B",
-      "Form 2438",
-      "Form 2439",
-      "Form 8971",
-      "Form 8997",
-      "Form 6252",
-      "Form 4797",
-      "Form 4684",
-      "Form 1040-NR",
-      "Form 1065",
-      "Form 1041",
-      "Form 1120-S",
-      "Form 8453",
-      "Form 8453-FE",
-      "Form 1099-R",
-      "Form 1099-DIV",
-      "Form 8621",
-      "Form 8939",
-      "Form 1099-S",
-      "Form 1099",
-      "Schedule D",
-      "Schedule A",
-      "Schedule 1",
-      "Schedule K-1 (Form 1065)",
-      "Schedule K-1 (Form 1041)",
-      "Schedule K-1",
-      "Schedule D (Form 1041)"
     ],
-    "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
-      "Form 1099-B",
-      "Form 2438",
-      "Form 2439",
-      "Form 8971",
-      "Form 8997",
-      "Form 6252",
-      "Form 4797",
-      "Form 4684",
-      "Form 1040-NR",
-      "Form 1065",
-      "Form 1041",
-      "Form 1120-S",
-      "Form 8453",
-      "Form 8453-FE",
-      "Form 1099-R",
-      "Form 1099-DIV",
-      "Form 8621",
-      "Form 8939",
-      "Form 1099-S",
-      "Form 1099",
-      "Schedule D",
-      "Schedule A",
-      "Schedule 1",
-      "Schedule K-1 (Form 1065)",
-      "Schedule K-1 (Form 1041)",
-      "Schedule K-1",
-      "Schedule D (Form 1041)"
-    ]
-  },
-  "Form 8950": {
-    "raw": [
-      "Form 8950",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
-      "Form 8821",
-      "Form 5500",
-      "Form 8951",
-      "Form 14568",
-      "Form 5500-EZ",
-      "Form 5500-SF",
-      null
-    ],
-    "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
-      "Form 8821",
-      "Form 5500",
-      "Form 8951",
-      "Form 14568",
-      "Form 5500-EZ",
-      "Form 5500-SF"
-    ]
-  },
-  "Form 8952": {
-    "raw": [
-      "Form 8952",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
-      "Form 1065",
-      "Form 1099-MISC",
-      "Form 8655",
-      null
-    ],
-    "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
-      "Form 1065",
-      "Form 1099-MISC",
-      "Form 8655"
-    ]
-  },
-  "Form 8955-SSA": {
-    "raw": [
-      "Form 8955-SSA",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
-      "Form 5558",
-      "Form 5500",
-      "Form 5500-SF",
-      "Schedule SSA (Form 5500)",
-      "Schedule SSA"
-    ],
-    "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
-      "Form 5558",
-      "Form 5500",
-      "Form 5500-SF",
-      "Schedule SSA (Form 5500)",
-      "Schedule SSA"
-    ]
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i8942",
+      "dateFetched": "2020-06-13T01:09:06.403Z",
+      "form": "Form 8942"
+    }
   },
   "Form 8957": {
     "raw": [
       "Form 8957",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
       "Form 2848",
       null
     ],
     "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
       "Form 2848"
-    ]
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i8957",
+      "dateFetched": "2020-06-13T01:09:06.532Z",
+      "form": "Form 8957"
+    }
   },
   "Form 8959": {
     "raw": [
       "Form 8959",
       "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 1040-SS",
       "Form 499",
       "Form 1040-SR",
@@ -8774,11 +8741,6 @@ window.__map_data = {
     ],
     "cleaned": [
       "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 1040-SS",
       "Form 499",
       "Form 1040-SR",
@@ -8793,87 +8755,18 @@ window.__map_data = {
       "Form 2210-F",
       "Schedule SE",
       "Schedule 2"
-    ]
-  },
-  "Form 8960": {
-    "raw": [
-      "Form 8960",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
-      "Form 8814",
-      "Form 1040-NR",
-      "Form 8833",
-      "Form 1041",
-      "Form 1041-QFT",
-      "Form 8582",
-      "Form 1099-R",
-      "Form 1065",
-      "Form 1120-S",
-      "Form 1099-MISC",
-      "Form 1045",
-      "Form 4952",
-      "Form 2555",
-      "Schedule G",
-      "Schedule C",
-      "Schedule 1",
-      "Schedule K-1 (Form 1065)",
-      "Schedule K-1 (Form 1120-S)",
-      "Schedule E",
-      "Schedule D",
-      "Schedule A",
-      "Schedule K-1 (Form 1041)",
-      "Schedule SE",
-      "Schedule 2",
-      "Schedule B"
     ],
-    "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
-      "Form 8814",
-      "Form 1040-NR",
-      "Form 8833",
-      "Form 1041",
-      "Form 1041-QFT",
-      "Form 8582",
-      "Form 1099-R",
-      "Form 1065",
-      "Form 1120-S",
-      "Form 1099-MISC",
-      "Form 1045",
-      "Form 4952",
-      "Form 2555",
-      "Schedule G",
-      "Schedule C",
-      "Schedule 1",
-      "Schedule K-1 (Form 1065)",
-      "Schedule K-1 (Form 1120-S)",
-      "Schedule E",
-      "Schedule D",
-      "Schedule A",
-      "Schedule K-1 (Form 1041)",
-      "Schedule SE",
-      "Schedule 2",
-      "Schedule B"
-    ]
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i8959",
+      "dateFetched": "2020-06-13T01:09:05.121Z",
+      "form": "Form 8959"
+    }
   },
   "Form 8962": {
     "raw": [
       "Form 8962",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 1095-A",
+      "Form 1040",
       "Form 8885",
       "Form 1040-NR",
       "Form 1040-NR-EZ",
@@ -8885,13 +8778,8 @@ window.__map_data = {
       "Schedule 3"
     ],
     "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 1095-A",
+      "Form 1040",
       "Form 8885",
       "Form 1040-NR",
       "Form 1040-NR-EZ",
@@ -8901,126 +8789,19 @@ window.__map_data = {
       "Form 1099-H",
       "Schedule 2",
       "Schedule 3"
-    ]
-  },
-  "Form 8963": {
-    "raw": [
-      "Form 8963",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
-      "Form 8453-R",
-      "Schedule A"
     ],
-    "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
-      "Form 8453-R",
-      "Schedule A"
-    ]
-  },
-  "Form 8966": {
-    "raw": [
-      "Form 8966",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
-      "Form 1099",
-      "Form 1042",
-      "Form 1042-S",
-      "Form 8809-I",
-      "Form 8508-I",
-      "Form 8966-C",
-      null
-    ],
-    "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
-      "Form 1099",
-      "Form 1042",
-      "Form 1042-S",
-      "Form 8809-I",
-      "Form 8508-I",
-      "Form 8966-C"
-    ]
-  },
-  "Form 8971": {
-    "raw": [
-      "Form 8971",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
-      "Form 706",
-      "Form 706-NA",
-      "Form 8822",
-      "Schedule A",
-      "Schedule(s) A"
-    ],
-    "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
-      "Form 706",
-      "Form 706-NA",
-      "Form 8822",
-      "Schedule A",
-      "Schedule A"
-    ]
-  },
-  "Form 8973": {
-    "raw": [
-      "Form 8973",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
-      "Form 2678",
-      "Schedule R (Form 941)"
-    ],
-    "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
-      "Form 2678",
-      "Schedule R (Form 941)"
-    ]
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i8962",
+      "dateFetched": "2020-06-13T01:09:07.512Z",
+      "form": "Form 8962"
+    }
   },
   "Form 8974": {
     "raw": [
       "Form 8974",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 943",
       "Form 944",
+      "Form 941",
       "Form 941-SS",
       "Form 941-PR",
       "Form 943-PR",
@@ -9028,19 +8809,15 @@ window.__map_data = {
       "Form 941-X",
       "Form 943-X",
       "Form 944-X",
+      "Form 1040",
       "Schedule R (Form 941)",
       "Schedule R (Form 943)",
       "Schedule R"
     ],
     "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 943",
       "Form 944",
+      "Form 941",
       "Form 941-SS",
       "Form 941-PR",
       "Form 943-PR",
@@ -9048,109 +8825,40 @@ window.__map_data = {
       "Form 941-X",
       "Form 943-X",
       "Form 944-X",
+      "Form 1040",
       "Schedule R (Form 941)",
       "Schedule R (Form 943)",
       "Schedule R"
-    ]
-  },
-  "Form 8975": {
-    "raw": [
-      "Form 8975",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
-      "Form 1120-REIT",
-      "Form 990-T",
-      "Form 1120-PC",
-      "Form 1041",
-      "Schedule A (Form 8975)",
-      "Schedule A"
     ],
-    "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
-      "Form 1120-REIT",
-      "Form 990-T",
-      "Form 1120-PC",
-      "Form 1041",
-      "Schedule A (Form 8975)",
-      "Schedule A"
-    ]
-  },
-  "Form 8978": {
-    "raw": [
-      "Form 8978",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
-      "Form 8986",
-      "Form 8082",
-      "Schedule A",
-      "Schedule A (Form 8978)",
-      "Schedule K",
-      "Schedule K-1"
-    ],
-    "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
-      "Form 8986",
-      "Form 8082",
-      "Schedule A",
-      "Schedule A (Form 8978)",
-      "Schedule K",
-      "Schedule K-1"
-    ]
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i8974",
+      "dateFetched": "2020-06-13T01:09:06.412Z",
+      "form": "Form 8974"
+    }
   },
   "Form 8979": {
     "raw": [
       "Form 8979",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 8822",
       "Form 8822-B",
       "Form 1065",
       null
     ],
     "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 8822",
       "Form 8822-B",
       "Form 1065"
-    ]
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i8979",
+      "dateFetched": "2020-06-13T01:09:06.254Z",
+      "form": "Form 8979"
+    }
   },
   "Form 8985": {
     "raw": [
       "Form 8985",
       "Form 8985-V",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 8986",
       "Form 1065",
       "Form 1120-S",
@@ -9161,12 +8869,6 @@ window.__map_data = {
     ],
     "cleaned": [
       "Form 8985-V",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 8986",
       "Form 1065",
       "Form 1120-S",
@@ -9174,52 +8876,16 @@ window.__map_data = {
       "Schedule K",
       "Schedule K-1 (Form 1065)",
       "Schedule K-1 (Form 1120-S)"
-    ]
-  },
-  "Form 8986": {
-    "raw": [
-      "Form 8986",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
-      "Form 8985",
-      "Form 1042",
-      "Form 8804",
-      "Form 8978",
-      "Form 1065",
-      "Form 1120-S",
-      "Schedule K-1",
-      "Schedule K-1 (Form 1065)"
     ],
-    "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
-      "Form 8985",
-      "Form 1042",
-      "Form 8804",
-      "Form 8978",
-      "Form 1065",
-      "Form 1120-S",
-      "Schedule K-1",
-      "Schedule K-1 (Form 1065)"
-    ]
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i8985",
+      "dateFetched": "2020-06-13T01:09:06.014Z",
+      "form": "Form 8985"
+    }
   },
   "Form 8990": {
     "raw": [
       "Form 8990",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 5471",
       "Form 1065",
       "Form 1120-S",
@@ -9229,12 +8895,6 @@ window.__map_data = {
       "Schedule K-1"
     ],
     "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 5471",
       "Form 1065",
       "Form 1120-S",
@@ -9242,164 +8902,50 @@ window.__map_data = {
       "Schedule B",
       "Schedule K",
       "Schedule K-1"
-    ]
-  },
-  "Form 8991": {
-    "raw": [
-      "Form 8991",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
-      "Form 5472",
-      "Form 1120",
-      "Form 1120-F",
-      "Form 1120-L",
-      "Form 1120-PC",
-      "Form 1120-C",
-      "Form 1065",
-      "Form 6765",
-      "Form 3800",
-      "Form 8586",
-      "Form 8835",
-      "Form 3468",
-      "Schedule A",
-      "Schedule B",
-      "Schedule K",
-      "Schedule M",
-      "Schedule I",
-      "Schedule J"
     ],
-    "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
-      "Form 5472",
-      "Form 1120",
-      "Form 1120-F",
-      "Form 1120-L",
-      "Form 1120-PC",
-      "Form 1120-C",
-      "Form 1065",
-      "Form 6765",
-      "Form 3800",
-      "Form 8586",
-      "Form 8835",
-      "Form 3468",
-      "Schedule A",
-      "Schedule B",
-      "Schedule K",
-      "Schedule M",
-      "Schedule I",
-      "Schedule J"
-    ]
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i8990",
+      "dateFetched": "2020-06-13T01:09:07.290Z",
+      "form": "Form 8990"
+    }
   },
-  "Form 8993": {
+  "Form 8992": {
     "raw": [
+      "Form 8992",
       "Form 8993",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
-      "Form 8992",
-      "Form 1118",
+      "Form 8833",
       "Form 1120",
+      "Form 1040",
+      "Form 5471",
       "Schedule A",
-      "Schedule C"
+      "Schedule C",
+      "Schedule 1",
+      "Schedule I-1 (Form 5471)",
+      "Schedule J (Form 5471)",
+      "Schedule P (Form 5471)"
     ],
     "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
-      "Form 8992",
-      "Form 1118",
+      "Form 8993",
+      "Form 8833",
       "Form 1120",
+      "Form 1040",
+      "Form 5471",
       "Schedule A",
-      "Schedule C"
-    ]
-  },
-  "Form 8994": {
-    "raw": [
-      "Form 8994",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
-      "Form 3800",
-      "Form 1065",
-      "Form 1120-S",
-      "Schedule K-1 (Form 1065)",
-      "Schedule K-1 (Form 1120-S)"
+      "Schedule C",
+      "Schedule 1",
+      "Schedule I-1 (Form 5471)",
+      "Schedule J (Form 5471)",
+      "Schedule P (Form 5471)"
     ],
-    "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
-      "Form 3800",
-      "Form 1065",
-      "Form 1120-S",
-      "Schedule K-1 (Form 1065)",
-      "Schedule K-1 (Form 1120-S)"
-    ]
-  },
-  "Form 8996": {
-    "raw": [
-      "Form 8996",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
-      "Form 1120-F",
-      "Form 1120",
-      "Form 1120-REIT",
-      "Form 1120-RIC",
-      "Form 1120-S",
-      "Form 1065",
-      "Form 1099-B",
-      null
-    ],
-    "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
-      "Form 1120-F",
-      "Form 1120",
-      "Form 1120-REIT",
-      "Form 1120-RIC",
-      "Form 1120-S",
-      "Form 1065",
-      "Form 1099-B"
-    ]
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i8992",
+      "dateFetched": "2020-06-13T01:09:05.960Z",
+      "form": "Form 8992"
+    }
   },
   "Form 926": {
     "raw": [
       "Form 926",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 114",
       "Form 8838",
       "Form 8832",
@@ -9407,30 +8953,25 @@ window.__map_data = {
       null
     ],
     "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 114",
       "Form 8838",
       "Form 8832",
       "Form 1120"
-    ]
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i926",
+      "dateFetched": "2020-06-13T01:09:04.245Z",
+      "form": "Form 926"
+    }
   },
   "Form 940": {
     "raw": [
       "Form 940",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 2678",
       "Form 8973",
       "Form 8822-B",
+      "Form 1040",
+      "Form 941",
       "Form 943",
       "Form 944",
       "Form 843",
@@ -9442,15 +8983,11 @@ window.__map_data = {
       "Schedule H"
     ],
     "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 2678",
       "Form 8973",
       "Form 8822-B",
+      "Form 1040",
+      "Form 941",
       "Form 943",
       "Form 944",
       "Form 843",
@@ -9460,26 +8997,27 @@ window.__map_data = {
       "Schedule R (Form 940)",
       "Schedule R",
       "Schedule H"
-    ]
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i940",
+      "dateFetched": "2020-06-13T01:09:07.255Z",
+      "form": "Form 940"
+    }
   },
   "Form 941-SS": {
     "raw": [
       "Form 941-SS",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 944",
       "Form 6765",
       "Form 8974",
+      "Form 941",
       "Form 2678",
       "Form 8973",
       "Form 5884-C",
       "Form 941-X",
       "Form 945",
       "Form 940",
+      "Form 1040",
       "Form 943",
       "Form 8822-B",
       "Form 843",
@@ -9495,21 +9033,17 @@ window.__map_data = {
       "Schedule B (Form 941)"
     ],
     "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 944",
       "Form 6765",
       "Form 8974",
+      "Form 941",
       "Form 2678",
       "Form 8973",
       "Form 5884-C",
       "Form 941-X",
       "Form 945",
       "Form 940",
+      "Form 1040",
       "Form 943",
       "Form 8822-B",
       "Form 843",
@@ -9523,18 +9057,17 @@ window.__map_data = {
       "Schedule H",
       "Schedule D (Form 941)",
       "Schedule B (Form 941)"
-    ]
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i941ss",
+      "dateFetched": "2020-06-13T01:09:07.205Z",
+      "form": "Form 941-SS"
+    }
   },
   "Form 941-X": {
     "raw": [
       "Form 941-X",
-      "Form 941-XW",
-      "Form 1040",
-      "Form 4506-T",
       "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 843",
       "Form 941-SS",
       "Form 944",
@@ -9544,13 +9077,7 @@ window.__map_data = {
       "Schedule D"
     ],
     "cleaned": [
-      "Form 941-XW",
-      "Form 1040",
-      "Form 4506-T",
       "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 843",
       "Form 941-SS",
       "Form 944",
@@ -9558,17 +9085,74 @@ window.__map_data = {
       "Form 8655",
       "Schedule B (Form 941)",
       "Schedule D"
-    ]
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i941x",
+      "dateFetched": "2020-06-13T01:09:06.986Z",
+      "form": "Form 941-X"
+    }
+  },
+  "Form 941": {
+    "raw": [
+      "Form 941",
+      "Form 944",
+      "Form 6765",
+      "Form 8974",
+      "Form 2678",
+      "Form 8973",
+      "Form 5884-C",
+      "Form 941-X",
+      "Form 945",
+      "Form 940",
+      "Form 1040",
+      "Form 943",
+      "Form 8822-B",
+      "Form 843",
+      "Form 4070",
+      "Form 8027",
+      "Form 941-V",
+      "Form 8655",
+      "Schedule D",
+      "Schedule R (Form 941)",
+      "Schedule R",
+      "Schedule H",
+      "Schedule D (Form 941)",
+      "Schedule B (Form 941)"
+    ],
+    "cleaned": [
+      "Form 944",
+      "Form 6765",
+      "Form 8974",
+      "Form 2678",
+      "Form 8973",
+      "Form 5884-C",
+      "Form 941-X",
+      "Form 945",
+      "Form 940",
+      "Form 1040",
+      "Form 943",
+      "Form 8822-B",
+      "Form 843",
+      "Form 4070",
+      "Form 8027",
+      "Form 941-V",
+      "Form 8655",
+      "Schedule D",
+      "Schedule R (Form 941)",
+      "Schedule R",
+      "Schedule H",
+      "Schedule D (Form 941)",
+      "Schedule B (Form 941)"
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i941",
+      "dateFetched": "2020-06-13T01:09:07.350Z",
+      "form": "Form 941"
+    }
   },
   "Form 943-X": {
     "raw": [
       "Form 943-X",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 943",
       "Form 2678",
       "Form 6765",
@@ -9580,12 +9164,6 @@ window.__map_data = {
       "Schedule R"
     ],
     "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 943",
       "Form 2678",
       "Form 6765",
@@ -9595,17 +9173,16 @@ window.__map_data = {
       "Form 8655",
       "Schedule R (Form 943)",
       "Schedule R"
-    ]
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i943x",
+      "dateFetched": "2020-06-13T01:09:07.062Z",
+      "form": "Form 943-X"
+    }
   },
   "Form 943": {
     "raw": [
       "Form 943",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 1099-MISC",
       "Form 2678",
       "Form 8973",
@@ -9614,6 +9191,8 @@ window.__map_data = {
       "Form 5884-C",
       "Form 943-X",
       "Form 8822-B",
+      "Form 1040",
+      "Form 941",
       "Form 944",
       "Form 945",
       "Form 1099",
@@ -9627,12 +9206,6 @@ window.__map_data = {
       "Schedule H"
     ],
     "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 1099-MISC",
       "Form 2678",
       "Form 8973",
@@ -9641,6 +9214,8 @@ window.__map_data = {
       "Form 5884-C",
       "Form 943-X",
       "Form 8822-B",
+      "Form 1040",
+      "Form 941",
       "Form 944",
       "Form 945",
       "Form 1099",
@@ -9652,55 +9227,97 @@ window.__map_data = {
       "Schedule R (Form 943)",
       "Schedule R",
       "Schedule H"
-    ]
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i943",
+      "dateFetched": "2020-06-13T01:09:07.300Z",
+      "form": "Form 943"
+    }
+  },
+  "Form 944-SS": {
+    "raw": [
+      "Form 944-SS",
+      "Form 944",
+      "Form 8822-B",
+      "Form 944-X",
+      "Form 945-A",
+      "Form 1040",
+      "Form 943",
+      "Form 8822",
+      "Form 941-SS",
+      "Form 843",
+      "Form 941-X",
+      "Form 4070",
+      "Form 944-V",
+      "Form 8655",
+      "Form 940",
+      "Form 943-X",
+      "Form 8027",
+      "Schedule H (Form 1040)"
+    ],
+    "cleaned": [
+      "Form 944",
+      "Form 8822-B",
+      "Form 944-X",
+      "Form 945-A",
+      "Form 1040",
+      "Form 943",
+      "Form 8822",
+      "Form 941-SS",
+      "Form 843",
+      "Form 941-X",
+      "Form 4070",
+      "Form 944-V",
+      "Form 8655",
+      "Form 940",
+      "Form 943-X",
+      "Form 8027",
+      "Schedule H (Form 1040)"
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i944ss",
+      "dateFetched": "2020-06-13T01:09:04.508Z",
+      "form": "Form 944-SS"
+    }
   },
   "Form 944-X": {
     "raw": [
       "Form 944-X",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 944",
       "Form 6765",
       "Form 8974",
       "Form 843",
       "Form 945-A",
+      "Form 941",
       "Form 941-SS",
       "Form 8655",
       null
     ],
     "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 944",
       "Form 6765",
       "Form 8974",
       "Form 843",
       "Form 945-A",
+      "Form 941",
       "Form 941-SS",
       "Form 8655"
-    ]
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i944x",
+      "dateFetched": "2020-06-13T01:09:07.442Z",
+      "form": "Form 944-X"
+    }
   },
   "Form 944": {
     "raw": [
       "Form 944",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 6765",
       "Form 8974",
       "Form 5884-C",
       "Form 944-X",
+      "Form 941",
+      "Form 1040",
       "Form 943",
       "Form 943-PR",
       "Form 8822-B",
@@ -9716,16 +9333,12 @@ window.__map_data = {
       "Schedule D (Form 941)"
     ],
     "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 6765",
       "Form 8974",
       "Form 5884-C",
       "Form 944-X",
+      "Form 941",
+      "Form 1040",
       "Form 943",
       "Form 943-PR",
       "Form 8822-B",
@@ -9739,22 +9352,44 @@ window.__map_data = {
       "Schedule H",
       "Schedule H-PR",
       "Schedule D (Form 941)"
-    ]
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i944",
+      "dateFetched": "2020-06-13T01:09:04.936Z",
+      "form": "Form 944"
+    }
+  },
+  "Form 945-X": {
+    "raw": [
+      "Form 945-X",
+      "Form 945",
+      "Form 843",
+      "Form 945-A",
+      "Form 8655",
+      null
+    ],
+    "cleaned": [
+      "Form 945",
+      "Form 843",
+      "Form 945-A",
+      "Form 8655"
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i945x",
+      "dateFetched": "2020-06-13T01:09:04.918Z",
+      "form": "Form 945-X"
+    }
   },
   "Form 945": {
     "raw": [
       "Form 945",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 945-X",
       "Form 1099-R",
       "Form 1099-MISC",
+      "Form 941",
       "Form 943",
       "Form 944",
+      "Form 1040",
       "Form 1042",
       "Form 945-A",
       "Form 8822-B",
@@ -9766,17 +9401,13 @@ window.__map_data = {
       "Schedule H"
     ],
     "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 945-X",
       "Form 1099-R",
       "Form 1099-MISC",
+      "Form 941",
       "Form 943",
       "Form 944",
+      "Form 1040",
       "Form 1042",
       "Form 945-A",
       "Form 8822-B",
@@ -9786,190 +9417,183 @@ window.__map_data = {
       "Form 945-V",
       "Form 8655",
       "Schedule H"
-    ]
-  },
-  "Form 9465": {
-    "raw": [
-      "Form 9465",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 1040-X",
-      "Form 2848",
-      "Form 2159",
-      "Form 13844",
-      "Form 2555",
-      "Form 433-F",
-      "Schedule(s) C"
     ],
-    "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 1040-X",
-      "Form 2848",
-      "Form 2159",
-      "Form 13844",
-      "Form 2555",
-      "Form 433-F",
-      "Schedule C"
-    ]
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i945",
+      "dateFetched": "2020-06-13T01:09:07.285Z",
+      "form": "Form 945"
+    }
   },
   "Form 965-A": {
     "raw": [
       "Form 965-A",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 965-C",
       "Form 965-D",
       "Form 965-E",
+      "Form 1040",
       "Schedule 2"
     ],
     "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 965-C",
       "Form 965-D",
       "Form 965-E",
+      "Form 1040",
       "Schedule 2"
-    ]
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i965a",
+      "dateFetched": "2020-06-13T01:09:05.843Z",
+      "form": "Form 965-A"
+    }
+  },
+  "Form 965-B": {
+    "raw": [
+      "Form 965-B",
+      "Form 965-C",
+      "Form 1120",
+      "Schedule J"
+    ],
+    "cleaned": [
+      "Form 965-C",
+      "Form 1120",
+      "Schedule J"
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i965b",
+      "dateFetched": "2020-06-13T01:09:04.625Z",
+      "form": "Form 965-B"
+    }
   },
   "Form 965-C": {
     "raw": [
       "Form 965-C",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 965-A",
       "Form 965-B",
       null
     ],
     "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 965-A",
       "Form 965-B"
-    ]
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i965c",
+      "dateFetched": "2020-06-13T01:09:06.204Z",
+      "form": "Form 965-C"
+    }
   },
   "Form 965-D": {
     "raw": [
       "Form 965-D",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 965-A",
       null
     ],
     "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 965-A"
-    ]
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i965d",
+      "dateFetched": "2020-06-13T01:09:06.364Z",
+      "form": "Form 965-D"
+    }
   },
   "Form 965-E": {
     "raw": [
       "Form 965-E",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       null
     ],
-    "cleaned": [
+    "cleaned": [],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i965e",
+      "dateFetched": "2020-06-13T01:09:06.341Z",
+      "form": "Form 965-E"
+    }
+  },
+  "Form 965": {
+    "raw": [
+      "Form 965",
+      "Form 1118",
+      "Form 1116",
+      "Form 1120",
       "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848"
-    ]
+      "Form 5471",
+      "Schedule F",
+      "Schedule H",
+      "Schedule F (Form 965)",
+      "Schedule H (Form 965)",
+      "Schedule G",
+      "Schedule C",
+      "Schedule 1",
+      "Schedule K-1",
+      "Schedule A",
+      "Schedule B"
+    ],
+    "cleaned": [
+      "Form 1118",
+      "Form 1116",
+      "Form 1120",
+      "Form 1040",
+      "Form 5471",
+      "Schedule F",
+      "Schedule H",
+      "Schedule F (Form 965)",
+      "Schedule H (Form 965)",
+      "Schedule G",
+      "Schedule C",
+      "Schedule 1",
+      "Schedule K-1",
+      "Schedule A",
+      "Schedule B"
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i965",
+      "dateFetched": "2020-06-13T01:09:05.794Z",
+      "form": "Form 965"
+    }
   },
   "Form 982": {
     "raw": [
       "Form 982",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 3800",
       null
     ],
     "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 3800"
-    ]
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i982",
+      "dateFetched": "2020-06-13T01:09:06.060Z",
+      "form": "Form 982"
+    }
   },
   "Form 990-BL": {
     "raw": [
       "Form 990-BL",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 8868",
       "Form 4506-A",
+      "Form 941",
       "Form 940",
       "Form 6069",
       "Schedule A (Form 990-BL)",
       "Schedule B"
     ],
     "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 8868",
       "Form 4506-A",
+      "Form 941",
       "Form 940",
       "Form 6069",
       "Schedule A (Form 990-BL)",
       "Schedule B"
-    ]
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i990bl",
+      "dateFetched": "2020-06-13T01:09:05.938Z",
+      "form": "Form 990-BL"
+    }
   },
   "Form 990-EZ": {
     "raw": [
       "Form 990-EZ",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 990-N",
       "Form 990",
       "Form 990-T",
@@ -9984,6 +9608,7 @@ window.__map_data = {
       "Form 5500",
       "Form 1128",
       "Form 3115",
+      "Form 941",
       "Form 8868",
       "Form 4506-A",
       "Form 8822-B",
@@ -10003,12 +9628,14 @@ window.__map_data = {
       "Form 1120",
       "Form 8871",
       "Form 8872",
+      "Form 1040",
       "Form 926",
       "Form 943",
       "Form 1040-SR",
       "Form 1096",
       "Form 1098",
       "Form 1099",
+      "Form 2848",
       "Form 3520",
       "Form 4506",
       "Form 4562",
@@ -10044,12 +9671,6 @@ window.__map_data = {
       "Schedule M"
     ],
     "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 990-N",
       "Form 990",
       "Form 990-T",
@@ -10064,6 +9685,7 @@ window.__map_data = {
       "Form 5500",
       "Form 1128",
       "Form 3115",
+      "Form 941",
       "Form 8868",
       "Form 4506-A",
       "Form 8822-B",
@@ -10083,12 +9705,14 @@ window.__map_data = {
       "Form 1120",
       "Form 8871",
       "Form 8872",
+      "Form 1040",
       "Form 926",
       "Form 943",
       "Form 1040-SR",
       "Form 1096",
       "Form 1098",
       "Form 1099",
+      "Form 2848",
       "Form 3520",
       "Form 4506",
       "Form 4562",
@@ -10122,17 +9746,16 @@ window.__map_data = {
       "Schedule I",
       "Schedule M (Form 990)",
       "Schedule M"
-    ]
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i990ez",
+      "dateFetched": "2020-06-13T01:09:07.991Z",
+      "form": "Form 990-EZ"
+    }
   },
   "Form 990-PF": {
     "raw": [
       "Form 990-PF",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 720",
       "Form 926",
       "Form 965",
@@ -10150,6 +9773,7 @@ window.__map_data = {
       "Form 1120-POL",
       "Form 1128",
       "Form 2220",
+      "Form 2848",
       "Form 3115",
       "Form 3520",
       "Form 4506",
@@ -10179,6 +9803,7 @@ window.__map_data = {
       "Form 990-N",
       "Form 940",
       "Form 990-EZ",
+      "Form 941",
       "Form 1120-W",
       "Form 1024",
       "Form 1065",
@@ -10194,12 +9819,6 @@ window.__map_data = {
       "Schedule N"
     ],
     "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 720",
       "Form 926",
       "Form 965",
@@ -10217,6 +9836,7 @@ window.__map_data = {
       "Form 1120-POL",
       "Form 1128",
       "Form 2220",
+      "Form 2848",
       "Form 3115",
       "Form 3520",
       "Form 4506",
@@ -10246,6 +9866,7 @@ window.__map_data = {
       "Form 990-N",
       "Form 940",
       "Form 990-EZ",
+      "Form 941",
       "Form 1120-W",
       "Form 1024",
       "Form 1065",
@@ -10259,21 +9880,21 @@ window.__map_data = {
       "Schedule K-1",
       "Schedule H",
       "Schedule N"
-    ]
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i990pf",
+      "dateFetched": "2020-06-13T01:09:07.879Z",
+      "form": "Form 990-PF"
+    }
   },
   "Form 990-T": {
     "raw": [
       "Form 990-T",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 461",
       "Form 720",
       "Form 926",
       "Form 940",
+      "Form 941",
       "Form 943",
       "Form 945",
       "Form 965",
@@ -10381,16 +10002,11 @@ window.__map_data = {
       "Schedule I (Form 1041)"
     ],
     "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 461",
       "Form 720",
       "Form 926",
       "Form 940",
+      "Form 941",
       "Form 943",
       "Form 945",
       "Form 965",
@@ -10496,17 +10112,16 @@ window.__map_data = {
       "Schedule D (Form 1041)",
       "Schedule D (Form 1120)",
       "Schedule I (Form 1041)"
-    ]
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i990t",
+      "dateFetched": "2020-06-13T01:09:07.805Z",
+      "form": "Form 990-T"
+    }
   },
   "Form 990 Return": {
     "raw": [
       "Form 990",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 990-N",
       "Form 990-EZ",
       "Form 4720",
@@ -10528,6 +10143,7 @@ window.__map_data = {
       "Form 1096",
       "Form 1099",
       "Form 940",
+      "Form 941",
       "Form 990-W",
       "Form 114",
       "Form 8886-T",
@@ -10539,6 +10155,7 @@ window.__map_data = {
       "Form 720",
       "Form 1099-MISC",
       "Form 1042-S",
+      "Form 2848",
       "Form 8655",
       "Form 1099-R",
       "Form 8872",
@@ -10568,12 +10185,6 @@ window.__map_data = {
     ],
     "cleaned": [
       "Form 990",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 990-N",
       "Form 990-EZ",
       "Form 4720",
@@ -10595,6 +10206,7 @@ window.__map_data = {
       "Form 1096",
       "Form 1099",
       "Form 940",
+      "Form 941",
       "Form 990-W",
       "Form 114",
       "Form 8886-T",
@@ -10606,6 +10218,7 @@ window.__map_data = {
       "Form 720",
       "Form 1099-MISC",
       "Form 1042-S",
+      "Form 2848",
       "Form 8655",
       "Form 1099-R",
       "Form 8872",
@@ -10632,605 +10245,127 @@ window.__map_data = {
       "Schedule F (Form 990)",
       "Schedule F",
       "Schedule D"
-    ]
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i990",
+      "dateFetched": "2020-06-13T01:09:08.018Z",
+      "form": "Form 990 Return"
+    }
   },
-  "Form CT-1": {
+  "Schedule 6 Form 8849": {
     "raw": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
-      "Form 8822-B",
-      "Form 944",
-      "Form 1040-SR",
-      "Form 945-A",
-      "Form 843",
-      "Form 8655",
-      "Schedule D"
+      "Form 8849",
+      "Form 720",
+      "Form 2290",
+      "Form 730",
+      "Form 11-C",
+      "Schedule 6 (Form 8849)",
+      "Schedule 6",
+      "Schedule 1"
     ],
     "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
-      "Form 8822-B",
-      "Form 944",
-      "Form 1040-SR",
-      "Form 945-A",
-      "Form 843",
-      "Form 8655",
-      "Schedule D"
-    ]
-  },
-  "Form SS-4": {
-    "raw": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
-      "Form 944",
-      "Form 11-C",
-      "Form 637",
-      "Form 720",
-      "Form 730",
-      "Form 990-T",
-      "Form 1023",
-      "Form 1024",
-      "Form 1041",
-      "Form 1042",
-      "Form 1042-S",
-      "Form 1065",
-      "Form 1066",
-      "Form 1120",
-      "Form 1120-S",
-      "Form 2290",
-      "Form 2553",
-      "Form 8821",
-      "Form 8822-B",
-      "Form 8832",
       "Form 8849",
-      "Form 990",
-      "Form 1023-EZ",
-      "Form 8871",
-      "Form 8872",
-      "Form 5472",
-      "Schedule C",
-      "Schedule F"
+      "Form 720",
+      "Form 2290",
+      "Form 730",
+      "Form 11-C",
+      "Schedule 6 (Form 8849)",
+      "Schedule 6",
+      "Schedule 1"
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i8849s6",
+      "dateFetched": "2020-06-13T01:09:05.946Z",
+      "form": "Schedule 6 Form 8849"
+    }
+  },
+  "Form 1040-S8812": {
+    "raw": [
+      "Form 8862",
+      "Form 1040",
+      "Form 1040-X",
+      "Form 2555",
+      "Form 1040-NR",
+      "Form 8959",
+      "Schedule 8812",
+      "Schedule SE",
+      "Schedule C"
     ],
     "cleaned": [
+      "Form 8862",
       "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
       "Form 1040-X",
-      "Form 2848",
-      "Form 944",
-      "Form 11-C",
-      "Form 637",
-      "Form 720",
-      "Form 730",
-      "Form 990-T",
-      "Form 1023",
-      "Form 1024",
-      "Form 1041",
-      "Form 1042",
-      "Form 1042-S",
-      "Form 1065",
-      "Form 1066",
-      "Form 1120",
-      "Form 1120-S",
-      "Form 2290",
-      "Form 2553",
-      "Form 8821",
-      "Form 8822-B",
-      "Form 8832",
-      "Form 8849",
-      "Form 990",
-      "Form 1023-EZ",
-      "Form 8871",
-      "Form 8872",
-      "Form 5472",
-      "Schedule C",
-      "Schedule F"
-    ]
+      "Form 2555",
+      "Form 1040-NR",
+      "Form 8959",
+      "Schedule 8812",
+      "Schedule SE",
+      "Schedule C"
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i1040s8",
+      "dateFetched": "2020-06-13T01:09:05.453Z",
+      "form": "Schedule 8812 Form 1040"
+    }
   },
-  "Form T": {
+  "Form 1040-SA": {
     "raw": [
+      "Form 1098",
       "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
+      "Form 1040-SR",
       "Form 1040-X",
-      "Form 2848",
-      "Form 4562",
+      "Form 2441",
+      "Form 8962",
+      "Form 8885",
+      "Form 14095",
+      "Form 1099-H",
+      "Form 1099-S",
+      "Form 8396",
+      "Form 4952",
+      "Form 8814",
+      "Form 8863",
+      "Form 8283",
+      "Form 1098-C",
+      "Form 4684",
       "Form 4797",
-      null
+      "Schedule A",
+      "Schedule C",
+      "Schedule 1",
+      "Schedule 3"
     ],
     "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
-      "Form 4562",
-      "Form 4797"
-    ]
-  },
-  "Form W-12": {
-    "raw": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
-      "Form 8945",
-      "Form 8946",
-      null
-    ],
-    "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
-      "Form 8945",
-      "Form 8946"
-    ]
-  },
-  "Form W-14": {
-    "raw": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
-      null
-    ],
-    "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848"
-    ]
-  },
-  "Form W-2AS": {
-    "raw": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
-      "Form 944-SS",
-      "Form 8809",
-      "Form 8508",
-      "Form 941-X",
-      "Form 1099-MISC",
-      "Form 940",
-      "Form 8889",
-      "Form 941-SS",
-      "Form 943",
-      "Form 1099-R",
-      "Schedule H (Form 1040)"
-    ],
-    "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
-      "Form 944-SS",
-      "Form 8809",
-      "Form 8508",
-      "Form 941-X",
-      "Form 1099-MISC",
-      "Form 940",
-      "Form 8889",
-      "Form 941-SS",
-      "Form 943",
-      "Form 1099-R",
-      "Schedule H (Form 1040)"
-    ]
-  },
-  "Form  W-2G": {
-    "raw": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
-      "Form 5754",
-      "Form 945",
-      "Form 1042",
-      "Form 1042-S",
-      null
-    ],
-    "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
-      "Form 5754",
-      "Form 945",
-      "Form 1042",
-      "Form 1042-S"
-    ]
-  },
-  "Form W-2GU": {
-    "raw": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
-      "Form 944-SS",
-      "Form 8809",
-      "Form 8508",
-      "Form 941-X",
-      "Form 1099-MISC",
-      "Form 940",
-      "Form 8889",
-      "Form 941-SS",
-      "Form 943",
-      "Form 1099-R",
-      "Schedule H (Form 1040)"
-    ],
-    "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
-      "Form 944-SS",
-      "Form 8809",
-      "Form 8508",
-      "Form 941-X",
-      "Form 1099-MISC",
-      "Form 940",
-      "Form 8889",
-      "Form 941-SS",
-      "Form 943",
-      "Form 1099-R",
-      "Schedule H (Form 1040)"
-    ]
-  },
-  "Form W-2VI": {
-    "raw": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
-      "Form 944-SS",
-      "Form 8809",
-      "Form 8508",
-      "Form 941-X",
-      "Form 1099-MISC",
-      "Form 940",
-      "Form 8889",
-      "Form 941-SS",
-      "Form 943",
-      "Form 1099-R",
-      "Schedule H (Form 1040)"
-    ],
-    "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
-      "Form 944-SS",
-      "Form 8809",
-      "Form 8508",
-      "Form 941-X",
-      "Form 1099-MISC",
-      "Form 940",
-      "Form 8889",
-      "Form 941-SS",
-      "Form 943",
-      "Form 1099-R",
-      "Schedule H (Form 1040)"
-    ]
-  },
-  "Form W-7": {
-    "raw": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
-      "Form 1310",
-      "Form 4868",
-      "Form 1040-ES",
-      "Form 1099",
-      "Form 1042-S",
-      "Form 1099-INT",
-      "Form 1099-MISC",
-      "Form 8805",
-      "Form 1065",
       "Form 1098",
-      "Form 8288",
-      "Form 8288-A",
-      "Form 8288-B",
-      "Form 13350",
-      "Form 8822",
-      "Form 8233",
-      "Form 1040-NR",
-      "Schedule K-1 (Form 1065)"
-    ],
-    "cleaned": [
       "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
+      "Form 1040-SR",
       "Form 1040-X",
-      "Form 2848",
-      "Form 1310",
-      "Form 4868",
-      "Form 1040-ES",
-      "Form 1099",
-      "Form 1042-S",
-      "Form 1099-INT",
-      "Form 1099-MISC",
-      "Form 8805",
-      "Form 1065",
-      "Form 1098",
-      "Form 8288",
-      "Form 8288-A",
-      "Form 8288-B",
-      "Form 13350",
-      "Form 8822",
-      "Form 8233",
-      "Form 1040-NR",
-      "Schedule K-1 (Form 1065)"
-    ]
-  },
-  "Form W-7A": {
-    "raw": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
-      "Form 8839",
-      "Form 8822",
-      null
-    ],
-    "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
-      "Form 8839",
-      "Form 8822"
-    ]
-  },
-  "Form W-8ECI": {
-    "raw": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
-      "Form 8233",
-      "Form 8288-B",
-      "Form 8805",
-      "Form 1042-S",
-      null
-    ],
-    "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
-      "Form 8233",
-      "Form 8288-B",
-      "Form 8805",
-      "Form 1042-S"
-    ]
-  },
-  "Form W-8EXP": {
-    "raw": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
-      "Form 1042-S",
-      null
-    ],
-    "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
-      "Form 1042-S"
-    ]
-  },
-  "Form W-8IMY": {
-    "raw": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
-      "Form 1099",
-      "Form 8233",
-      "Form 1042-S",
-      null
-    ],
-    "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
-      "Form 1099",
-      "Form 8233",
-      "Form 1042-S"
-    ]
-  },
-  "Form  and": {
-    "raw": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
-      "Form 1099-MISC",
-      "Form 1099-K",
-      "Form 1099-NEC",
-      "Form 1099",
-      "Form 8809",
-      "Form 1099-R",
-      "Form 1098-MA",
-      "Form 1098-T",
-      "Form 1099-C",
-      "Form 1065",
-      "Form 1099-MISCC",
+      "Form 2441",
+      "Form 8962",
+      "Form 8885",
+      "Form 14095",
+      "Form 1099-H",
       "Form 1099-S",
-      "Form 8596",
-      "Form 8596-A",
-      "Form 1099-NECC",
-      "Form 1099-N",
-      "Form 1042-S",
-      "Form 1099-INT",
-      "Schedule K-1 (Form 1065)"
+      "Form 8396",
+      "Form 4952",
+      "Form 8814",
+      "Form 8863",
+      "Form 8283",
+      "Form 1098-C",
+      "Form 4684",
+      "Form 4797",
+      "Schedule A",
+      "Schedule C",
+      "Schedule 1",
+      "Schedule 3"
     ],
-    "cleaned": [
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
-      "Form 1099-MISC",
-      "Form 1099-K",
-      "Form 1099-NEC",
-      "Form 1099",
-      "Form 8809",
-      "Form 1099-R",
-      "Form 1098-MA",
-      "Form 1098-T",
-      "Form 1099-C",
-      "Form 1065",
-      "Form 1099-MISCC",
-      "Form 1099-S",
-      "Form 8596",
-      "Form 8596-A",
-      "Form 1099-NECC",
-      "Form 1099-N",
-      "Form 1042-S",
-      "Form 1099-INT",
-      "Schedule K-1 (Form 1065)"
-    ]
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i1040sca",
+      "dateFetched": "2020-06-13T01:09:05.276Z",
+      "form": "Schedule A Form 1040"
+    }
   },
-  "Schedule 6_(Form_8849)": {
-    "raw": [
-      "Form 8849",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
-      "Form 720",
-      "Form 2290",
-      "Form 730",
-      "Form 11-C",
-      "Schedule 6 (Form 8849)",
-      "Schedule 6",
-      "Schedule 1"
-    ],
-    "cleaned": [
-      "Form 8849",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
-      "Form 720",
-      "Form 2290",
-      "Form 730",
-      "Form 11-C",
-      "Schedule 6 (Form 8849)",
-      "Schedule 6",
-      "Schedule 1"
-    ]
-  },
-  "Schedule A_(Form_8804)": {
-    "raw": [
-      "Form 8804",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
-      "Form 1065",
-      "Form 8804-C",
-      "Form 8842",
-      "Schedule A (Form 8804)",
-      "Schedule A"
-    ],
-    "cleaned": [
-      "Form 8804",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
-      "Form 1065",
-      "Form 8804-C",
-      "Form 8842",
-      "Schedule A (Form 8804)",
-      "Schedule A"
-    ]
-  },
-  "Schedule A_(Form_990_or_990-EZ)": {
+  "Schedule A Form 990": {
     "raw": [
       "Form 990",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 990-EZ",
       "Form 990-PF",
       "Form 8940",
@@ -11244,12 +10379,6 @@ window.__map_data = {
     ],
     "cleaned": [
       "Form 990",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 990-EZ",
       "Form 990-PF",
       "Form 8940",
@@ -11260,17 +10389,16 @@ window.__map_data = {
       "Schedule E",
       "Schedule H (Form 990)",
       "Schedule L"
-    ]
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i990sa",
+      "dateFetched": "2020-06-13T01:09:04.325Z",
+      "form": "Schedule A Form 990"
+    }
   },
-  "Schedule B-2_(Form_1065)": {
+  "Schedule B-2 Form 1065": {
     "raw": [
       "Form 1065",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 1066",
       "Schedule B-2 (Form 1065)",
       "Schedule K-1",
@@ -11279,27 +10407,60 @@ window.__map_data = {
     ],
     "cleaned": [
       "Form 1065",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 1066",
       "Schedule B-2 (Form 1065)",
       "Schedule K-1",
       "Schedule B-2",
       "Schedule B"
-    ]
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i1065sb2",
+      "dateFetched": "2020-06-13T01:09:06.293Z",
+      "form": "Schedule B-2 Form 1065"
+    }
   },
-  "Schedule B_(Form_941)": {
+  "Form 1040-SB": {
+    "raw": [
+      "Form 1040",
+      "Form 1099-OID",
+      "Form 1099",
+      "Form 1099-INT",
+      "Form 1099-DIV",
+      "Form 6251",
+      "Form 8815",
+      "Form 5471",
+      "Form 114",
+      "Form 8938",
+      "Form 3520",
+      "Form 1040-SR",
+      "Form 3520-A",
+      "Schedule B"
+    ],
+    "cleaned": [
+      "Form 1040",
+      "Form 1099-OID",
+      "Form 1099",
+      "Form 1099-INT",
+      "Form 1099-DIV",
+      "Form 6251",
+      "Form 8815",
+      "Form 5471",
+      "Form 114",
+      "Form 8938",
+      "Form 3520",
+      "Form 1040-SR",
+      "Form 3520-A",
+      "Schedule B"
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i1040sb",
+      "dateFetched": "2020-06-13T01:09:04.865Z",
+      "form": "Schedule B Form 1040"
+    }
+  },
+  "Schedule B Form 941": {
     "raw": [
       "Form 941",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 941-X",
       "Form 941-SS",
       "Form 944-X",
@@ -11311,11 +10472,6 @@ window.__map_data = {
     ],
     "cleaned": [
       "Form 941",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 941-X",
       "Form 941-SS",
       "Form 944-X",
@@ -11324,79 +10480,272 @@ window.__map_data = {
       "Schedule B (Form 941)",
       "Schedule B",
       "Schedule D"
-    ]
-  },
-  "Schedule C_(Form_1065)": {
-    "raw": [
-      "Form 1065",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
-      "Form 8275",
-      "Form 3115",
-      "Schedule C (Form 1065)",
-      "Schedule M-3",
-      "Schedule M-3 (Form 1065)"
     ],
-    "cleaned": [
-      "Form 1065",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
-      "Form 8275",
-      "Form 3115",
-      "Schedule C (Form 1065)",
-      "Schedule M-3",
-      "Schedule M-3 (Form 1065)"
-    ]
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i941sb",
+      "dateFetched": "2020-06-13T01:09:05.119Z",
+      "form": "Schedule B Form 941"
+    }
   },
-  "Schedule C_(Form_990_or_990-EZ)_": {
-    "raw": [
-      "Form 990",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
-      "Form 990-EZ",
-      "Form 5768",
-      "Form 4720",
-      "Form 1120-POL",
-      "Form 990-T",
-      "Schedule C"
-    ],
-    "cleaned": [
-      "Form 990",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
-      "Form 990-EZ",
-      "Form 5768",
-      "Form 4720",
-      "Form 1120-POL",
-      "Form 990-T",
-      "Schedule C"
-    ]
-  },
-  "Schedule D_(Form_1041)": {
+  "Form 1040-SC": {
     "raw": [
       "Form 1041",
+      "Form 4562",
+      "Form 5500-EZ",
+      "Form 5500-SF",
+      "Form 5500",
+      "Form 8829",
       "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
+      "Form 1040-NR",
+      "Form 1099-MISC",
+      "Form 8844",
+      "Form 8845",
+      "Form 5884-A",
       "Form 1040-X",
-      "Form 2848",
+      "Form 6478",
+      "Form 8864",
+      "Form 1040-SR",
+      "Form 2106",
+      "Form 461",
+      "Form 3800",
+      "Form 4684",
+      "Form 4797",
+      "Form 6198",
+      "Form 6252",
+      "Form 8582",
+      "Form 8594",
+      "Form 8824",
+      "Form 8990",
+      "Form 8995",
+      "Form 8832",
+      "Form 2290",
+      "Form 1099",
+      "Form 8300",
+      "Form 1065",
+      "Form 8886",
+      "Form 3115",
+      "Form 8873",
+      "Form 1099-PATR",
+      "Form 2441",
+      "Form 8941",
+      "Form 1098",
+      "Form 8846",
+      "Form 5884",
+      "Form 8932",
+      "Form 8994",
+      "Form 8949",
+      "Form 8826",
+      "Schedule C",
+      "Schedule 1",
+      "Schedule A",
+      "Schedule E",
+      "Schedule F",
+      "Schedule J",
+      "Schedule SE",
+      "Schedule 2",
+      "Schedule D"
+    ],
+    "cleaned": [
+      "Form 1041",
+      "Form 4562",
+      "Form 5500-EZ",
+      "Form 5500-SF",
+      "Form 5500",
+      "Form 8829",
+      "Form 1040",
+      "Form 1040-NR",
+      "Form 1099-MISC",
+      "Form 8844",
+      "Form 8845",
+      "Form 5884-A",
+      "Form 1040-X",
+      "Form 6478",
+      "Form 8864",
+      "Form 1040-SR",
+      "Form 2106",
+      "Form 461",
+      "Form 3800",
+      "Form 4684",
+      "Form 4797",
+      "Form 6198",
+      "Form 6252",
+      "Form 8582",
+      "Form 8594",
+      "Form 8824",
+      "Form 8990",
+      "Form 8995",
+      "Form 8832",
+      "Form 2290",
+      "Form 1099",
+      "Form 8300",
+      "Form 1065",
+      "Form 8886",
+      "Form 3115",
+      "Form 8873",
+      "Form 1099-PATR",
+      "Form 2441",
+      "Form 8941",
+      "Form 1098",
+      "Form 8846",
+      "Form 5884",
+      "Form 8932",
+      "Form 8994",
+      "Form 8949",
+      "Form 8826",
+      "Schedule C",
+      "Schedule 1",
+      "Schedule A",
+      "Schedule E",
+      "Schedule F",
+      "Schedule J",
+      "Schedule SE",
+      "Schedule 2",
+      "Schedule D"
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i1040sc",
+      "dateFetched": "2020-06-13T01:09:04.393Z",
+      "form": "Schedule C Form 1040"
+    }
+  },
+  "Schedule C Form 1065": {
+    "raw": [
+      "Form 1065",
+      "Form 8275",
+      "Form 3115",
+      "Schedule C (Form 1065)",
+      "Schedule M-3",
+      "Schedule M-3 (Form 1065)"
+    ],
+    "cleaned": [
+      "Form 1065",
+      "Form 8275",
+      "Form 3115",
+      "Schedule C (Form 1065)",
+      "Schedule M-3",
+      "Schedule M-3 (Form 1065)"
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i1065sc",
+      "dateFetched": "2020-06-13T01:09:06.431Z",
+      "form": "Schedule C Form 1065"
+    }
+  },
+  "Schedule C Form 990": {
+    "raw": [
+      "Form 990",
+      "Form 990-EZ",
+      "Form 5768",
+      "Form 4720",
+      "Form 1120-POL",
+      "Form 990-T",
+      "Schedule C"
+    ],
+    "cleaned": [
+      "Form 990",
+      "Form 990-EZ",
+      "Form 5768",
+      "Form 4720",
+      "Form 1120-POL",
+      "Form 990-T",
+      "Schedule C"
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i990sc",
+      "dateFetched": "2020-06-13T01:09:06.962Z",
+      "form": "Schedule C Form 990"
+    }
+  },
+  "Form 1040-SD": {
+    "raw": [
+      "Form 1099-DIV",
+      "Form 2439",
+      "Form 8949",
+      "Form 1040",
+      "Form 4797",
+      "Form 4684",
+      "Form 1040-NR",
+      "Form 1040-X",
+      "Form 8997",
+      "Form 461",
+      "Form 6781",
+      "Form 8824",
+      "Form 8960",
+      "Form 8971",
+      "Form 1099-S",
+      "Form 1099-B",
+      "Form 6198",
+      "Form 8582",
+      "Form 8854",
+      "Form 6252",
+      "Form 6251",
+      "Form 1065",
+      "Form 8453",
+      "Form 1041",
+      "Form 1099-R",
+      "Form 2555",
+      "Form 4952",
+      "Schedule D",
+      "Schedule A",
+      "Schedule B",
+      "Schedule 2",
+      "Schedule 1",
+      "Schedule SE",
+      "Schedule C",
+      "Schedule 3",
+      "Schedule K-1 (Form 1065)",
+      "Schedule K-1",
+      "Schedule K-1 (Form 1041)"
+    ],
+    "cleaned": [
+      "Form 1099-DIV",
+      "Form 2439",
+      "Form 8949",
+      "Form 1040",
+      "Form 4797",
+      "Form 4684",
+      "Form 1040-NR",
+      "Form 1040-X",
+      "Form 8997",
+      "Form 461",
+      "Form 6781",
+      "Form 8824",
+      "Form 8960",
+      "Form 8971",
+      "Form 1099-S",
+      "Form 1099-B",
+      "Form 6198",
+      "Form 8582",
+      "Form 8854",
+      "Form 6252",
+      "Form 6251",
+      "Form 1065",
+      "Form 8453",
+      "Form 1041",
+      "Form 1099-R",
+      "Form 2555",
+      "Form 4952",
+      "Schedule D",
+      "Schedule A",
+      "Schedule B",
+      "Schedule 2",
+      "Schedule 1",
+      "Schedule SE",
+      "Schedule C",
+      "Schedule 3",
+      "Schedule K-1 (Form 1065)",
+      "Schedule K-1",
+      "Schedule K-1 (Form 1041)"
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i1040sd",
+      "dateFetched": "2020-06-13T01:09:05.800Z",
+      "form": "Schedule D Form 1040"
+    }
+  },
+  "Schedule D Form 1041": {
+    "raw": [
+      "Form 1041",
       "Form 8971",
       "Form 1099-DIV",
       "Form 2439",
@@ -11426,12 +10775,6 @@ window.__map_data = {
     ],
     "cleaned": [
       "Form 1041",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 8971",
       "Form 1099-DIV",
       "Form 2439",
@@ -11458,17 +10801,16 @@ window.__map_data = {
       "Schedule K-1",
       "Schedule K-1 (Form 1041)",
       "Schedule M (Form 990-T)"
-    ]
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i1041sd",
+      "dateFetched": "2020-06-13T01:09:06.834Z",
+      "form": "Schedule D Form 1041"
+    }
   },
-  "Schedule D_(Form_1065)_": {
+  "Schedule D Form 1065": {
     "raw": [
       "Form 1065",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 8949",
       "Form 6252",
       "Form 8824",
@@ -11485,12 +10827,6 @@ window.__map_data = {
     ],
     "cleaned": [
       "Form 1065",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 8949",
       "Form 6252",
       "Form 8824",
@@ -11504,17 +10840,59 @@ window.__map_data = {
       "Schedule D",
       "Schedule K",
       "Schedule K-1"
-    ]
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i1065sd",
+      "dateFetched": "2020-06-13T01:09:05.982Z",
+      "form": "Schedule D Form 1065"
+    }
   },
-  "Schedule D_(Form_1120)": {
+  "Schedule D Form 1120-S": {
+    "raw": [
+      "Form 1120-S",
+      "Form 8949",
+      "Form 6252",
+      "Form 8824",
+      "Form 4797",
+      "Form 4684",
+      "Form 6781",
+      "Form 1099-B",
+      "Form 8997",
+      "Form 2439",
+      "Form 1120",
+      "Schedule D (Form 1120-S)",
+      "Schedule D",
+      "Schedule K",
+      "Schedule K-1",
+      "Schedule B"
+    ],
+    "cleaned": [
+      "Form 1120-S",
+      "Form 8949",
+      "Form 6252",
+      "Form 8824",
+      "Form 4797",
+      "Form 4684",
+      "Form 6781",
+      "Form 1099-B",
+      "Form 8997",
+      "Form 2439",
+      "Form 1120",
+      "Schedule D (Form 1120-S)",
+      "Schedule D",
+      "Schedule K",
+      "Schedule K-1",
+      "Schedule B"
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i1120ssd",
+      "dateFetched": "2020-06-13T01:09:05.518Z",
+      "form": "Schedule D Form 1120-S"
+    }
+  },
+  "Schedule D Form 1120": {
     "raw": [
       "Form 1120",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 2438",
       "Form 8949",
       "Form 6252",
@@ -11535,12 +10913,6 @@ window.__map_data = {
     ],
     "cleaned": [
       "Form 1120",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 2438",
       "Form 8949",
       "Form 6252",
@@ -11558,67 +10930,33 @@ window.__map_data = {
       "Schedule D (Form 1120)",
       "Schedule D",
       "Schedule J"
-    ]
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i1120sd",
+      "dateFetched": "2020-06-13T01:09:06.396Z",
+      "form": "Schedule D Form 1120"
+    }
   },
-  "Schedule D_(Form_1120-S)": {
+  "Schedule D Form 941": {
     "raw": [
-      "Form 1120-S",
-      "Form 1040",
-      "Form 4506-T",
       "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
-      "Form 8949",
-      "Form 6252",
-      "Form 8824",
-      "Form 4797",
-      "Form 4684",
-      "Form 6781",
-      "Form 1099-B",
-      "Form 8997",
-      "Form 2439",
-      "Form 1120",
-      "Schedule D (Form 1120-S)",
-      "Schedule D",
-      "Schedule K",
-      "Schedule K-1",
-      "Schedule B"
+      "Schedule D (Form 941)",
+      "Schedule D"
     ],
     "cleaned": [
-      "Form 1120-S",
-      "Form 1040",
-      "Form 4506-T",
       "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
-      "Form 8949",
-      "Form 6252",
-      "Form 8824",
-      "Form 4797",
-      "Form 4684",
-      "Form 6781",
-      "Form 1099-B",
-      "Form 8997",
-      "Form 2439",
-      "Form 1120",
-      "Schedule D (Form 1120-S)",
-      "Schedule D",
-      "Schedule K",
-      "Schedule K-1",
-      "Schedule B"
-    ]
+      "Schedule D (Form 941)",
+      "Schedule D"
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i941sd",
+      "dateFetched": "2020-06-13T01:09:04.610Z",
+      "form": "Schedule D Form 941"
+    }
   },
-  "Schedule D_(Form_990)": {
+  "Schedule D Form 990": {
     "raw": [
       "Form 990",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Schedule D (Form 990)",
       "Schedule D",
       "Schedule A",
@@ -11630,12 +10968,6 @@ window.__map_data = {
     ],
     "cleaned": [
       "Form 990",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Schedule D (Form 990)",
       "Schedule D",
       "Schedule A",
@@ -11644,181 +10976,408 @@ window.__map_data = {
       "Schedule M",
       "Schedule R (Form 990)",
       "Schedule R"
-    ]
-  },
-  "Schedule F_(Form_990)_": {
-    "raw": [
-      "Form 990",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
-      "Form 926",
-      "Form 3520",
-      "Schedule F (Form 990)",
-      "Schedule F"
     ],
-    "cleaned": [
-      "Form 990",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
-      "Form 926",
-      "Form 3520",
-      "Schedule F (Form 990)",
-      "Schedule F"
-    ]
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i990sd",
+      "dateFetched": "2020-06-13T01:09:06.392Z",
+      "form": "Schedule D Form 990"
+    }
   },
-  "Schedule G_(Form_990_or_990-EZ)_": {
-    "raw": [
-      "Form 990",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
-      "Form 990-EZ",
-      "Form 730",
-      "Form 11-C",
-      "Schedule G"
-    ],
-    "cleaned": [
-      "Form 990",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
-      "Form 990-EZ",
-      "Form 730",
-      "Form 11-C",
-      "Schedule G"
-    ]
-  },
-  "Schedule H_(Form_1120-F)": {
-    "raw": [
-      "Form 1120-F",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
-      "Form 8833",
-      "Form 1120",
-      "Schedule H (Form 1120-F)",
-      "Schedule L",
-      "Schedule I (Form 1120-F)",
-      "Schedule H",
-      "Schedule M-3 (Form 1120-F)",
-      "Schedule M-3"
-    ],
-    "cleaned": [
-      "Form 1120-F",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
-      "Form 8833",
-      "Form 1120",
-      "Schedule H (Form 1120-F)",
-      "Schedule L",
-      "Schedule I (Form 1120-F)",
-      "Schedule H",
-      "Schedule M-3 (Form 1120-F)",
-      "Schedule M-3"
-    ]
-  },
-  "Schedule H_(Form_990)": {
-    "raw": [
-      "Form 990",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
-      "Form 1065",
-      "Form 4720",
-      "Schedule H (Form 990)",
-      "Schedule H",
-      "Schedule K-1 (Form 1065)",
-      "Schedule A (Form 990)"
-    ],
-    "cleaned": [
-      "Form 990",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
-      "Form 1065",
-      "Form 4720",
-      "Schedule H (Form 990)",
-      "Schedule H",
-      "Schedule K-1 (Form 1065)",
-      "Schedule A (Form 990)"
-    ]
-  },
-  "Schedule I (Form_1120-F)": {
-    "raw": [
-      "Form 1120-F",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
-      "Form 8990",
-      "Form 8833",
-      "Schedule I",
-      "Schedule I (Form 1120-F)",
-      "Schedule L",
-      "Schedule M-3 (Form 1120-F)",
-      "Schedule P (Form 1120-F)",
-      "Schedule I (Form 1120-F)",
-      "Schedule P",
-      "Schedule H (Form 1120-F)"
-    ],
-    "cleaned": [
-      "Form 1120-F",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
-      "Form 8990",
-      "Form 8833",
-      "Schedule I",
-      "Schedule I (Form 1120-F)",
-      "Schedule L",
-      "Schedule M-3 (Form 1120-F)",
-      "Schedule P (Form 1120-F)",
-      "Schedule I (Form 1120-F)",
-      "Schedule P",
-      "Schedule H (Form 1120-F)"
-    ]
-  },
-  "Schedule I_(Form_1041)": {
+  "Form 1040-SE": {
     "raw": [
       "Form 1041",
+      "Form 8865",
+      "Form 8582",
       "Form 1040",
-      "Form 4506-T",
+      "Form 461",
+      "Form 3520",
+      "Form 4562",
+      "Form 4684",
+      "Form 4797",
+      "Form 6198",
+      "Form 8082",
+      "Form 8824",
+      "Form 8826",
+      "Form 8873",
+      "Form 8910",
+      "Form 8960",
+      "Form 8990",
+      "Form 8995",
+      "Form 8832",
+      "Form 1099-MISC",
+      "Form 8300",
+      "Form 1065",
+      "Form 8886",
+      "Form 1040-SR",
+      "Form 1040-NR",
+      "Form 4835",
+      "Form 1099",
+      "Form 1098",
+      "Form 6251",
+      "Form 1120-S",
+      "Form 1042-S",
+      "Form 4952",
+      "Form 3520-A",
+      "Form 1066",
+      "Schedule E",
+      "Schedule A",
+      "Schedule C",
+      "Schedule F",
+      "Schedule 1",
+      "Schedule I (Form 1041)",
+      "Schedule K-1",
+      "Schedule K-1 (Form 1065)",
+      "Schedule K-1 (Form 1120-S)",
+      "Schedule SE",
+      "Schedule K-1 (Form 1041)",
+      "Schedule 3",
+      "Schedule B",
+      "Schedule Q (Form 1066)",
+      "Schedule(s) Q"
+    ],
+    "cleaned": [
+      "Form 1041",
+      "Form 8865",
+      "Form 8582",
+      "Form 1040",
+      "Form 461",
+      "Form 3520",
+      "Form 4562",
+      "Form 4684",
+      "Form 4797",
+      "Form 6198",
+      "Form 8082",
+      "Form 8824",
+      "Form 8826",
+      "Form 8873",
+      "Form 8910",
+      "Form 8960",
+      "Form 8990",
+      "Form 8995",
+      "Form 8832",
+      "Form 1099-MISC",
+      "Form 8300",
+      "Form 1065",
+      "Form 8886",
+      "Form 1040-SR",
+      "Form 1040-NR",
+      "Form 4835",
+      "Form 1099",
+      "Form 1098",
+      "Form 6251",
+      "Form 1120-S",
+      "Form 1042-S",
+      "Form 4952",
+      "Form 3520-A",
+      "Form 1066",
+      "Schedule E",
+      "Schedule A",
+      "Schedule C",
+      "Schedule F",
+      "Schedule 1",
+      "Schedule I (Form 1041)",
+      "Schedule K-1",
+      "Schedule K-1 (Form 1065)",
+      "Schedule K-1 (Form 1120-S)",
+      "Schedule SE",
+      "Schedule K-1 (Form 1041)",
+      "Schedule 3",
+      "Schedule B",
+      "Schedule Q (Form 1066)",
+      "Schedule Q"
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i1040se",
+      "dateFetched": "2020-06-13T01:09:06.731Z",
+      "form": "Schedule E Form 1040"
+    }
+  },
+  "Form 1040-SF": {
+    "raw": [
+      "Form 5500-EZ",
+      "Form 5500-SF",
+      "Form 5500",
+      "Form 1040",
+      "Form 8990",
+      "Form 461",
+      "Form 3800",
+      "Form 4562",
+      "Form 4684",
+      "Form 4797",
+      "Form 4835",
+      "Form 6198",
+      "Form 8582",
+      "Form 8824",
+      "Form 1045",
+      "Form 8832",
+      "Form 2290",
+      "Form 8300",
+      "Form 8886",
+      "Form 1065",
+      "Form 2210-F",
+      "Form 1099",
+      "Form 1099-MISC",
+      "Form 1099-K",
+      "Form 1099-PATR",
+      "Form 1099-G",
+      "Form 1099-A",
+      "Form 1099-C",
+      "Form 6478",
+      "Form 8864",
+      "Form 6781",
+      "Form 2441",
+      "Form 1040-NR",
+      "Form 8941",
+      "Form 1098",
+      "Form 5884",
+      "Form 8844",
+      "Form 8845",
+      "Form 8932",
+      "Form 8994",
+      "Form 8829",
+      "Form 1041",
+      "Form 8949",
+      "Schedule F",
+      "Schedule E",
+      "Schedule J",
+      "Schedule SE",
+      "Schedule C",
+      "Schedule 5 (Form 1040)",
+      "Schedule 1"
+    ],
+    "cleaned": [
+      "Form 5500-EZ",
+      "Form 5500-SF",
+      "Form 5500",
+      "Form 1040",
+      "Form 8990",
+      "Form 461",
+      "Form 3800",
+      "Form 4562",
+      "Form 4684",
+      "Form 4797",
+      "Form 4835",
+      "Form 6198",
+      "Form 8582",
+      "Form 8824",
+      "Form 1045",
+      "Form 8832",
+      "Form 2290",
+      "Form 8300",
+      "Form 8886",
+      "Form 1065",
+      "Form 2210-F",
+      "Form 1099",
+      "Form 1099-MISC",
+      "Form 1099-K",
+      "Form 1099-PATR",
+      "Form 1099-G",
+      "Form 1099-A",
+      "Form 1099-C",
+      "Form 6478",
+      "Form 8864",
+      "Form 6781",
+      "Form 2441",
+      "Form 1040-NR",
+      "Form 8941",
+      "Form 1098",
+      "Form 5884",
+      "Form 8844",
+      "Form 8845",
+      "Form 8932",
+      "Form 8994",
+      "Form 8829",
+      "Form 1041",
+      "Form 8949",
+      "Schedule F",
+      "Schedule E",
+      "Schedule J",
+      "Schedule SE",
+      "Schedule C",
+      "Schedule 5 (Form 1040)",
+      "Schedule 1"
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i1040sf",
+      "dateFetched": "2020-06-13T01:09:07.375Z",
+      "form": "Schedule F Form 1040"
+    }
+  },
+  "Schedule F Form 990": {
+    "raw": [
+      "Form 990",
+      "Form 926",
+      "Form 3520",
+      "Schedule F (Form 990)",
+      "Schedule F"
+    ],
+    "cleaned": [
+      "Form 990",
+      "Form 926",
+      "Form 3520",
+      "Schedule F (Form 990)",
+      "Schedule F"
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i990sf",
+      "dateFetched": "2020-06-13T01:09:06.421Z",
+      "form": "Schedule F Form 990"
+    }
+  },
+  "Schedule G Form 990": {
+    "raw": [
+      "Form 990",
+      "Form 990-EZ",
+      "Form 730",
+      "Form 11-C",
+      "Schedule G"
+    ],
+    "cleaned": [
+      "Form 990",
+      "Form 990-EZ",
+      "Form 730",
+      "Form 11-C",
+      "Schedule G"
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i990sg",
+      "dateFetched": "2020-06-13T01:09:05.913Z",
+      "form": "Schedule G Form 990"
+    }
+  },
+  "Form 1040-SH": {
+    "raw": [
+      "Form 1040-SR",
+      "Form 1040",
+      "Form 2678",
+      "Form 1041",
+      "Form 1040-ES",
       "Form 941",
-      "Form 9465",
+      "Form 943",
+      "Form 944",
+      "Form 940",
+      "Form 1040-NR",
+      "Form 1040-SS",
       "Form 1040-X",
-      "Form 2848",
+      "Schedule H",
+      "Schedule 2",
+      "Schedule G",
+      "Schedule 4"
+    ],
+    "cleaned": [
+      "Form 1040-SR",
+      "Form 1040",
+      "Form 2678",
+      "Form 1041",
+      "Form 1040-ES",
+      "Form 941",
+      "Form 943",
+      "Form 944",
+      "Form 940",
+      "Form 1040-NR",
+      "Form 1040-SS",
+      "Form 1040-X",
+      "Schedule H",
+      "Schedule 2",
+      "Schedule G",
+      "Schedule 4"
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i1040sh",
+      "dateFetched": "2020-06-13T01:09:07.409Z",
+      "form": "Schedule H Form 1040"
+    }
+  },
+  "Schedule H Form 1120-F": {
+    "raw": [
+      "Form 1120-F",
+      "Form 8833",
+      "Form 1120",
+      "Schedule H (Form 1120-F)",
+      "Schedule L",
+      "Schedule I (Form 1120-F)",
+      "Schedule H",
+      "Schedule M-3 (Form 1120-F)",
+      "Schedule M-3"
+    ],
+    "cleaned": [
+      "Form 1120-F",
+      "Form 8833",
+      "Form 1120",
+      "Schedule H (Form 1120-F)",
+      "Schedule L",
+      "Schedule I (Form 1120-F)",
+      "Schedule H",
+      "Schedule M-3 (Form 1120-F)",
+      "Schedule M-3"
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i1120fh",
+      "dateFetched": "2020-06-13T01:09:05.876Z",
+      "form": "Schedule H Form 1120-F"
+    }
+  },
+  "Schedule H Form 990": {
+    "raw": [
+      "Form 990",
+      "Form 1065",
+      "Form 4720",
+      "Schedule H (Form 990)",
+      "Schedule H",
+      "Schedule K-1 (Form 1065)",
+      "Schedule A (Form 990)"
+    ],
+    "cleaned": [
+      "Form 990",
+      "Form 1065",
+      "Form 4720",
+      "Schedule H (Form 990)",
+      "Schedule H",
+      "Schedule K-1 (Form 1065)",
+      "Schedule A (Form 990)"
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i990sh",
+      "dateFetched": "2020-06-13T01:09:07.568Z",
+      "form": "Schedule H Form 990"
+    }
+  },
+  "Schedule I (Form Form 1120-F": {
+    "raw": [
+      "Form 1120-F",
+      "Form 8990",
+      "Form 8833",
+      "Schedule I (Form 1120-F)",
+      "Schedule I",
+      "Schedule L",
+      "Schedule M-3 (Form 1120-F)",
+      "Schedule P (Form 1120-F)",
+      "Schedule I (Form 1120-F)",
+      "Schedule P",
+      "Schedule H (Form 1120-F)"
+    ],
+    "cleaned": [
+      "Form 1120-F",
+      "Form 8990",
+      "Form 8833",
+      "Schedule I (Form 1120-F)",
+      "Schedule I",
+      "Schedule L",
+      "Schedule M-3 (Form 1120-F)",
+      "Schedule P (Form 1120-F)",
+      "Schedule I (Form 1120-F)",
+      "Schedule P",
+      "Schedule H (Form 1120-F)"
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i1120fi",
+      "dateFetched": "2020-06-13T01:09:06.766Z",
+      "form": "Schedule I (Form Form 1120-F"
+    }
+  },
+  "Schedule I Form 1041": {
+    "raw": [
+      "Form 1041",
       "Form 3800",
       "Form 1116",
       "Form 8801",
@@ -11831,6 +11390,7 @@ window.__map_data = {
       "Form 4797",
       "Form 4684",
       "Form 8582",
+      "Form 1040",
       "Form 461",
       "Form 8990",
       "Form 8890",
@@ -11848,12 +11408,6 @@ window.__map_data = {
     ],
     "cleaned": [
       "Form 1041",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 3800",
       "Form 1116",
       "Form 8801",
@@ -11866,6 +11420,7 @@ window.__map_data = {
       "Form 4797",
       "Form 4684",
       "Form 8582",
+      "Form 1040",
       "Form 461",
       "Form 8990",
       "Form 8890",
@@ -11880,17 +11435,85 @@ window.__map_data = {
       "Schedule F",
       "Schedule A",
       "Schedule K-1"
-    ]
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i1041si",
+      "dateFetched": "2020-06-13T01:09:06.239Z",
+      "form": "Schedule I Form 1041"
+    }
   },
-  "Schedule J_(Form_1118)": {
+  "Form 1040-SJ": {
+    "raw": [
+      "Form 1040",
+      "Form 6251",
+      "Form 4506",
+      "Form 4506-T",
+      "Form 1040-SR",
+      "Form 1040-NR",
+      "Form 4797",
+      "Form 4835",
+      "Form 8903",
+      "Form 8949",
+      "Form 461",
+      "Form 1045",
+      "Form 2555",
+      "Form 4952",
+      "Form 2555-EZ",
+      "Schedule J",
+      "Schedule 1",
+      "Schedule C",
+      "Schedule D",
+      "Schedule E",
+      "Schedule F",
+      "Schedule A",
+      "Schedule B",
+      "Schedule X",
+      "Schedule Y-2",
+      "Schedule Y-1",
+      "Schedule Z",
+      "Schedule D (Form 1040)",
+      "Schedule 1 (Form 1040)"
+    ],
+    "cleaned": [
+      "Form 1040",
+      "Form 6251",
+      "Form 4506",
+      "Form 4506-T",
+      "Form 1040-SR",
+      "Form 1040-NR",
+      "Form 4797",
+      "Form 4835",
+      "Form 8903",
+      "Form 8949",
+      "Form 461",
+      "Form 1045",
+      "Form 2555",
+      "Form 4952",
+      "Form 2555-EZ",
+      "Schedule J",
+      "Schedule 1",
+      "Schedule C",
+      "Schedule D",
+      "Schedule E",
+      "Schedule F",
+      "Schedule A",
+      "Schedule B",
+      "Schedule X",
+      "Schedule Y-2",
+      "Schedule Y-1",
+      "Schedule Z",
+      "Schedule D (Form 1040)",
+      "Schedule 1 (Form 1040)"
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i1040sj",
+      "dateFetched": "2020-06-13T01:09:06.452Z",
+      "form": "Schedule J Form 1040"
+    }
+  },
+  "Schedule J Form 1118": {
     "raw": [
       "Form 1118",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Schedule J (Form 1118)",
       "Schedule J",
       "Schedule A",
@@ -11898,79 +11521,133 @@ window.__map_data = {
     ],
     "cleaned": [
       "Form 1118",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Schedule J (Form 1118)",
       "Schedule J",
       "Schedule A",
       "Schedule B"
-    ]
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i1118sj",
+      "dateFetched": "2020-06-13T01:09:06.039Z",
+      "form": "Schedule J Form 1118"
+    }
   },
-  "Schedule J_(Form_990)": {
+  "Schedule J Form 990": {
     "raw": [
       "Form 990",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 1099-MISC",
       "Schedule J (Form 990)",
       "Schedule J"
     ],
     "cleaned": [
       "Form 990",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 1099-MISC",
       "Schedule J (Form 990)",
       "Schedule J"
-    ]
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i990sj",
+      "dateFetched": "2020-06-13T01:09:05.727Z",
+      "form": "Schedule J Form 990"
+    }
   },
-  "Schedule K_(Form_1118)": {
+  "Schedule K-1 Form 1041": {
+    "raw": [
+      "Form 1041",
+      "Form 1040",
+      "Form 8995",
+      "Form 8995-A",
+      "Form 8990",
+      "Form 8082",
+      "Form 706-GS",
+      "Form 8582",
+      "Form 6251",
+      "Form 8801",
+      "Form 3800",
+      "Form 2210",
+      "Form 1041-T",
+      "Form 8586",
+      "Form 3468",
+      "Form 6478",
+      "Form 8835",
+      "Form 8864",
+      "Form 5884-A",
+      "Form 8960",
+      "Form 1116",
+      "Form 8992",
+      "Form 8903",
+      "Schedule K-1 (Form 1041)",
+      "Schedule K-1",
+      "Schedule K",
+      "Schedule A",
+      "Schedule B",
+      "Schedule D",
+      "Schedule 1",
+      "Schedule E",
+      "Schedule D (Form 8995-A)"
+    ],
+    "cleaned": [
+      "Form 1041",
+      "Form 1040",
+      "Form 8995",
+      "Form 8995-A",
+      "Form 8990",
+      "Form 8082",
+      "Form 706-GS",
+      "Form 8582",
+      "Form 6251",
+      "Form 8801",
+      "Form 3800",
+      "Form 2210",
+      "Form 1041-T",
+      "Form 8586",
+      "Form 3468",
+      "Form 6478",
+      "Form 8835",
+      "Form 8864",
+      "Form 5884-A",
+      "Form 8960",
+      "Form 1116",
+      "Form 8992",
+      "Form 8903",
+      "Schedule K-1 (Form 1041)",
+      "Schedule K-1",
+      "Schedule K",
+      "Schedule A",
+      "Schedule B",
+      "Schedule D",
+      "Schedule 1",
+      "Schedule E",
+      "Schedule D (Form 8995-A)"
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i1041sk1",
+      "dateFetched": "2020-06-13T01:09:05.483Z",
+      "form": "Schedule K-1 Form 1041"
+    }
+  },
+  "Schedule K Form 1118": {
     "raw": [
       "Form 1118",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Schedule K (Form 1118)",
       "Schedule K",
       "Schedule B"
     ],
     "cleaned": [
       "Form 1118",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Schedule K (Form 1118)",
       "Schedule K",
       "Schedule B"
-    ]
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i1118sk",
+      "dateFetched": "2020-06-13T01:09:06.348Z",
+      "form": "Schedule K Form 1118"
+    }
   },
-  "Schedule K_(Form_990)": {
+  "Schedule K Form 990": {
     "raw": [
       "Form 990",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 8038",
       "Form 8038-T",
       "Schedule K (Form 990)",
@@ -11978,27 +11655,20 @@ window.__map_data = {
     ],
     "cleaned": [
       "Form 990",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 8038",
       "Form 8038-T",
       "Schedule K (Form 990)",
       "Schedule K"
-    ]
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i990sk",
+      "dateFetched": "2020-06-13T01:09:05.904Z",
+      "form": "Schedule K Form 990"
+    }
   },
-  "Schedule L (Form_990_or_990-EZ)": {
+  "Schedule L (Form Form 990": {
     "raw": [
       "Form 990",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 990-EZ",
       "Form 4720",
       "Schedule L",
@@ -12007,28 +11677,21 @@ window.__map_data = {
     ],
     "cleaned": [
       "Form 990",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 990-EZ",
       "Form 4720",
       "Schedule L",
       "Schedule B",
       "Schedule J (Form 990)"
-    ]
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i990sl",
+      "dateFetched": "2020-06-13T01:09:05.780Z",
+      "form": "Schedule L (Form Form 990"
+    }
   },
-  "Schedule M-3_(Form_1065)": {
+  "Schedule M-3 Form 1065": {
     "raw": [
       "Form 1065",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 4797",
       "Form 1120",
       "Form 10-K",
@@ -12049,12 +11712,6 @@ window.__map_data = {
     ],
     "cleaned": [
       "Form 1065",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 4797",
       "Form 1120",
       "Form 10-K",
@@ -12072,17 +11729,230 @@ window.__map_data = {
       "Schedule K",
       "Schedule K-1",
       "Schedule K-1"
-    ]
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i1065sm3",
+      "dateFetched": "2020-06-13T01:09:06.756Z",
+      "form": "Schedule M-3 Form 1065"
+    }
   },
-  "Schedule M-3_(Form_1120)": {
+  "Schedule M-3 Form 1120-F": {
+    "raw": [
+      "Form 1120-F",
+      "Form 4797",
+      "Form 1065",
+      "Form 8886",
+      "Form 1042-S",
+      "Form 8886-X",
+      "Form 1120",
+      "Form 8903",
+      "Schedule M-3",
+      "Schedule L",
+      "Schedule M-2",
+      "Schedule D",
+      "Schedule M-3 (Form 1120-F)",
+      "Schedule M-1",
+      "Schedule I (Form 1120-F)",
+      "Schedule H (Form 1120-F)",
+      "Schedule M-3 (Form 1065)",
+      "Schedule H",
+      "Schedule K-1",
+      "Schedule P (Form 1120-F)",
+      "Schedule P",
+      "Schedule D (Form 1120)",
+      "Schedule I"
+    ],
+    "cleaned": [
+      "Form 1120-F",
+      "Form 4797",
+      "Form 1065",
+      "Form 8886",
+      "Form 1042-S",
+      "Form 8886-X",
+      "Form 1120",
+      "Form 8903",
+      "Schedule M-3",
+      "Schedule L",
+      "Schedule M-2",
+      "Schedule D",
+      "Schedule M-3 (Form 1120-F)",
+      "Schedule M-1",
+      "Schedule I (Form 1120-F)",
+      "Schedule H (Form 1120-F)",
+      "Schedule M-3 (Form 1065)",
+      "Schedule H",
+      "Schedule K-1",
+      "Schedule P (Form 1120-F)",
+      "Schedule P",
+      "Schedule D (Form 1120)",
+      "Schedule I"
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i1120fm3",
+      "dateFetched": "2020-06-13T01:09:07.583Z",
+      "form": "Schedule M-3 Form 1120-F"
+    }
+  },
+  "Schedule M-3 Form 1120-L": {
+    "raw": [
+      "Form 1120-L",
+      "Form 4797",
+      "Form 851",
+      "Form 1120-PC",
+      "Form 1120",
+      "Form 8916",
+      "Form 8916-A",
+      "Form 1065",
+      "Form 10-K",
+      "Form 8886",
+      "Form 8886-X",
+      "Schedule M-3 (Form 1120-L)",
+      "Schedule M-3",
+      "Schedule L",
+      "Schedule D",
+      "Schedule A",
+      "Schedule K-1",
+      "Schedule I",
+      "Schedule(s) K-1"
+    ],
+    "cleaned": [
+      "Form 1120-L",
+      "Form 4797",
+      "Form 851",
+      "Form 1120-PC",
+      "Form 1120",
+      "Form 8916",
+      "Form 8916-A",
+      "Form 1065",
+      "Form 10-K",
+      "Form 8886",
+      "Form 8886-X",
+      "Schedule M-3 (Form 1120-L)",
+      "Schedule M-3",
+      "Schedule L",
+      "Schedule D",
+      "Schedule A",
+      "Schedule K-1",
+      "Schedule I",
+      "Schedule K-1"
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i1120lm3",
+      "dateFetched": "2020-06-13T01:09:07.501Z",
+      "form": "Schedule M-3 Form 1120-L"
+    }
+  },
+  "Schedule M-3 Form 1120-PC": {
+    "raw": [
+      "Form 1120-PC",
+      "Form 4797",
+      "Form 851",
+      "Form 1120",
+      "Form 1120-L",
+      "Form 8916",
+      "Form 8916-A",
+      "Form 1065",
+      "Form 10-K",
+      "Form 8886",
+      "Form 8886-X",
+      "Schedule M-3 (Form 1120-PC)",
+      "Schedule M-3",
+      "Schedule L",
+      "Schedule M-2",
+      "Schedule D",
+      "Schedule A",
+      "Schedule B",
+      "Schedule M-1",
+      "Schedule M-3 (Form 1065)",
+      "Schedule K-1",
+      "Schedule I",
+      "Schedule(s) K-1"
+    ],
+    "cleaned": [
+      "Form 1120-PC",
+      "Form 4797",
+      "Form 851",
+      "Form 1120",
+      "Form 1120-L",
+      "Form 8916",
+      "Form 8916-A",
+      "Form 1065",
+      "Form 10-K",
+      "Form 8886",
+      "Form 8886-X",
+      "Schedule M-3 (Form 1120-PC)",
+      "Schedule M-3",
+      "Schedule L",
+      "Schedule M-2",
+      "Schedule D",
+      "Schedule A",
+      "Schedule B",
+      "Schedule M-1",
+      "Schedule M-3 (Form 1065)",
+      "Schedule K-1",
+      "Schedule I",
+      "Schedule K-1"
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i1120pm3",
+      "dateFetched": "2020-06-13T01:09:07.589Z",
+      "form": "Schedule M-3 Form 1120-PC"
+    }
+  },
+  "Schedule M-3 Form 1120-S": {
+    "raw": [
+      "Form 1120-S",
+      "Form 8916-A",
+      "Form 4797",
+      "Form 1065",
+      "Form 8886",
+      "Form 8621",
+      "Form 8886-X",
+      "Form 8949",
+      "Schedule M-3 (Form 1120-S)",
+      "Schedule M-3",
+      "Schedule L",
+      "Schedule M-1",
+      "Schedule D",
+      "Schedule K",
+      "Schedule M-3 (Form 1065)",
+      "Schedule M",
+      "Schedule K-1",
+      "Schedule I",
+      "Schedule(s) K-1",
+      "Schedule D (Form 1120-S)"
+    ],
+    "cleaned": [
+      "Form 1120-S",
+      "Form 8916-A",
+      "Form 4797",
+      "Form 1065",
+      "Form 8886",
+      "Form 8621",
+      "Form 8886-X",
+      "Form 8949",
+      "Schedule M-3 (Form 1120-S)",
+      "Schedule M-3",
+      "Schedule L",
+      "Schedule M-1",
+      "Schedule D",
+      "Schedule K",
+      "Schedule M-3 (Form 1065)",
+      "Schedule M",
+      "Schedule K-1",
+      "Schedule I",
+      "Schedule K-1",
+      "Schedule D (Form 1120-S)"
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i1120ss3",
+      "dateFetched": "2020-06-13T01:09:07.467Z",
+      "form": "Schedule M-3 Form 1120-S"
+    }
+  },
+  "Schedule M-3 Form 1120": {
     "raw": [
       "Form 1120",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 4797",
       "Form 1120-C",
       "Form 851",
@@ -12121,12 +11991,6 @@ window.__map_data = {
     ],
     "cleaned": [
       "Form 1120",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 4797",
       "Form 1120-C",
       "Form 851",
@@ -12162,230 +12026,38 @@ window.__map_data = {
       "Schedule K-1",
       "Schedule K-1",
       "Schedule D (Form 1120)"
-    ]
-  },
-  "Schedule M-3_ (Form_1120-F)": {
-    "raw": [
-      "Form 1120-F",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
-      "Form 4797",
-      "Form 1065",
-      "Form 8886",
-      "Form 1042-S",
-      "Form 8886-X",
-      "Form 1120",
-      "Form 8903",
-      "Schedule M-3",
-      "Schedule L",
-      "Schedule M-2",
-      "Schedule D",
-      "Schedule M-3 (Form 1120-F)",
-      "Schedule M-1",
-      "Schedule I (Form 1120-F)",
-      "Schedule H (Form 1120-F)",
-      "Schedule M-3 (Form 1065)",
-      "Schedule H",
-      "Schedule K-1",
-      "Schedule P (Form 1120-F)",
-      "Schedule P",
-      "Schedule D (Form 1120)",
-      "Schedule I"
     ],
-    "cleaned": [
-      "Form 1120-F",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
-      "Form 4797",
-      "Form 1065",
-      "Form 8886",
-      "Form 1042-S",
-      "Form 8886-X",
-      "Form 1120",
-      "Form 8903",
-      "Schedule M-3",
-      "Schedule L",
-      "Schedule M-2",
-      "Schedule D",
-      "Schedule M-3 (Form 1120-F)",
-      "Schedule M-1",
-      "Schedule I (Form 1120-F)",
-      "Schedule H (Form 1120-F)",
-      "Schedule M-3 (Form 1065)",
-      "Schedule H",
-      "Schedule K-1",
-      "Schedule P (Form 1120-F)",
-      "Schedule P",
-      "Schedule D (Form 1120)",
-      "Schedule I"
-    ]
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i1120sm3",
+      "dateFetched": "2020-06-13T01:09:07.777Z",
+      "form": "Schedule M-3 Form 1120"
+    }
   },
-  "Schedule M-3_(Form_1120-L)": {
-    "raw": [
-      "Form 1120-L",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
-      "Form 4797",
-      "Form 851",
-      "Form 1120-PC",
-      "Form 1120",
-      "Form 8916",
-      "Form 8916-A",
-      "Form 1065",
-      "Form 10-K",
-      "Form 8886",
-      "Form 8886-X",
-      "Schedule M-3 (Form 1120-L)",
-      "Schedule M-3",
-      "Schedule L",
-      "Schedule D",
-      "Schedule A",
-      "Schedule K-1",
-      "Schedule I",
-      "Schedule(s) K-1"
-    ],
-    "cleaned": [
-      "Form 1120-L",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
-      "Form 4797",
-      "Form 851",
-      "Form 1120-PC",
-      "Form 1120",
-      "Form 8916",
-      "Form 8916-A",
-      "Form 1065",
-      "Form 10-K",
-      "Form 8886",
-      "Form 8886-X",
-      "Schedule M-3 (Form 1120-L)",
-      "Schedule M-3",
-      "Schedule L",
-      "Schedule D",
-      "Schedule A",
-      "Schedule K-1",
-      "Schedule I",
-      "Schedule K-1"
-    ]
-  },
-  "Schedule M-3_(Form_1120-PC)": {
-    "raw": [
-      "Form 1120-PC",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
-      "Form 4797",
-      "Form 851",
-      "Form 1120",
-      "Form 1120-L",
-      "Form 8916",
-      "Form 8916-A",
-      "Form 1065",
-      "Form 10-K",
-      "Form 8886",
-      "Form 8886-X",
-      "Schedule M-3 (Form 1120-PC)",
-      "Schedule M-3",
-      "Schedule L",
-      "Schedule M-2",
-      "Schedule D",
-      "Schedule A",
-      "Schedule B",
-      "Schedule M-1",
-      "Schedule M-3 (Form 1065)",
-      "Schedule K-1",
-      "Schedule I",
-      "Schedule(s) K-1"
-    ],
-    "cleaned": [
-      "Form 1120-PC",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
-      "Form 4797",
-      "Form 851",
-      "Form 1120",
-      "Form 1120-L",
-      "Form 8916",
-      "Form 8916-A",
-      "Form 1065",
-      "Form 10-K",
-      "Form 8886",
-      "Form 8886-X",
-      "Schedule M-3 (Form 1120-PC)",
-      "Schedule M-3",
-      "Schedule L",
-      "Schedule M-2",
-      "Schedule D",
-      "Schedule A",
-      "Schedule B",
-      "Schedule M-1",
-      "Schedule M-3 (Form 1065)",
-      "Schedule K-1",
-      "Schedule I",
-      "Schedule K-1"
-    ]
-  },
-  "Schedule O_(Form_1120)": {
+  "Schedule O Form 1120": {
     "raw": [
       "Form 1120",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Schedule O (Form 1120)",
       "Schedule O"
     ],
     "cleaned": [
       "Form 1120",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Schedule O (Form 1120)",
       "Schedule O"
-    ]
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i1120so",
+      "dateFetched": "2020-06-13T01:09:05.574Z",
+      "form": "Schedule O Form 1120"
+    }
   },
-  "Schedule P (Form_1120-F)": {
+  "Schedule P (Form Form 1120-F": {
     "raw": [
       "Form 1120-F",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 8990",
       "Form 1065",
       "Form 8805",
-      "Schedule P",
       "Schedule P (Form 1120-F)",
+      "Schedule P",
       "Schedule I (Form 1120-F)",
       "Schedule H (Form 1120-F)",
       "Schedule M-3 (Form 1120-F)",
@@ -12396,17 +12068,11 @@ window.__map_data = {
     ],
     "cleaned": [
       "Form 1120-F",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 8990",
       "Form 1065",
       "Form 8805",
-      "Schedule P",
       "Schedule P (Form 1120-F)",
+      "Schedule P",
       "Schedule I (Form 1120-F)",
       "Schedule H (Form 1120-F)",
       "Schedule M-3 (Form 1120-F)",
@@ -12414,17 +12080,75 @@ window.__map_data = {
       "Schedule P (Form 1120-F)",
       "Schedule L",
       "Schedule K-1"
-    ]
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i1120fp",
+      "dateFetched": "2020-06-13T01:09:05.898Z",
+      "form": "Schedule P (Form Form 1120-F"
+    }
   },
-  "Schedule R_(Form_990)": {
+  "Schedule PH Form 1120": {
+    "raw": [
+      "Form 1120",
+      "Schedule PH (Form 1120)",
+      "Schedule PH",
+      "Schedule J (Form 1120)"
+    ],
+    "cleaned": [
+      "Form 1120",
+      "Schedule PH (Form 1120)",
+      "Schedule PH",
+      "Schedule J (Form 1120)"
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i1120sph",
+      "dateFetched": "2020-06-13T01:09:05.881Z",
+      "form": "Schedule PH Form 1120"
+    }
+  },
+  "Schedule Q Form 5300": {
+    "raw": [
+      "Form 5300",
+      "Form 5307",
+      "Form 5310",
+      "Schedule Q (Form 5300)",
+      "Schedule Q"
+    ],
+    "cleaned": [
+      "Form 5300",
+      "Form 5307",
+      "Form 5310",
+      "Schedule Q (Form 5300)",
+      "Schedule Q"
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i5300q",
+      "dateFetched": "2020-06-13T01:09:04.932Z",
+      "form": "Schedule Q Form 5300"
+    }
+  },
+  "Form 1040-SR": {
+    "raw": [
+      "Form 1040",
+      "Form 21",
+      "Schedule R",
+      "Schedule 3"
+    ],
+    "cleaned": [
+      "Form 1040",
+      "Form 21",
+      "Schedule R",
+      "Schedule 3"
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i1040sr",
+      "dateFetched": "2020-06-13T01:09:04.976Z",
+      "form": "Schedule R Form 1040"
+    }
+  },
+  "Schedule R Form 990": {
     "raw": [
       "Form 990",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 1065",
       "Form 1041",
       "Form 1120-S",
@@ -12439,12 +12163,6 @@ window.__map_data = {
     ],
     "cleaned": [
       "Form 990",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 1065",
       "Form 1041",
       "Form 1120-S",
@@ -12456,41 +12174,84 @@ window.__map_data = {
       "Schedule K-1",
       "Schedule K-1 (Form 1041)",
       "Schedule K-1 (Form 1120-S)"
-    ]
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i990sr",
+      "dateFetched": "2020-06-13T01:09:07.303Z",
+      "form": "Schedule R Form 990"
+    }
   },
-  "Schedule S_ (Form_1120-F)_": {
+  "Form 1040-SSE": {
+    "raw": [
+      "Form 1040",
+      "Form 4029",
+      "Form 4361",
+      "Form 1040-NR",
+      "Form 2031",
+      "Form 1040-SR",
+      "Form 1041",
+      "Form 4835",
+      "Form 1065",
+      "Form 8959",
+      "Form 4797",
+      "Form 1040-X",
+      "Schedule SE",
+      "Schedule 2",
+      "Schedule C",
+      "Schedule F",
+      "Schedule(s) C",
+      "Schedule E",
+      "Schedule K-1 (Form 1065)",
+      "Schedule K-1"
+    ],
+    "cleaned": [
+      "Form 1040",
+      "Form 4029",
+      "Form 4361",
+      "Form 1040-NR",
+      "Form 2031",
+      "Form 1040-SR",
+      "Form 1041",
+      "Form 4835",
+      "Form 1065",
+      "Form 8959",
+      "Form 4797",
+      "Form 1040-X",
+      "Schedule SE",
+      "Schedule 2",
+      "Schedule C",
+      "Schedule F",
+      "Schedule C",
+      "Schedule E",
+      "Schedule K-1 (Form 1065)",
+      "Schedule K-1"
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i1040sse",
+      "dateFetched": "2020-06-13T01:09:05.954Z",
+      "form": "Schedule SE Form 1040"
+    }
+  },
+  "Schedule S Form 1120-F": {
     "raw": [
       "Form 1120-F",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Schedule S",
       "Schedule S (Form 1120-F)"
     ],
     "cleaned": [
       "Form 1120-F",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Schedule S",
       "Schedule S (Form 1120-F)"
-    ]
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i1120fs",
+      "dateFetched": "2020-06-13T01:09:05.838Z",
+      "form": "Schedule S Form 1120-F"
+    }
   },
-  "Schedule UTP_(Form_1120)": {
+  "Schedule UTP Form 1120": {
     "raw": [
       "Form 1120",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 1120-F",
       "Form 1120-L",
       "Form 1120-PC",
@@ -12506,12 +12267,6 @@ window.__map_data = {
     ],
     "cleaned": [
       "Form 1120",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 1120-F",
       "Form 1120-L",
       "Form 1120-PC",
@@ -12524,32 +12279,30 @@ window.__map_data = {
       "Schedule M",
       "Schedule I",
       "Schedule L"
-    ]
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i1120utp",
+      "dateFetched": "2020-06-13T01:09:05.980Z",
+      "form": "Schedule UTP Form 1120"
+    }
   },
-  "Schedule V_(Form_1120-F)": {
+  "Schedule V Form 1120-F": {
     "raw": [
       "Form 1120-F",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 8833",
       "Schedule V (Form 1120-F)",
       "Schedule V"
     ],
     "cleaned": [
       "Form 1120-F",
-      "Form 1040",
-      "Form 4506-T",
-      "Form 941",
-      "Form 9465",
-      "Form 1040-X",
-      "Form 2848",
       "Form 8833",
       "Schedule V (Form 1120-F)",
       "Schedule V"
-    ]
+    ],
+    "metadata": {
+      "url": "https://www.irs.gov/instructions/i1120fv",
+      "dateFetched": "2020-06-13T01:09:05.715Z",
+      "form": "Schedule V Form 1120-F"
+    }
   }
 }

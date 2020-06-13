@@ -3,9 +3,21 @@
   padding: 1.5rem;
 }
 
+.header > * {
+  display: inline-block;
+  padding-right: 1rem;
+}
+
+h4 {
+  font-style: italic;
+}
+
 .map {
-  padding: 1.5rem;
   height: 600px;
+}
+
+#map-content {
+  height: 100%;
 }
 
 body, .content {
