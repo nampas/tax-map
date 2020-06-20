@@ -12,6 +12,11 @@ h5 {
   font-style: italic;
 }
 
+.cy-panzoom {
+  left: 1rem;
+  top: 1rem;
+}
+
 .map {
   height: 100%;
 }
@@ -22,8 +27,8 @@ h5 {
 
 #info-wrapper {
   position: fixed;
-  right: 0;
-  bottom: 0;
+  left: 1rem;
+  bottom: 1rem;
 }
 
 .hidden { 
@@ -34,7 +39,7 @@ h5 {
   z-index: 999;
   position: absolute;
   width: 15rem;
-  left: 1rem;
+  right: 1rem;
   top: 6rem;
   height: 70%;
   overflow-y: scroll;
@@ -46,9 +51,17 @@ h5 {
 
 #details-title, #details-tooltip {
   padding: 1rem;
+  margin-bottom: 0;
 }
 
 body, .content {
   width: 100vw;
   height: 100vh;
+}
+
+.zoom-in {
+  content: "";
+  background-image: url("data:image/svg+xml,<svg viewBox='0 0 16 16' fill='currentColor ' xmlns='http://www.w3.org/2000/svg'><path fill-rule='evenodd' d='M8 3.5a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-.5.5H4a.5.5 0 0 1 0-1h3.5V4a.5.5 0 0 1 .5-.5z' clip-rule='evenodd'/><path fill-rule='evenodd' d='M7.5 8a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 0 1H8.5V12a.5.5 0 0 1-1 0V8z' clip-rule='evenodd'/></svg>");
+  background-repeat: no-repeat;
+  background-size: 1rem 1rem;
 }

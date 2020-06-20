@@ -80,7 +80,13 @@
     cy.ready(() => {
       const details = document.getElementById('details');
       details.classList.remove('hidden');
-    })
+    });
+    cy.panzoom({
+      fitAnimationDuration: 1000,
+      zoomInIcon: 'fa fa-plus',
+      zoomOutIcon: 'fa fa-minus',
+      resetIcon: 'fa fa-expand'
+    });
     data.cy = cytoscape;
   };
 
